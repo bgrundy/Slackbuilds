@@ -1,0 +1,16 @@
+libqcow
+
+Library and tooling to access the QEMU Copy-On-Write (QCOW) image format.
+
+Read supported QCOW formats:
+    version 1
+    version 2 
+Supported QCOW format features:
+    compression
+    encryption 
+QCOW format features not supported at the moment:
+    backing file-based snapshots
+    in-image snapshots 
+Work in progress:
+    Python bindings
+    Dokan library support 
