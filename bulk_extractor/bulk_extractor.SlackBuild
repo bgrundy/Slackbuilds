@@ -79,8 +79,8 @@ CXXFLAGS="$SLKCFLAGS" \
   --sysconfdir=/etc \
   --localstatedir=/var \
   --mandir=/usr/man \
-  --enable-lightgrep \
   --build=$ARCH-slackware-linux \
+#  --enable-lightgrep \
 
 make
 make install DESTDIR=$PKG

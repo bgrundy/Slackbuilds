@@ -8,5 +8,5 @@ common tend to be more important.
 bulk_extractor is distinguished from other forensic tools by its speed and 
 thoroughness. 
 
-TODO: add lightgrep by default
+Optional dependancies include libewf (recognized if installed), afflib (recognized if installed), and liblightgrep.  To use liblightgrep, you will need to uncomment out the line in the SlackBuild that enables it. 
 
