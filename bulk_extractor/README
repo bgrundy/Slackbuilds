@@ -17,4 +17,4 @@ To add optional liblightgrep support:
 
 NOTE:
   When running bulk_extractor with lightgrep, use 
-  "-x find -e lightgrep -F findlist.txt"  
+  "-x find -e lightgrep -F findlist.txt" in addition to regular options.  
