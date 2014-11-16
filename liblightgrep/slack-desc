@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
             |-----handy-ruler------------------------------------------------------|
-liblightgrep: liblightgrep
+liblightgrep: liblightgrep (forensic regexp engine)
 liblightgrep:
 liblightgrep: ...not the worst forensics regexp engine
-liblightgrep: 
-liblightgrep: Lightgrep is a new regular expression engine, designed specifically 
+liblightgrep:
+liblightgrep: Lightgrep is a new regular expression engine, designed specifically
 liblightgrep: for digital forensics.
-liblightgrep: 
-liblightgrep: 
-liblightgrep: 
-liblightgrep: 
-liblightgrep: 
+liblightgrep:
+liblightgrep:
+liblightgrep:
+liblightgrep:
+liblightgrep:
