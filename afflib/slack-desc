@@ -8,7 +8,7 @@
       |-----handy-ruler------------------------------------------------------|
 afflib: afflib (Advanced Forensic Format support library)
 afflib:
-afflib: afflib is library and  set of tools used in support of the Advanced 
+afflib: afflib is library and  set of tools used in support of the Advanced
 afflib: Forensic Format (AFF).
 afflib:
 afflib: AFF(R) is an open and extensible file format designed to store disk
