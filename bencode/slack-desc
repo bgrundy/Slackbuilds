@@ -7,13 +7,13 @@
 
        |-----handy-ruler------------------------------------------------------|
 bencode: bencode
+bencode:
+bencode: The BitTorrent bencode module as a light-weight, standalone package.
+bencode:
 bencode: This package simply re-packages the existing bencoding and bdecoding
 bencode: implemention from the 'official' BitTorrent client as a separate,
 bencode: leight-weight package for re-using them without having the entire
 bencode: BitTorrent software as a dependency.
 bencode: 
 bencode: Homepage: https://pypi.python.org/pypi/bencode/1.0
-bencode: 
-bencode: 
-bencode:
 bencode: 
