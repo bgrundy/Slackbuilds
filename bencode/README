@@ -1,3 +1,5 @@
+bencode (python module)
+
 The BitTorrent bencode module as a light-weight, stand alone package.
 
 This package simply re-packages the existing bencoding and bdecoding 
