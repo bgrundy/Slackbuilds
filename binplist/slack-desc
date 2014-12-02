@@ -8,7 +8,7 @@
         |-----handy-ruler------------------------------------------------------|
 binplist: binplist
 binplist: 
-binplist: A binary plist parser.
+binplist: A binary property list (plist) parser module written in python.
 binplist: 
 binplist: https://code.google.com/p/binplist/
 binplist: 
