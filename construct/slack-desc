@@ -6,12 +6,12 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
          |-----handy-ruler------------------------------------------------------|
-construct: construct
+construct: construct (python library)
 construct:
 construct: Construct is a powerful declarative parser (and builder) for binary
 construct: data.
 construct:
-construct: Homepage: https://pypi.python.org/pypi/construct/2.5.2
+construct: Homepage: http://construct.readthedocs.org/en/latest/
 construct: 
 construct: 
 construct: 
