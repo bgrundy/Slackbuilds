@@ -6,5 +6,6 @@ MD5SUM="0f8e5a4d4b2f5d5faaf7bbfbf3e1e8b7"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
 REQUIRES=""
-MAINTAINER="Vincent Batts <older version>"
-EMAIL="vbatts@hashbangbash.com"
+MAINTAINER="Barry J. Grundy"
+EMAIL="bgrundy<at>linuxleo.com"
+ 
