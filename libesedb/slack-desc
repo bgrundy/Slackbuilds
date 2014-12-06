@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-libesedb: libesedb
+libesedb: libesedb (libYAL library for ESE databases)
 libesedb: 
 libesedb: Library and tools to access the Extensible Storage Engine (ESE)
 libesedb: Database File (EDB) format. ESEDB is used in may different a
 libesedb: applications like Windows Search, Windows Mail, Exchange, Active 
 libesedb: Directory, etc. 
 libesedb:
-libesedb: Homepage: http://code.google.com/p/libesedb/
-libesedb:
+libesedb: 
+libesedb: https://github.com/libyal/libesedb
 libesedb:
 libesedb:

@@ -22,7 +22,7 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Updated v20140731 November 2014 Barry J. Grundy <bgrundy(at)linuxleo.com
+# Updated v20141023 December 2014 Barry J. Grundy <bgrundy(at)linuxleo.com
 
 PRGNAM=libbde
 STATUS=${STATUS:-alpha}
