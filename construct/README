@@ -16,4 +16,3 @@ and lots of primitive constructs to make your work easier:
     -If/Switch: branch the computational path based on the context
     -On-demand (lazy) parsing: read only what you require
     -Pointers: jump from here to there in the data stream
-
