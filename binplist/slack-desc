@@ -6,7 +6,7 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-binplist: binplist
+binplist: binplist (list parser module)
 binplist: 
 binplist: A binary property list (plist) parser module written in python.
 binplist: 
