@@ -1,4 +1,4 @@
-libbde
+libbde (libYAL BitLocker library)
 
 Library and tools to access the BitLocker Drive Encryption (BDE) format. 
 The BDE format is used by Windows, as of Vista, to encrypt data on a storage 
@@ -23,5 +23,3 @@ Additional features:
 
     -support for partial encrypted volumes
     -zeros out the BDE metadata, matches behavior seen on Windows 
-
-Homepage: http://code.google.com/p/libbde/
