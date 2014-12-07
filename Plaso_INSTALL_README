@@ -1,4 +1,4 @@
-**install pysetuptools** (required by protobuf/python-dateutils, at least)
+**install pysetuptools** (required by protobuf/python-dateutils, binplist)
 libewf (SBo - be sure to build with --enable-python - add to next version)     
 ipython (SBo)
 sleuthkit (patched for pytsk- use LinLeo build)
