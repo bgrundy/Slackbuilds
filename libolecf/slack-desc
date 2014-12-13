@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-libolecf: libolecf
+libolecf: libolecf (libYAL OLE 2 library)
 libolecf: 
 libolecf: Library and tools to access the OLE 2 Compound File (OLECF) format.
 libolecf: The OLE 2 Compound File format is used to store certain versions of 
 libolecf: Microsoft Office files, thumbs.db and other file formats. 
 libolecf: 
-libolecf:
-libolecf: Homepage: http://code.google.com/p/libolecf/
+libolecf: Homepage: https://github.com/libyal/libolecf
+libolecf: 
 libolecf:
 libolecf:
 libolecf:
