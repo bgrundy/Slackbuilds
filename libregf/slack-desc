@@ -6,12 +6,12 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
        |-----handy-ruler------------------------------------------------------|
-libregf: libregf
+libregf: libregf (libYAL WinNT Registry File library)
 libregf: 
 libregf: Library and tools to access the Windows NT Registry File (REGF) 
 libregf: format.
 libregf: 
-libregf: Homepage: http://code.google.com/p/libregf/
+libregf: Homepage: https://github.com/libyal/libregf
 libregf:
 libregf:
 libregf:
