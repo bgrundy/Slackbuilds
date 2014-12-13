@@ -1,1 +1,1 @@
-This repository is for my Slackbuild and SlackBuild contributions.
+This repository is for my SlackBuild scripts and maintenance.
