@@ -6,11 +6,11 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
        |-----handy-ruler------------------------------------------------------|
-libvhdi: libvhdi
+libvhdi: libvhdi (libYAL VHD library)
 libvhdi: 
 libvhdi: Library to access the Virtual Hard Disk (VHD) image format.
 libvhdi: 
-libvhdi: Homepage: http://code.google.com/p/libvhdi/
+libvhdi: Homepage: https://github.com/libyal/libvhdi
 libvhdi: 
 libvhdi:
 libvhdi: 

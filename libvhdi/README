@@ -1,4 +1,4 @@
-libvhdi
+libvhdi (libYAL VHD library)
 
 Library and tools to access the Virtual Hard Disk (VHD) image format.
 
@@ -12,5 +12,3 @@ Supported image types:
     Dynamic-size (or sparse) hard disk image
     Differential (or differencing) hard disk image
         Note that an undo disk image (.vud) is also a differential image 
-
-Homepage: http://code.google.com/p/libvhdi/
