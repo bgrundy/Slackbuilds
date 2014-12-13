@@ -6,12 +6,12 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
        |-----handy-ruler------------------------------------------------------|
-libqcow: libqcow
+libqcow: libqcow (libYAL QEMU QCOW image library)
 libqcow: 
 libqcow: Library and tooling to access the QEMU Copy-On-Write (QCOW) image 
 libqcow: format.
 libqcow: 
-libqcow: Homepage: http://code.google.com/p/libqcow/
+libqcow: Homepage: https://github.com/libyal/libqcow
 libqcow:
 libqcow:
 libqcow:
