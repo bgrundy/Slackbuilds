@@ -6,11 +6,11 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-libsmdev: libsmdev
+libsmdev: libsmdev (libYAL storage media library)
 libsmdev: 
 libsmdev: Library to access to storage media devices. 
 libsmdev: 
-libsmdev: Homepage: http://code.google.com/p/libsmdev/
+libsmdev: Homepage: https://github.com/libyal/libsmdev
 libsmdev: 
 libsmdev:
 libsmdev: 
