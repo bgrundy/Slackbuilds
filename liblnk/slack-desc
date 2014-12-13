@@ -6,12 +6,12 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
       |-----handy-ruler------------------------------------------------------|
-liblnk: liblnk
+liblnk: liblnk (libYAL LNK library)
 liblnk: 
 liblnk: Library and tooling to access the Windows Shortcut File (LNK) Format. 
 liblnk: format.
 liblnk: 
-liblnk: Homepage: http://code.google.com/p/liblnk/
+liblnk: Homepage: https://github.com/libyal/liblnk
 liblnk:
 liblnk:
 liblnk:
