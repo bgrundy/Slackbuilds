@@ -6,12 +6,12 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
          |-----handy-ruler------------------------------------------------------|
-libmsiecf: libmsiecf
+libmsiecf: libmsiecf (libYAL MSIE Cache library)
 libmsiecf: 
 libmsiecf: Library and tools to access Microsoft Internet Explorer (MSIE)
 libmsiecf: Cache File (index.dat) files.
 libmsiecf: 
-libmsiecf: Homepage: http://code.google.com/p/libmsiecf/
+libmsiecf: Homepage: https://github.com/libyal/libmsiecf
 libmsiecf:
 libmsiecf:
 libmsiecf:
