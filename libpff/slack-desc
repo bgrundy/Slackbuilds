@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
       |-----handy-ruler------------------------------------------------------|
-libpff: libpff 
+libpff: libpff (libYAL PFF library)
 libpff:
 libpff: Library and tools to access the Personal Folder File (PFF) and the 
 libpff: Offline Folder File (OFF) format.
 libpff:
+libpff: Homepage: https://github.com/libyal/libpff
 libpff:
 libpff:
 libpff:
-libpff: Homepage:  https://code.google.com/p/libpff/
 libpff:
 libpff:
