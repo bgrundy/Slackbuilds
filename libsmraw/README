@@ -1,5 +1,3 @@
-libsmraw
+libsmraw (libYAL RAW image library)
 
 Library and tools to access the (split) RAW image format. 
-
-Homepage: http://code.google.com/p/libsmraw/
