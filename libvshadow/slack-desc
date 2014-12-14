@@ -6,13 +6,13 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
           |-----handy-ruler------------------------------------------------------|
-libvshadow: libvshadow
+libvshadow: libvshadow (libYAL Volume Shadow library)
 libvshadow: 
 libvshadow: Library to access the Volume Shadow Snapshot (VSS) format.  The VSS
 libvshadow: format is used by Windows, as of Vista, to maintain copies of data
 libvshadow: on a storage media volumes.
 libvshadow: 
-libvshadow: Homepage: http://code.google.com/p/libvshadow/
+libvshadow: Homepage: https://github.com/libyal/libvshadow
 libvshadow: 
 libvshadow:
 libvshadow:
