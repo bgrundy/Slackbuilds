@@ -5,6 +5,6 @@ DOWNLOAD="https://e366e647f8637dd31e0a13f75e5469341a9ab0ee.googledrive.com/host/
 MD5SUM="c513862ef2fc2844b5c55d352b8fcf59"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES="ipython python-dateutil hachoir-metadata bencode binplist psutil six construct dpkt protobuf pyparsing sleuthkit pytz pytsk PyYAML libsmraw libesedb libevt libevtx liblnk libmsiecf libolecf libregf libewf libqcow libsmdev libvhdi libvmdk libvshadow"
+REQUIRES="ipython python-dateutil hachoir-metadata bencode binplist psutil six construct dpkt protobuf pyparsing pytz libewf sleuthkit pytsk PyYAML libsmraw libesedb libevt libevtx liblnk libmsiecf libolecf libregf libqcow libsmdev libvhdi libvmdk libvshadow"
 MAINTAINER="Barry J. Grundy"
 EMAIL="bgrundy<at>linuxleo.com"
