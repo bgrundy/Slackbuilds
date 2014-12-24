@@ -21,10 +21,10 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Updated v 20140506 December 2014.
+# Updated v 20141220 December 2014.
 
 PRGNAM=pytsk
-VERSION=20140506
+VERSION=20141220
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -74,6 +74,7 @@ find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a README LICENSE dpkg/* $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
