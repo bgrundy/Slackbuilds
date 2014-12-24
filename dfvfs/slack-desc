@@ -6,13 +6,13 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
      |-----handy-ruler------------------------------------------------------|
-dfvfs: dfvfs
+dfvfs: dfvfs (python module)
 dfvfs: 
 dfvfs: dfVFS, or Digital Forensics Virtual File System, provides read-only 
 dfvfs: access to file-system objects from various storage media types and 
 dfvfs: file formats. 
 dfvfs: 
-dfvfs: Homepage: https://code.google.com/p/dfvfs/
+dfvfs: Homepage: https://github.com/log2timeline/dfvfs
 dfvfs: 
 dfvfs: 
 dfvfs:
