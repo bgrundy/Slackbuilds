@@ -7,10 +7,10 @@
 
          |-----handy-ruler------------------------------------------------------|
 libmsiecf: libmsiecf (libYAL MSIE Cache library)
-libmsiecf: 
+libmsiecf:
 libmsiecf: Library and tools to access Microsoft Internet Explorer (MSIE)
 libmsiecf: Cache File (index.dat) files.
-libmsiecf: 
+libmsiecf:
 libmsiecf: Homepage: https://github.com/libyal/libmsiecf
 libmsiecf:
 libmsiecf:
