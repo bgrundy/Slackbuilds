@@ -1,5 +1,5 @@
 PRGNAM="libbde"
-VERSION="alpha-20150106"
+VERSION="20150106"
 HOMEPAGE="https://github.com/libyal/libbde"
 DOWNLOAD="https://github.com/libyal/libbde/releases/download/20150106/libbde-alpha-20150106.tar.gz"
 MD5SUM="5f9bacbf07d6b78a7a5e4bae072490c1"
