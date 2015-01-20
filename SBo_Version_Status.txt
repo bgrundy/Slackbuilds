@@ -1,0 +1,36 @@
+afflib  	UP TO DATE - Version 3.7.4 merged with SBo
+afflib-devel	Work in progress - Build Failure
+bencode		UP TO DATE - Version 1.0 merged with SBo
+binplist	UP TO DATE - Version 1.4 merged with SBo
+bulk_extractor	UP TO DATE - Version 1.5.5 merged with SBo
+construct	UP TO DATE - Version 2.5.2 merged with SBo
+dfvfs  		Current version 20150117 awaiting submission to SBo
+dpkt		UP TO DATE - Version 1.8 merged with SBo
+foremost	UP TO DATE - Version 1.5.7 merged with SBo
+hachoir-core	UP TO DATE - Version 1.3.3 merged with SBo
+hachoir-metadata UP TO DATE - Version 1.3.3 merged with SBo
+hachoir-parser  UP TO DATE - Version 1.3.4 merged with SBo
+libbde 		UP TO DATE - Version 20150106 merged with SBo
+libesedb	UP TO DATE - Version 20141110 merged with SBo
+libevt		Current version 20150105 awaiting submission to SBo
+libevtx   	Current version 20150105 awaiting submission to SBo
+libewf          UP TO DATE - Version 20140608 merged with SBo
+libfwsi		
+liblightgrep
+liblnk
+libmsiecf
+libolecf
+libpff
+libqcow
+libregf
+libsigscan  	New SlackBuild version 20150114 awaiting submission to SBo
+libsmdev
+libsmraw
+libvhdi
+libvmdk
+libvshadow
+lzip
+plaso
+pyparsing
+pytsk
+sleuthkit
