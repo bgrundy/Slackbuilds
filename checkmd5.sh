@@ -26,7 +26,7 @@ GITDIR=`pwd`
 
 rm -f $MD5FILE
 for file in `awk -F \/ '{print $2}' $STATUSFILE | awk '{print $1}' \
-    | grep -v devel | grep -v plaso`; 
+    | grep -v devel; 
     do md5sum $file/* >> $MD5FILE; 
     done
 
@@ -69,8 +69,8 @@ s/libvshadow\//libraries\/libvshadow\//g
 s/lzip\//system\/lzip\//g
 s/pyparsing\//python\/pyparsing\//g
 s/pytsk\//python\/pytsk\//g
+s/plaso\//python\/plaso\//g
 s/sleuthkit\//system\/sleuthkit\//g' -i $MD5FILE 
-#s/plaso\//python\/plaso\//g
 
 #######################
 #                     #
