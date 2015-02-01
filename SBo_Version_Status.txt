@@ -30,7 +30,7 @@ library/libvhdi 	UP TO DATE - Version 20150110 merged with SBo
 library/libvmdk		UP TO DATE - Version 20150105 merged with SBo
 library/libvshadow	UP TO DATE - Version 20150106 merged with SBo
 system/lzip		UP TO DATE - Version 1.16 merged with SBo
-python/plaso		Awaiting finalization
+python/plaso		Initial Version 1.2.0 submitted to SBo
 python/pyparsing	UP TO DATE - Version 2.0.3  merged with SBo
 python/pytsk		UP TO DATE - Version 20150111 merged with SBo
 system/sleuthkit	UP TO DATE - Version 2.0.3  merged with SBo
