@@ -6,7 +6,7 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
      |-----handy-ruler------------------------------------------------------|
-plaso: plaso
+plaso: plaso (Forensic Super-Timeline)
 plaso: 
 plaso: Plaso is the Python based back-end engine used by tools such as
 plaso: log2timeline for automatic creation of a super timelines. 
