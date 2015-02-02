@@ -15,7 +15,8 @@
 
 MD5FILE=CurrentMD5list.txt
 STATUSFILE=SBo_Version_Status.txt
-SBOREPODIR=/usr/sbo/
+#SBOREPODIR=/usr/sbo/
+SBOREPODIR=/var/lib/sbopkg/SBo/14.1/
 GITDIR=`pwd`
 
 ##########################
@@ -26,7 +27,7 @@ GITDIR=`pwd`
 
 rm -f $MD5FILE
 for file in `awk -F \/ '{print $2}' $STATUSFILE | awk '{print $1}' \
-    | grep -v devel; 
+    | grep -v devel`; 
     do md5sum $file/* >> $MD5FILE; 
     done
 
