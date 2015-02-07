@@ -1,10 +1,12 @@
 #!/bin/sh 
 # This script checks the MD5 signature of all the SlackBuild files on the 
-# bgrundy_slackbuilds GitHub and compares them to the current SBo Tree.
+# bgrundy_slackbuilds GitHub repository and compares them to the current SBo 
+# Tree.
 
-# Ensure that the SlackBuild repository is up to date (/usr/sbo for now).
+# Ensure that the SlackBuild repository is up to date (using local sbopkg repo 
+# for now).
+
 # This script does not update the tree b/c I do not want it running as root.
-
 # It's ugly, and eventually I'd like to re-write this in python.
 
 ###################################
