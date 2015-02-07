@@ -6,16 +6,16 @@ interface for accessing file-system objects, for which it uses several
 back-ends that provide the actual implementation of the various storage media 
 types, volume systems and file systems.
 
-A note about REQUIREMENTS:  dfvfs requires the following packages [secondary 
+A note about REQUIREMENTS:  dfvfs requires the following packages [secondary
 dependancies are listed in brackets].  They should be installed IN THE ORDER
-LISTED. This is important because while libewf support is optional for the 
+LISTED. This is important because while libewf support is optional for the
 sleuthkit (a requirement for pytsk), it is a REQUIRED option for the sleuthkit
-when building dfvfs.  Do NOT rely on automated tools to properly order your 
+when building dfvfs.  Do NOT rely on automated tools to properly order your
 dependancies.
 
-REQUIRES="[six] construct [pysetuptools] [python-gflags] [python-dateutil] 
-[pytz] protobuf libbde libewf libqcow libsigscan libsmdev libsmraw libvhdi 
-libvmdk libvshadow [sleuthkit] pytsk" 
+REQUIRES="[six] construct [pysetuptools] [python-gflags] [python-dateutil]
+[pytz] protobuf libbde libewf libqcow libsigscan libsmdev libsmraw libvhdi
+libvmdk libvshadow [sleuthkit] pytsk"
 
 Supported:
 
