@@ -4,18 +4,18 @@ python/bencode		UP TO DATE - Version 1.0 merged with SBo
 python/binplist		UP TO DATE - Version 1.4 merged with SBo
 system/bulk_extractor	UP TO DATE - Version 1.5.5 merged with SBo
 python/construct	UP TO DATE - Version 2.5.2 merged with SBo
-python/dfvfs  		Updated Version 20150129 submitted to SBo
+python/dfvfs  		UP TO DATE - Version 20150129 merged with SBo
 python/dpkt		UP TO DATE - Version 1.8 merged with SBo
 system/foremost		UP TO DATE - Version 1.5.7 merged with SBo
 python/hachoir-core	UP TO DATE - Version 1.3.3 merged with SBo
 python/hachoir-metadata UP TO DATE - Version 1.3.3 merged with SBo
 python/hachoir-parser  	UP TO DATE - Version 1.3.4 merged with SBo
-library/libbde 		Updated Version 20150124 submitted to SBo
+library/libbde 		UP TO DATE - Version 20150124 merged with SBo
 library/libesedb	UP TO DATE - Version 20141110 merged with SBo
 library/libevt		UP TO DATE - Version 20150105 merged with SBo
 library/libevtx   	UP TO DATE - Version 20150105 merged with SBo
 library/libewf          UP TO DATE - Version 20140608 merged with SBo
-library/libfwsi		Updated Version 20150124 submitted to SBo
+library/libfwsi		UP TO DATE - Version 20150124 merged with SBo
 library/liblightgrep	UP TO DATE - Version 1.4 merged with SBo
 library/liblnk		UP TO DATE - Version 20150105 merged with SBo
 library/libmsiecf       UP TO DATE - Version 20150106 merged with SBo
@@ -30,7 +30,7 @@ library/libvhdi 	UP TO DATE - Version 20150110 merged with SBo
 library/libvmdk		UP TO DATE - Version 20150105 merged with SBo
 library/libvshadow	UP TO DATE - Version 20150106 merged with SBo
 system/lzip		UP TO DATE - Version 1.16 merged with SBo
-python/plaso		Initial Version 1.2.0 submitted to SBo
+python/plaso		UP TO DATE - Version 1.2.0 merged with SBo
 python/pyparsing	UP TO DATE - Version 2.0.3  merged with SBo
 python/pytsk		UP TO DATE - Version 20150111 merged with SBo
 system/sleuthkit	UP TO DATE - Version 2.0.3  merged with SBo
