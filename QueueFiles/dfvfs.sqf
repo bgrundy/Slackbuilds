@@ -1,0 +1,13 @@
+@construct
+@protobuf
+libbde
+libewf
+libqcow
+libsigscan
+libsmdev
+libsmraw
+libvhdi
+libvmdk
+libvshadow
+@pytsk
+dfvfs
