@@ -4,26 +4,26 @@ python/bencode		UP TO DATE - Version 1.0 merged with SBo
 python/binplist		UP TO DATE - Version 1.4 merged with SBo
 system/bulk_extractor	UP TO DATE - Version 1.5.5 merged with SBo
 python/construct	UP TO DATE - Version 2.5.2 merged with SBo
-python/dfvfs  		Needs Update
-python/dpkt		UP TO DATE - Version 1.8 merged with SBo
+python/dfvfs  		Updated dfvfs for 20150303
+pytho/dpkt		UP TO DATE - Version 1.8 merged with SBo
 system/foremost		UP TO DATE - Version 1.5.7 merged with SBo
 python/hachoir-core	UP TO DATE - Version 1.3.3 merged with SBo
 python/hachoir-metadata UP TO DATE - Version 1.3.3 merged with SBo
 python/hachoir-parser  	UP TO DATE - Version 1.3.4 merged with SBo
-libraries/libbde 	UP TO DATE - Version 20150124 merged with SBo
+libraries/libbde 	Updated libbde for 20150204
 libraries/libesedb	UP TO DATE - Version 20141110 merged with SBo
 libraries/libevt	UP TO DATE - Version 20150105 merged with SBo
 libraries/libevtx   	UP TO DATE - Version 20150105 merged with SBo
-libraries/libewf        UP TO DATE - Version 20140608 merged with SBo
+libraries/libewf        Updated libewf for 20150126
 libraries/libfwsi	UP TO DATE - Version 20150124 merged with SBo
 libraries/liblightgrep	UP TO DATE - Version 1.4 merged with SBo
 libraries/liblnk	UP TO DATE - Version 20150105 merged with SBo
-libraries/libmsiecf     Needs Update
+libraries/libmsiecf     Updated libmsiecf for 20150314
 libraries/libolecf	UP TO DATE - Version 20150106 merged with SBo
 libraries/libpff	UP TO DATE - Version 20131028 merged with SBo
 libraries/libqcow	UP TO DATE - Version 20150105 merged with SBo
-libraries/libregf	Needs Update
-libraries/libsigscan  	UP TO DATE - Version 20150114 merged with SBo
+libraries/libregf	Updated libregf for 20150315
+libraries/libsigscan  	Updated libsigscan for 20150125
 libraries/libsmdev	UP TO DATE - Version 20150105 merged with SBo
 libraries/libsmraw	UP TO DATE - Version 20150105 merged with SBo
 libraries/libvhdi 	UP TO DATE - Version 20150110 merged with SBo
