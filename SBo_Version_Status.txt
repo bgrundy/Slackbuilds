@@ -27,7 +27,7 @@ libraries/libsigscan  	UP TO DATE - Version 20150125 merged with SBo
 libraries/libsmdev	UP TO DATE - Version 20150105 merged with SBo
 libraries/libsmraw	UP TO DATE - Version 20150105 merged with SBo
 libraries/libvhdi 	UP TO DATE - Version 20150110 merged with SBo
-libraries/libvmdk	UP TO DATE - Version 20150105 merged with SBo
+libraries/libvmdk	Updated to Version 20150325 - submitted to SBo
 libraries/libvshadow	UP TO DATE - Version 20150106 merged with SBo
 system/lzip		UP TO DATE - Version 1.16 merged with SBo
 python/plaso		UP TO DATE - Version 1.2.0 merged with SBo
