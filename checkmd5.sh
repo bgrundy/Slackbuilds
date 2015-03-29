@@ -84,6 +84,6 @@ s/sleuthkit\//system\/sleuthkit\//g' -i $MD5FILE
 cd $SBOREPODIR
 md5sum -c $GITDIR/$MD5FILE | grep FAILED$ | awk -F "/" '{print $2":\t",$3}'
 
-# Consider adding removal of $MD5FILE
+# Consider adding removal of $MD5FILE, currently done at the beginning anyway
 
 exit 0
