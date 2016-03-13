@@ -22,7 +22,7 @@ libraries/libmsiecf     UP TO DATE - Version 20150314 merged with SBo
 libraries/libolecf	UP TO DATE - Version 20150106 merged with SBo
 libraries/libpff	UP TO DATE - Version 20131028 merged with SBo
 libraries/libqcow	UP TO DATE - Version 20150105 merged with SBo
-libraries/libregf	UP TO DATE - Version 20150315 merged with SBo
+libraries/libregf	Updated to version 20160107 - not on SBO
 libraries/libsigscan  	UP TO DATE - Version 20150125 merged with SBo
 libraries/libsmdev	UP TO DATE - Version 20150105 merged with SBo
 libraries/libsmraw	UP TO DATE - Version 20150105 merged with SBo
