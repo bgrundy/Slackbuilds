@@ -1,5 +1,5 @@
 PRGNAM="libregf"
-VERSION="20150315"
+VERSION="20160107"
 HOMEPAGE="https://github.com/libyal/libregf"
 DOWNLOAD="https://github.com/libyal/libregf/releases/download/20160107/libregf-alpha-20160107.tar.gz"
 MD5SUM=""
