@@ -33,4 +33,4 @@ system/lzip		UP TO DATE - Version 1.16 merged with SBo
 python/plaso		UP TO DATE - Version 1.2.0 merged with SBo
 python/pyparsing	UP TO DATE - Version 2.0.3  merged with SBo
 python/pytsk		Updated to version 20160318 - not on SBo
-system/sleuthkit	UP TO DATE - Version 2.0.3  merged with SBo
+system/sleuthkit	Updated to version 4.2.0 - not on SBo
