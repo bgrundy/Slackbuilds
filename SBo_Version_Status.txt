@@ -22,7 +22,7 @@ libraries/libmsiecf     UP TO DATE - Version 20150314 merged with SBo
 libraries/libolecf	UP TO DATE - Version 20150106 merged with SBo
 libraries/libpff	UP TO DATE - Version 20131028 merged with SBo
 libraries/libqcow	UP TO DATE - Version 20150105 merged with SBo
-libraries/libregf	Updated to version 20160107 - not on SBO
+libraries/libregf	Updated to version 20160107 - not on SBo
 libraries/libsigscan  	UP TO DATE - Version 20150125 merged with SBo
 libraries/libsmdev	UP TO DATE - Version 20150105 merged with SBo
 libraries/libsmraw	UP TO DATE - Version 20150105 merged with SBo
@@ -32,5 +32,5 @@ libraries/libvshadow	UP TO DATE - Version 20150106 merged with SBo
 system/lzip		UP TO DATE - Version 1.16 merged with SBo
 python/plaso		UP TO DATE - Version 1.2.0 merged with SBo
 python/pyparsing	UP TO DATE - Version 2.0.3  merged with SBo
-python/pytsk		UP TO DATE - Version 20150111 merged with SBo
+python/pytsk		Updated to version 20160318 - not on SBo
 system/sleuthkit	UP TO DATE - Version 2.0.3  merged with SBo
