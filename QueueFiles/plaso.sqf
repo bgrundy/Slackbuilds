@@ -1,0 +1,17 @@
+ipython
+@dfvfs
+hachoir-metadata
+@bencode
+@binplist
+psutil
+pyparsing
+PyYAML
+@libesedb
+@libevt
+@libevtx
+@libfwsi
+@liblnk
+@libmsiecf
+@libolecf
+@libregf
+plaso

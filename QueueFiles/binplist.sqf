@@ -1,2 +1,1 @@
-pysetuptools
 binplist

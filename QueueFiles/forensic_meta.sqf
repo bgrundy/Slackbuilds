@@ -1,0 +1,9 @@
+#@sleuthkit
+@bulk_extractor
+@foremost
+#@tcpflow
+#@tcpxtract
+@volatility
+#@lzip
+@dfvfs
+@plaso
