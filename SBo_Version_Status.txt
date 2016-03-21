@@ -1,4 +1,4 @@
-librarie/afflib  	UP TO DATE - Version 3.7.4 Tested for 14.2 
+libraries/afflib  	UP TO DATE - Version 3.7.4 Tested for 14.2 
 libraries/afflib-devel	Work in progress - Build Failure
 python/bencode		UP TO DATE - Version 1.0 Tested for 14.2
 python/binplist		UP TO DATE - Version 1.4 Tested for 14.2
