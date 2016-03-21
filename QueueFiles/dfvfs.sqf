@@ -7,7 +7,7 @@
 @libsmdev
 @libsmraw
 @libvhdi
-#@libvmdk
-#@libvshadow
-#@pytsk
+@libvmdk
+@libvshadow
+@pytsk
 dfvfs
