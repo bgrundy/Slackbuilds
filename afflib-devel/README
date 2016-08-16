@@ -1,9 +1,0 @@
-afflib is library and set of tools used to support of Advanced Forensic
-Format (AFF).
-
-AFF(R) is an open and extensible file format designed to store disk
-images and associated metadata.
-
-To add optional Amazon S3 support:
-
-  S3_ENABLE=yes ./afflib.SlackBuild
