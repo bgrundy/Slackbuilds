@@ -1,7 +1,7 @@
-8fa70bc45e61633dca60c8273e3e2664  libraries/afflib/README
-e8450ed9a5d9f27e6dffa0c89c0b5cb6  libraries/afflib/afflib.SlackBuild
-565a9cfd59bfda0dee23d24edd476928  libraries/afflib/afflib.info
-8ac76040a6b1144a7ef039267ad46b75  libraries/afflib/slack-desc
+51ac54665124be002a6464c76d154d2b  libraries/afflib/README
+e0db7e6313aa5d50f4db233d47661a25  libraries/afflib/afflib.SlackBuild
+e5197499e362412be34636ccadaec1b5  libraries/afflib/afflib.info
+205e56a2da30f27a9ff37a3371427bc5  libraries/afflib/slack-desc
 c886be00adec6956c52dacaaedeed2f1  python/bencode/README
 42307bd3850b7ab6f672f6a6ee22bb30  python/bencode/bencode.SlackBuild
 d68b14907597e7c2f7bd6ec8f510df8e  python/bencode/bencode.info
