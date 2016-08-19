@@ -15,26 +15,30 @@ libraries/libevtx   	Need to submit - Version 20160421 Tested for 14.2
 libraries/libfwsi	UP TO DATE - Version 20160110 is on 14.2
 libraries/liblightgrep	Need to submit - Version 1.4 info file updated. 
 libraries/liblnk	Need to submit - Version 20160107 Tested for 14.2
+libraries/libmsiecf     Need to submit - Version 20160813 Tested for 14.2
+libraries/libolecf	Need to submit - Version 20160107 Tested for 14.2
+libraries/libpff	UP TO DATE - Version 20131028 is on 14.2
+libraries/libqcow       UP TO DATE - Version 20160123 is on 14.2
+libraries/libregf	Need to submit - Version 20160424 Tested for 14.2
+libraries/libsigscan  	UP TO DATE - Version 20160312 is on 14.2
+libraries/libsmdev	UP TO DATE - Version 20160320 is on 14.2
+libraries/libsmraw	Need to submit - Version 20160424 Tested for 14.2 
+libraries/libvhdi 	UP TO DATE - Version 20160108 is on 14.2 
+libraries/libvmdk	UP TO DATE - Version 20160119 is on 14.2
+libraries/libvshadow	UP TO DATE - Version 20160110 is on 14.2
+libraries/libfsntfs     Need to submit (NEW) - Version 20160418 Tested for 14.2
+libraries/libvslvm      Need to submit (NEW) - Version 20160110 Tested for 14.2
+system/sleuthkit	Need to submit - Version 4.2.0 Tested for 14.2 
+libraries/libewf 	Need to submit - Version 20140608 downgrade for TSK
+python/pytsk		Need to submit - Version 20160721 Tested for 14.2
+network/tcpflow	        Need to submit (NEW) - Version 1.4.5 Tested for 14.2 
+system/volatility	Need to submit - Version 2.5 Tested for 14.2
+system/distorm		Need to submit - Version 3.3.4 Tested for 14.2
+python/pyparsing	Need to submit - Version 2.1.8 Tested for 14.2 
+python/dfdatetime       Need to submit (NEW) - Version 20160323 Tested for 14.2
+libraries/libfvde       Need to submit (NEW) - Version 20160801 Tested for 14.2
 
-libraries/libmsiecf     New Version 20160107 for 14.2 (current missing source)
-libraries/libolecf	New Version 20160107 for 14.2 (current missing source)
-libraries/libpff	UP TO DATE - Version 20131028 Tested for 14.2
-libraries/libqcow       New Version 20160123 for 14.2 (current missing source)	
-libraries/libregf	New Version 20160107 for 14.2 (current missing source)
-libraries/libsigscan  	New Version 20160312 for 14.2 (current missing source)
-libraries/libsmdev	New Version 20160320 for 14.2 (current missing source)
-libraries/libsmraw	New Version 20160108 for 14.2 (current missing source)
-libraries/libvhdi 	New Version 20160108 for 14.2 (current missing source)
-libraries/libvmdk	New Version 20160119 for 14.2 (current missing source)
-libraries/libvshadow	New Version 20160110 for 14.2 (current missing source)
-python/pyparsing	UP TO DATE - Version 2.0.3 Tested for 14.2 
-python/pytsk		New Version 20160318 Tested for 14.2 (current obj error)
-system/sleuthkit	New Version 4.2.0 Tested for 14.2 (Not in master yet)
-network/tcpflow	        New Build-Version 1.4.5 Tested for 14.2 (Not submitted)
-system/volatility	UP TO DATE - Version 2.4 Tested for 14.2
-system/distorm3		UP TO DATE - Version 3.3.0 Tested for 14.2
-
-python/dfvfs  	        Needs two new packages (pyfsntfs and pyvslvm).
-libraries/libewf Need to test various versions with new TSK first
+libraries/libfwnt
+python/dfvfs  	        Needs new packages (libfvde, libfwnt, dfdatetime).
 python/plaso		Needs new dependancies from dfvfs and several more
 network/tcpxtract	Work in Progress - Version 1.0.1 does not build on 14.2
