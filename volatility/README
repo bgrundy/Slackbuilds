@@ -9,12 +9,3 @@ of the system. The framework is intended to introduce people to the
 techniques and complexities associated with extracting digital artifacts
 from volatile memory samples and provide a platform for further work into
 this exciting area of research.
-
-The Volatility distribution is available from: 
-http://www.volatilityfoundation.org/#!releases/component_71401
-
-Volatility should run on any platform that supports 
-Python (http://www.python.org)
-
-For a complete/functional package, Volatility will require pycrypto
-and distorm3 (both available on SlackBuilds.org).

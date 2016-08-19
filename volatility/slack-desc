@@ -6,10 +6,10 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
           |-----handy-ruler------------------------------------------------------|
-volatility: Volatility Framework - Volatile memory extraction utility framework.
+volatility: volatility (memory extraction utility framework)
 volatility:
 volatility: The Volatility Framework is a completely open collection of tools,
-volatility: implemented in Python under the GNU General Public License, for the 
+volatility: implemented in Python under the GNU General Public License, for the
 volatility: extraction of digital artifacts from volatile memory (RAM) samples.
 volatility:
 volatility: https://github.com/volatilityfoundation/volatility
