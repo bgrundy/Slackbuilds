@@ -21,10 +21,10 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# updated for v20160306  March 2016 Barry J. Grundy
+# updated for v20160803 August 2016 Barry J. Grundy
 
 PRGNAM=dfvfs
-VERSION=${VERSION:-20160306}
+VERSION=${VERSION:-20160803}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -76,7 +76,7 @@ find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a ACKNOWLEDGEMENTS AUTHORS LICENSE README PKG-INFO $PKG/usr/doc/$PRGNAM-$VERSION/.
+cp -a ACKNOWLEDGEMENTS AUTHORS LICENSE README $PKG/usr/doc/$PRGNAM-$VERSION/.
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
