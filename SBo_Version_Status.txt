@@ -37,8 +37,14 @@ system/distorm		Need to submit - Version 3.3.4 Tested for 14.2
 python/pyparsing	Need to submit - Version 2.1.8 Tested for 14.2 
 python/dfdatetime       Need to submit (NEW) - Version 20160323 Tested for 14.2
 libraries/libfvde       Need to submit (NEW) - Version 20160801 Tested for 14.2
+libraries/libfwnt       Need to submit (NEW) - Version 20160418 Tested for 14.2
+python/dfvfs  	        Need to submit - Version 20160803 Tested for 14.2
+python/pefile	        Need to submit (NEW) - Version 2016.3.28 Tested for 14.2
+python/XlsxWriter       Need to submit (NEW) - Version 0.9.3 Tested for 14.2
+python/artifacts        Need to submit (NEW) - Version 20160713 Tested for 14.2
+python/plaso		Need to submit - Version 1.4.0 Tested for 14.2*
 
-libraries/libfwnt
-python/dfvfs  	        Needs new packages (libfvde, libfwnt, dfdatetime).
-python/plaso		Needs new dependancies from dfvfs and several more
 network/tcpxtract	Work in Progress - Version 1.0.1 does not build on 14.2
+
+**note that for dfvfs and plaso to pass it's internal testing, locale must 
+be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8"
