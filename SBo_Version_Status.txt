@@ -1,39 +1,39 @@
-libraries/afflib  	Need to submit - Version 3.7.7 Tested for 14.2
+libraries/afflib  	Submitted - Version 3.7.7 awaiting approval.
 python/bencode		UP TO DATE - Version 1.0 is on 14.2
-python/binplist		Need to submit - Version 0.1.5 Tested for 14.2
+python/binplist		Submitted - Version 0.1.5 awaiting approval.
 system/bulk_extractor	UP TO DATE - Version 1.5.5 is on 14.2
 python/construct	UP TO DATE - Version 2.5.2 is on 14.2
-python/dpkt		Need to submit - Version 1.8.7 Tested for 14.2
+python/dpkt		Submitted - Version 1.8.7 awaiting approval.
 system/foremost		UP TO DATE - Version 1.5.7 is on 14.2
 python/hachoir-core	UP TO DATE - Version 1.3.3 is on 14.2
 python/hachoir-metadata UP TO DATE - Version 1.3.3 is on 14.2
 python/hachoir-parser  	UP TO DATE - Version 1.3.4 is on 14.2
-libraries/libbde 	Need to submit - Version 20160731 Tested for 14.2
-libraries/libesedb	Need to submit - Version 20160622 Tested for 14.2
-libraries/libevt        Need to submit - Version 20160421 Tested for 14.2
-libraries/libevtx   	Need to submit - Version 20160421 Tested for 14.2
+libraries/libbde 	Submitted - Version 20160731 awaiting approval.
+libraries/libesedb	Submitted - Version 20160622 awaiting approval.
+libraries/libevt        Submitted - Version 20160421 awaiting approval. 
+libraries/libevtx   	Submitted - Version 20160421 awaiting approval. 
 libraries/libfwsi	UP TO DATE - Version 20160110 is on 14.2
-libraries/liblightgrep	Need to submit - Version 1.4 info file updated. 
-libraries/liblnk	Need to submit - Version 20160107 Tested for 14.2
-libraries/libmsiecf     Need to submit - Version 20160813 Tested for 14.2
-libraries/libolecf	Need to submit - Version 20160107 Tested for 14.2
+libraries/liblightgrep	Submitted - Version 1.4 info file updated. 
+libraries/liblnk	Submitted - Version 20160420 awaiting approval.
+libraries/libmsiecf     Submitted - Version 20160813 Tested for 14.2
+libraries/libolecf	Submitted - Version 20160107 Tested for 14.2
 libraries/libpff	UP TO DATE - Version 20131028 is on 14.2
 libraries/libqcow       UP TO DATE - Version 20160123 is on 14.2
-libraries/libregf	Need to submit - Version 20160424 Tested for 14.2
+libraries/libregf	Submitted - Version 20160424 Tested for 14.2
 libraries/libsigscan  	UP TO DATE - Version 20160312 is on 14.2
 libraries/libsmdev	UP TO DATE - Version 20160320 is on 14.2
-libraries/libsmraw	Need to submit - Version 20160424 Tested for 14.2 
+libraries/libsmraw	Submitted - Version 20160424 Tested for 14.2 
 libraries/libvhdi 	UP TO DATE - Version 20160108 is on 14.2 
 libraries/libvmdk	UP TO DATE - Version 20160119 is on 14.2
 libraries/libvshadow	UP TO DATE - Version 20160110 is on 14.2
-libraries/libfsntfs     Need to submit (NEW) - Version 20160418 Tested for 14.2
-libraries/libvslvm      Need to submit (NEW) - Version 20160110 Tested for 14.2
-system/sleuthkit	Need to submit - Version 4.2.0 Tested for 14.2 
-libraries/libewf 	Need to submit - Version 20140608 downgrade for TSK
-python/pytsk		Need to submit - Version 20160721 Tested for 14.2
-network/tcpflow	        Need to submit (NEW) - Version 1.4.5 Tested for 14.2 
-system/volatility	Need to submit - Version 2.5 Tested for 14.2
-system/distorm		Need to submit - Version 3.3.4 Tested for 14.2
+libraries/libfsntfs     Submitted - Version 20160418 Tested for 14.2
+libraries/libvslvm      Submitted - Version 20160110 Tested for 14.2
+system/sleuthkit	Submitted - Version 4.3.0 Tested for 14.2 
+libraries/libewf 	Submitted Version 20140608 awaiting approval
+python/pytsk		Submitted Version 20160721 Tested for 14.2
+network/tcpflow	        Submitted - Version 1.4.5 Tested for 14.2 
+system/volatility	Submitted - Version 2.5 Tested for 14.2
+system/distorm		Submitted - Version 3.3.4 Tested for 14.2
 python/pyparsing	Need to submit - Version 2.1.8 Tested for 14.2 
 python/dfdatetime       Need to submit (NEW) - Version 20160323 Tested for 14.2
 libraries/libfvde       Need to submit (NEW) - Version 20160801 Tested for 14.2
