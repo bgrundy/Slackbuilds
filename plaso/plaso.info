@@ -5,6 +5,6 @@ DOWNLOAD="https://github.com/log2timeline/plaso/releases/download/1.4.0/plaso-1.
 MD5SUM="7606c380a810981a098448a55760a8f0"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES="artifacts pefile psutil requests XlsxWriter zmq pyregf ipython dfvfs hachoir-metadata bencode binplist psutil dpkt pyparsing PyYAML libesedb libevt libevtx libfwsi liblnk libmsiecf libolecf libregf mock"
+REQUIRES="ipython dfvfs artifacts bencode binplist dpkt hachoir-metadata pefile psutil pyparsing python-requests XlsxWriter pyzmq libesedb libevt libevtx libfwsi liblnk libmsiecf libolecf libregf"
 MAINTAINER="Barry J. Grundy"
 EMAIL="bgrundy<at>linuxleo.com"

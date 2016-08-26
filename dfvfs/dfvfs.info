@@ -5,6 +5,6 @@ DOWNLOAD="https://github.com/log2timeline/dfvfs/releases/download/20160108/dfvfs
 MD5SUM="32566e6bb2664f3e114b172205d8f4d7"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES="six construct protobuf pytsk libbde libewf libfsntfs libqcow libsigscan libsmdev libsmraw libvhdi libvmdk libvshadow"
+REQUIRES="construct protobuf libbde libewf libfsntfs libqcow libsigscan libsmdev libsmraw libvhdi libvmdk libvshadow pytsk"
 MAINTAINER="Barry J. Grundy"
 EMAIL="bgrundy<at>linuxleo.com"

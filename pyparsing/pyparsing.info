@@ -1,5 +1,5 @@
 PRGNAM="pyparsing"
-VESION="2.1.8"
+VERSION="2.1.8"
 HOMEPAGE="http://pyparsing.wikispaces.com/"
 DOWNLOAD="http://downloads.sourceforge.net/project/pyparsing/pyparsing/pyparsing-2.1.8/pyparsing-2.1.8.tar.gz"
 MD5SUM="034b935c55b7fcace3c8b5031392cd70"

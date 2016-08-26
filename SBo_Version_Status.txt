@@ -15,34 +15,34 @@ libraries/libevtx   	Submitted - Version 20160421 awaiting approval.
 libraries/libfwsi	UP TO DATE - Version 20160110 is on 14.2
 libraries/liblightgrep	Submitted - Version 1.4 info file updated. 
 libraries/liblnk	Submitted - Version 20160420 awaiting approval.
-libraries/libmsiecf     Submitted - Version 20160813 Tested for 14.2
-libraries/libolecf	Submitted - Version 20160107 Tested for 14.2
+libraries/libmsiecf     Submitted - Version 20160813 awaiting approval
+libraries/libolecf	Submitted - Version 20160107 awaiting approval
 libraries/libpff	UP TO DATE - Version 20131028 is on 14.2
 libraries/libqcow       UP TO DATE - Version 20160123 is on 14.2
-libraries/libregf	Submitted - Version 20160424 Tested for 14.2
+libraries/libregf	Submitted - Version 20160424 awaiting approval
 libraries/libsigscan  	UP TO DATE - Version 20160312 is on 14.2
 libraries/libsmdev	UP TO DATE - Version 20160320 is on 14.2
-libraries/libsmraw	Submitted - Version 20160424 Tested for 14.2 
+libraries/libsmraw	Submitted - Version 20160424 awaiting approval 
 libraries/libvhdi 	UP TO DATE - Version 20160108 is on 14.2 
 libraries/libvmdk	UP TO DATE - Version 20160119 is on 14.2
 libraries/libvshadow	UP TO DATE - Version 20160110 is on 14.2
-libraries/libfsntfs     Submitted - Version 20160418 Tested for 14.2
-libraries/libvslvm      Submitted - Version 20160110 Tested for 14.2
-system/sleuthkit	Submitted - Version 4.3.0 Tested for 14.2 
-libraries/libewf 	Submitted Version 20140608 awaiting approval
-python/pytsk		Submitted Version 20160721 Tested for 14.2
-network/tcpflow	        Submitted - Version 1.4.5 Tested for 14.2 
-system/volatility	Submitted - Version 2.5 Tested for 14.2
-system/distorm		Submitted - Version 3.3.4 Tested for 14.2
-python/pyparsing	Need to submit - Version 2.1.8 Tested for 14.2 
-python/dfdatetime       Need to submit (NEW) - Version 20160323 Tested for 14.2
-libraries/libfvde       Need to submit (NEW) - Version 20160801 Tested for 14.2
-libraries/libfwnt       Need to submit (NEW) - Version 20160418 Tested for 14.2
-python/dfvfs  	        Need to submit - Version 20160803 Tested for 14.2
-python/pefile	        Need to submit (NEW) - Version 2016.3.28 Tested for 14.2
-python/XlsxWriter       Need to submit (NEW) - Version 0.9.3 Tested for 14.2
-python/artifacts        Need to submit (NEW) - Version 20160713 Tested for 14.2
-python/plaso		Need to submit - Version 1.4.0 Tested for 14.2*
+libraries/libfsntfs     Submitted - Version 20160418 awaiting approval
+libraries/libvslvm      Submitted - Version 20160110 awaiting approval
+system/sleuthkit	Submitted - Version 4.3.0 awaiting approval 
+libraries/libewf 	Submitted - Version 20140608 awaiting approval
+python/pytsk		Submitted - Version 20160721 awaiting approval
+network/tcpflow	        Submitted - Version 1.4.5 awaiting approval 
+system/volatility	Submitted - Version 2.5 awaiting approval
+system/distorm		Submitted - Version 3.3.4 awaiting approval
+python/pyparsing	Submitted - Version 2.1.8 awaiting approval 
+python/dfdatetime       Submitted - Version 20160323 awaiting approval
+libraries/libfvde       Submitted - Version 20160801 awaiting approval
+libraries/libfwnt       Submitted - Version 20160418 awaiting approval
+python/dfvfs  	        Submitted - Version 20160108 awaiting approval*
+python/pefile	        Submitted - Version 2016.3.28 awaiting approval
+python/XlsxWriter       Submitted - Version 0.9.3 awaiting approval
+python/artifacts        Submitted - Version 20160713 awaiting approval
+python/plaso		Submitted - Version 1.4.0 awaiting approval*
 
 network/tcpxtract	Work in Progress - Version 1.0.1 does not build on 14.2
 
