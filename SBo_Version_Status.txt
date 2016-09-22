@@ -44,7 +44,5 @@ python/XlsxWriter       Submitted - Version 0.9.3 awaiting approval
 python/artifacts        Submitted - Version 20160713 awaiting approval
 python/plaso		Submitted - Version 1.4.0 awaiting approval*
 
-network/tcpxtract	Work in Progress - Version 1.0.1 does not build on 14.2
-
 **note that for dfvfs and plaso to pass it's internal testing, locale must 
 be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8"

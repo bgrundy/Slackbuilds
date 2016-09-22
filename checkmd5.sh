@@ -39,12 +39,16 @@ for file in `awk -F \/ '{print $2}' $STATUSFILE | awk '{print $1}' \
 #                              #
 ################################
 
-sed -e 's/afflib\//libraries\/afflib\//g
+sed -e 's/XlsxWriter\//python\/XlsxWriter\//g 
+s/afflib\//libraries\/afflib\//g
+s/artifacts\//python\/artifacts\//g
 s/bencode\//python\/bencode\//g
 s/binplist\//python\/binplist\//g
 s/bulk_extractor\//system\/bulk_extractor\//g
 s/construct\//python\/construct\//g
+s/dfdatetime\//python\/dfdatetime\//g
 s/dfvfs\//python\/dfvfs\//g
+s/distorm\//python\/distorm\//g
 s/dpkt\//python\/dpkt\//g
 s/foremost\//system\/foremost\//g
 s/hachoir-core\//python\/hachoir-core\//g
@@ -55,6 +59,9 @@ s/libesedb\//libraries\/libesedb\//g
 s/libevt\//libraries\/libevt\//g
 s/libevtx\//libraries\/libevtx\//g
 s/libewf\//libraries\/libewf\//g
+s/libfsntfs\//libraries\/libfsntfs\//g
+s/libfvde\//libraries\/libfvde\//g
+s/libfwnt\//libraries\/libfwnt\//g
 s/libfwsi\//libraries\/libfwsi\//g
 s/liblightgrep\//libraries\/liblightgrep\//g
 s/liblnk\//libraries\/liblnk\//g
@@ -69,11 +76,14 @@ s/libsmraw\//libraries\/libsmraw\//g
 s/libvhdi\//libraries\/libvhdi\//g
 s/libvmdk\//libraries\/libvmdk\//g
 s/libvshadow\//libraries\/libvshadow\//g
-s/lzip\//system\/lzip\//g
+s/libvslvm\//libraries\/libvslvm\//g
+s/pefile\//python\/pefile\//g
+s/plaso\//python\/plaso\//g
 s/pyparsing\//python\/pyparsing\//g
 s/pytsk\//python\/pytsk\//g
-s/plaso\//python\/plaso\//g
-s/sleuthkit\//system\/sleuthkit\//g' -i $MD5FILE 
+s/sleuthkit\//system\/sleuthkit\//g
+s/tcpflow\//network\/tcpflow\//g
+s/volatility\//system\/volatility\//g' -i $MD5FILE
 
 #######################
 #                     #
