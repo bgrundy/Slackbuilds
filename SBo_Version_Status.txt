@@ -1,48 +1,48 @@
-libraries/afflib  	Submitted - Version 3.7.7 awaiting approval.
+libraries/afflib  	UP TO DATE - Version 3.7.7 is on 14.2.
 python/bencode		UP TO DATE - Version 1.0 is on 14.2
-python/binplist		Submitted - Version 0.1.5 awaiting approval.
+python/binplist		UP TO DATE - Version 0.1.5 is on 14.2.
 system/bulk_extractor	UP TO DATE - Version 1.5.5 is on 14.2
 python/construct	UP TO DATE - Version 2.5.2 is on 14.2
-python/dpkt		Submitted - Version 1.8.7 awaiting approval.
+python/dpkt		UP TO DATE - Version 1.8.7 is on 14.2.
 system/foremost		UP TO DATE - Version 1.5.7 is on 14.2
 python/hachoir-core	UP TO DATE - Version 1.3.3 is on 14.2
 python/hachoir-metadata UP TO DATE - Version 1.3.3 is on 14.2
 python/hachoir-parser  	UP TO DATE - Version 1.3.4 is on 14.2
-libraries/libbde 	Submitted - Version 20160731 awaiting approval.
-libraries/libesedb	Submitted - Version 20160622 awaiting approval.
-libraries/libevt        Submitted - Version 20160421 awaiting approval. 
-libraries/libevtx   	Submitted - Version 20160421 awaiting approval. 
+libraries/libbde 	UP TO DATE - Version 20160731 is on 14.2.
+libraries/libesedb	UP TO DATE - Version 20160622 is on 14.2.
+libraries/libevt        UP TO DATE - Version 20160421 is on 14.2. 
+libraries/libevtx   	UP TO DATE - Version 20160421 is on 14.2. 
 libraries/libfwsi	UP TO DATE - Version 20160110 is on 14.2
-libraries/liblightgrep	Submitted - Version 1.4 info file updated. 
-libraries/liblnk	Submitted - Version 20160420 awaiting approval.
-libraries/libmsiecf     Submitted - Version 20160813 awaiting approval
-libraries/libolecf	Submitted - Version 20160107 awaiting approval
+libraries/liblightgrep	UP TO DATE - Version 1.4 is on 14.2. 
+libraries/liblnk	UP TO DATE - Version 20160420 is on 14.2.
+libraries/libmsiecf     UP TO DATE - Version 20160813 is on 14.2
+libraries/libolecf	UP TO DATE - Version 20160107 is on 14.2
 libraries/libpff	UP TO DATE - Version 20131028 is on 14.2
 libraries/libqcow       UP TO DATE - Version 20160123 is on 14.2
-libraries/libregf	Submitted - Version 20160424 awaiting approval
+libraries/libregf	UP TO DATE - Version 20160424 is on 14.2
 libraries/libsigscan  	UP TO DATE - Version 20160312 is on 14.2
 libraries/libsmdev	UP TO DATE - Version 20160320 is on 14.2
-libraries/libsmraw	Submitted - Version 20160424 awaiting approval 
+libraries/libsmraw	UP TO DATE - Version 20160424 is on 14.2 
 libraries/libvhdi 	UP TO DATE - Version 20160108 is on 14.2 
 libraries/libvmdk	UP TO DATE - Version 20160119 is on 14.2
 libraries/libvshadow	UP TO DATE - Version 20160110 is on 14.2
-libraries/libfsntfs     Submitted - Version 20160418 awaiting approval
-libraries/libvslvm      Submitted - Version 20160110 awaiting approval
-system/sleuthkit	Submitted - Version 4.3.0 awaiting approval 
-libraries/libewf 	Submitted - Version 20140608 awaiting approval
-python/pytsk		Submitted - Version 20160721 awaiting approval
-network/tcpflow	        Submitted - Version 1.4.5 awaiting approval 
-system/volatility	Submitted - Version 2.5 awaiting approval
-python/distorm		Submitted - Version 3.3.4 awaiting approval
-python/pyparsing	Submitted - Version 2.1.8 awaiting approval 
-python/dfdatetime       Submitted - Version 20160323 awaiting approval
-libraries/libfvde       Submitted - Version 20160801 awaiting approval
-libraries/libfwnt       Submitted - Version 20160418 awaiting approval
-python/dfvfs  	        Submitted - Version 20160108 awaiting approval*
-python/pefile	        Submitted - Version 2016.3.28 awaiting approval
-python/XlsxWriter       Submitted - Version 0.9.3 awaiting approval
-python/artifacts        Submitted - Version 20160713 awaiting approval
-python/plaso		Submitted - Version 1.4.0 awaiting approval*
+libraries/libfsntfs     UP TO DATE - Version 20160418 is on 14.2
+libraries/libvslvm      UP TO DATE - Version 20160110 is on 14.2
+system/sleuthkit	UP TO DATE - Version 4.3.0 is on 14.2 
+libraries/libewf 	UP TO DATE - Version 20140608 is on 14.2
+python/pytsk		UP TO DATE - Version 20160721 is on 14.2
+network/tcpflow	        UP TO DATE - Version 1.4.5 is on 14.2 
+system/volatility	UP TO DATE - Version 2.5 is on 14.2
+python/distorm		UP TO DATE - Version 3.3.4 is on 14.2
+python/pyparsing	UP TO DATE - Version 2.1.8 is on 14.2 
+python/dfdatetime       UP TO DATE - Version 20160323 is on 14.2
+libraries/libfvde       UP TO DATE - Version 20160801 is on 14.2
+libraries/libfwnt       UP TO DATE - Version 20160418 is on 14.2
+python/dfvfs  	        UP TO DATE - Version 20160108 is on 14.2*
+python/pefile	        UP TO DATE - Version 2016.3.28 is on 14.2
+python/XlsxWriter       UP TO DATE - Version 0.9.3 is on 14.2
+python/artifacts        UP TO DATE - Version 20160713 is on 14.2
+python/plaso		UP TO DATE - Version 1.4.0 is on 14.2*
 
 **note that for dfvfs and plaso to pass it's internal testing, locale must 
 **be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8"
