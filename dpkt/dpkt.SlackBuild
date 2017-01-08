@@ -24,10 +24,10 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Updated to version 1.8.7 August 2016, Barry J. Grundy bgrundy<at>linuxleo.com.
+# Updated for version 1.8 November 2014, new maintainer.
 
 PRGNAM=dpkt
-VERSION=${VERSION:-1.8.7}
+VERSION=${VERSION:-1.8}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -79,7 +79,7 @@ find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | gr
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a AUTHORS CHANGES LICENSE README.md $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a AUTHORS CHANGES HACKING LICENSE README examples/ $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install

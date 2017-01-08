@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
           |-----handy-ruler------------------------------------------------------|
-XlsxWriter: XlsxWriter - a Python module for writing files in the Excel 2007+
-XlsxWriter:              XLSX file format.
-XlsxWriter: 
-XlsxWriter: XlsxWriter is a Python module that can be used to write text, 
+XlsxWriter: XlsxWriter (Python module for writing Excel 2007+ XLSX files)
+XlsxWriter:
+XlsxWriter: XlsxWriter is a Python module that can be used to write text,
 XlsxWriter: numbers, formulas and hyperlinks to multiple worksheets in an Excel
 XlsxWriter: 2007+ XLSX file.
-XlsxWriter: 
+XlsxWriter:
 XlsxWriter: https://github.com/jmcnamara/XlsxWriter
+XlsxWriter:
 XlsxWriter:
 XlsxWriter:
 XlsxWriter:

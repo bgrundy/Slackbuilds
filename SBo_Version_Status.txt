@@ -33,7 +33,7 @@ libraries/libewf 	Submitted - Version 20140608 awaiting approval
 python/pytsk		Submitted - Version 20160721 awaiting approval
 network/tcpflow	        Submitted - Version 1.4.5 awaiting approval 
 system/volatility	Submitted - Version 2.5 awaiting approval
-system/distorm		Submitted - Version 3.3.4 awaiting approval
+python/distorm		Submitted - Version 3.3.4 awaiting approval
 python/pyparsing	Submitted - Version 2.1.8 awaiting approval 
 python/dfdatetime       Submitted - Version 20160323 awaiting approval
 libraries/libfvde       Submitted - Version 20160801 awaiting approval
@@ -45,4 +45,4 @@ python/artifacts        Submitted - Version 20160713 awaiting approval
 python/plaso		Submitted - Version 1.4.0 awaiting approval*
 
 **note that for dfvfs and plaso to pass it's internal testing, locale must 
-be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8"
+**be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8"

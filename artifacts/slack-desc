@@ -6,12 +6,12 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
          |-----handy-ruler------------------------------------------------------|
-artifacts: artifacts - ForensicArtifacts.com Artifact Repository.
-artifacts:             
+artifacts: artifacts (ForensicArtifacts.com Artifact Repository)
+artifacts:
 artifacts: A free, community-sourced, machine-readable knowledge base of
 artifacts: forensic artifacts that the world can use both as an information
 artifacts: source and within other tools.
-artifacts: 
+artifacts:
 artifacts: Homepage: https://github.com/ForensicArtifacts/artifacts
 artifacts:
 artifacts:

@@ -10,9 +10,9 @@ afflib: afflib (Advanced Forensic Format support library)
 afflib:
 afflib: afflib is library and  set of tools used in support of the Advanced
 afflib: Forensic Format (AFF).
-afflib: 
+afflib:
 afflib: (AFF) is on-disk format for storing computer forensic information.
-afflib: 
+afflib:
 afflib:
 afflib: Homepage: https://github.com/sshock/AFFLIBv3
 afflib:

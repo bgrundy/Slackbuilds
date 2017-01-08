@@ -9,10 +9,10 @@
 pefile: pefile (Python module to access Portable Executable files)
 pefile:
 pefile: pefile is a Python s a multi-platform Python module to parse and work
-pefile: with Portable Executable (aka PE) files. 
-pefile: 
+pefile: with Portable Executable (aka PE) files.
+pefile:
 pefile: https://pypi.python.org/pypi/pefile/
-pefile: 
+pefile:
 pefile:
 pefile:
 pefile:

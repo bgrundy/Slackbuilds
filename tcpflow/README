@@ -10,5 +10,3 @@ streams and stores each flow in a separate file for later analysis.
 
 tcpflow understands sequence numbers and will correctly reconstruct data 
 streams regardless of retransmissions or out-of-order delivery. 
-
-See https://github.com/simsong/tcpflow/blob/master/README.md for more info.
