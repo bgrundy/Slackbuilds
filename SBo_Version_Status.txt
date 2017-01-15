@@ -1,4 +1,4 @@
-libraries/afflib  	UP TO DATE - Version 3.7.7 is on 14.2.
+libraries/afflib  	3.7.15 available
 python/bencode		UP TO DATE - Version 1.0 is on 14.2
 python/binplist		UP TO DATE - Version 0.1.5 is on 14.2.
 system/bulk_extractor	UP TO DATE - Version 1.5.5 is on 14.2
@@ -36,6 +36,7 @@ system/volatility	UP TO DATE - Version 2.5 is on 14.2
 python/distorm		UP TO DATE - Version 3.3.4 is on 14.2
 python/pyparsing	UP TO DATE - Version 2.1.8 is on 14.2 
 python/dfdatetime       UP TO DATE - Version 20160323 is on 14.2
+python/dfwinreg         New Package - need to add
 libraries/libfvde       UP TO DATE - Version 20160801 is on 14.2
 libraries/libfwnt       UP TO DATE - Version 20160418 is on 14.2
 python/dfvfs  	        UP TO DATE - Version 20160108 is on 14.2*
