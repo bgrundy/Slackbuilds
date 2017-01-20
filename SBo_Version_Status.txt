@@ -1,4 +1,4 @@
-libraries/afflib  	3.7.15 available
+libraries/afflib  	3.7.15 ready for submission
 python/bencode		UP TO DATE - Version 1.0 is on 14.2
 python/binplist		UP TO DATE - Version 0.1.5 is on 14.2.
 system/bulk_extractor	UP TO DATE - Version 1.5.5 is on 14.2
@@ -28,7 +28,7 @@ libraries/libvmdk	UP TO DATE - Version 20160119 is on 14.2
 libraries/libvshadow    20161111 is avaialable
 libraries/libfsntfs     UP TO DATE - Version 20160418 is on 14.2
 libraries/libvslvm      UP TO DATE - Version 20160110 is on 14.2
-system/sleuthkit	UP TO DATE - Version 4.3.0 is on 14.2 
+system/sleuthkit	4.4.0 is ready for submission
 libraries/libewf 	UP TO DATE - Version 20140608 is on 14.2
 python/pytsk		20161109 is available
 network/tcpflow	        UP TO DATE - Version 1.4.5 is on 14.2 
