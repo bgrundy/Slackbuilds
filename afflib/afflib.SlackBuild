@@ -82,7 +82,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --localstatedir=/var \
   --mandir=/usr/man \
   --disable-static \
-  --enable-python=yes \
+  --enable-python=no\
   --enable-threading \
   --build=$ARCH-slackware-linux \
   LIBS=-lncurses
