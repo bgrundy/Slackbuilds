@@ -25,7 +25,7 @@ libraries/libsmdev	UP TO DATE - Version 20160320 is on 14.2
 libraries/libsmraw	UP TO DATE - Version 20160424 is on 14.2 
 libraries/libvhdi 	UP TO DATE - Version 20160424 is on 14.2 
 libraries/libvmdk	UP TO DATE - Version 20160119 is on 14.2
-libraries/libvshadow    20161111 is avaialable
+*libraries/libvshadow    20161111 is avaialable
 libraries/libfsntfs     UP TO DATE - Version 20160418 is on 14.2
 libraries/libvslvm      UP TO DATE - Version 20160110 is on 14.2
 system/sleuthkit	4.4.0 submitted to SBo
@@ -36,14 +36,15 @@ system/volatility	2.6 is avialable
 python/distorm		UP TO DATE - Version 3.3.4 is on 14.2
 python/pyparsing	2.1.10 is available
 python/dfdatetime       20170103 is available
-python/dfwinreg         New Package - need to add
+*python/dfwinreg         New Package - need to add
 libraries/libfvde       20160918 is available
 libraries/libfwnt       20170115 is available
-python/dfvfs  	        20160918 is available
+*python/dfvfs  	        20160918 is available
 python/pefile	        UP TO DATE - Version 2016.3.28 is on 14.2
 python/XlsxWriter       0.9.6 is available
 python/artifacts        20161022 submitted to SBo
 python/plaso		1.5.1 is available
+*python/yara-python      New Package - Need to add
 
 **note that for dfvfs and plaso to pass it's internal testing, locale must 
 **be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8"
