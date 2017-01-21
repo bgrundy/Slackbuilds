@@ -44,7 +44,8 @@ python/pefile	        UP TO DATE - Version 2016.3.28 is on 14.2
 python/XlsxWriter       0.9.6 is available
 python/artifacts        20161022 submitted to SBo
 python/plaso		1.5.1 is available
-*python/yara-python      New Package - Need to add
+python/yara-python      New Package ready for submission - needs YARA update 
+python/yara		New Package ready for submission - awaiting maintainer
 
 **note that for dfvfs and plaso to pass it's internal testing, locale must 
 **be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8"
