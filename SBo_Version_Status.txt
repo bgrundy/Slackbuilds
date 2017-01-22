@@ -1,17 +1,12 @@
 libraries/afflib  	3.7.15 but will not install properly 
-python/bencode		UP TO DATE - Version 1.0 is on 14.2
-python/binplist		UP TO DATE - Version 0.1.5 is on 14.2.
-system/bulk_extractor	UP TO DATE - Version 1.5.5 is on 14.2
-python/construct	2.5.5 submitted to SBo(2.5.3 is in GIFT PPA)
-python/dpkt		1.8.8 submitted ot SBo
-system/foremost		UP TO DATE - Version 1.5.7 is on 14.2
-python/hachoir-core	UP TO DATE - Version 1.3.3 is on 14.2
-python/hachoir-metadata UP TO DATE - Version 1.3.3 is on 14.2
-python/hachoir-parser  	UP TO DATE - Version 1.3.4 is on 14.2
 libraries/libbde 	UP TO DATE - Version 20160731 is on 14.2.
 libraries/libesedb	UP TO DATE - Version 20160622 is on 14.2.
 libraries/libevt        20170120 is available
 libraries/libevtx   	UP TO DATE - Version 20160421 is on 14.2. 
+libraries/libewf 	UP TO DATE - Version 20140608 is on 14.2
+libraries/libfsntfs     UP TO DATE - Version 20160418 is on 14.2
+libraries/libfvde       20160918 is available
+libraries/libfwnt       20170115 is available
 libraries/libfwsi	UP TO DATE - Version 20160110 is on 14.2
 libraries/liblightgrep	UP TO DATE - Version 1.4 is on 14.2. 
 libraries/liblnk	20170111 is available
@@ -26,25 +21,30 @@ libraries/libsmraw	UP TO DATE - Version 20160424 is on 14.2
 libraries/libvhdi 	UP TO DATE - Version 20160424 is on 14.2 
 libraries/libvmdk	UP TO DATE - Version 20160119 is on 14.2
 libraries/libvshadow    20161111 submitted to SBo
-libraries/libfsntfs     UP TO DATE - Version 20160418 is on 14.2
 libraries/libvslvm      UP TO DATE - Version 20160110 is on 14.2
-system/sleuthkit	UP TO DATE - Version 4.4.0 is on 14.2
-libraries/libewf 	UP TO DATE - Version 20140608 is on 14.2
-python/pytsk		20161109 is available
 network/tcpflow	        UP TO DATE - Version 1.4.5 is on 14.2 
-system/volatility	2.6 submitted to SBo
-python/distorm		UP TO DATE - Version 3.3.4 is on 14.2
-python/pyparsing	2.1.10 is available
-python/dfdatetime       20161101 submitted to SBo
-python/dfwinreg         20160428 submitted to SBo
-libraries/libfvde       20160918 is available
-libraries/libfwnt       20170115 is available
-python/dfvfs  	        20160918 submitted to SBo
-python/pefile	        UP TO DATE - Version 2016.3.28 is on 14.2
 python/XlsxWriter       0.9.6 is available
 python/artifacts        UP TO DATE - Version 20161022 is on 14.2
+python/bencode		UP TO DATE - Version 1.0 is on 14.2
+python/binplist		UP TO DATE - Version 0.1.5 is on 14.2.
+python/construct	2.5.5 submitted to SBo(2.5.3 is in GIFT PPA)
+python/dfdatetime       20161101 submitted to SBo
+python/dfvfs  	        20160918 submitted to SBo
+python/dfwinreg         20160428 submitted to SBo
+python/distorm		UP TO DATE - Version 3.3.4 is on 14.2
+python/dpkt		1.8.8 submitted ot SBo
+python/hachoir-core	UP TO DATE - Version 1.3.3 is on 14.2
+python/hachoir-metadata UP TO DATE - Version 1.3.3 is on 14.2
+python/hachoir-parser  	UP TO DATE - Version 1.3.4 is on 14.2
+python/pefile	        UP TO DATE - Version 2016.3.28 is on 14.2
 python/plaso		1.5.1 is available
+python/pyparsing	2.1.10 is available
+python/pytsk		20161109 is available
 python/yara-python      3.5.0 submitted to SBo
+system/bulk_extractor	UP TO DATE - Version 1.5.5 is on 14.2
+system/foremost		UP TO DATE - Version 1.5.7 is on 14.2
+system/sleuthkit	UP TO DATE - Version 4.4.0 is on 14.2
+system/volatility	2.6 submitted to SBo
 
 **note that for dfvfs and plaso to pass it's internal testing, locale must 
 **be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8"
