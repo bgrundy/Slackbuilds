@@ -10,7 +10,7 @@ yara-python: yara-python (Python for yara)
 yara-python:
 yara-python: yara-python is a Python library to allow the use of YARA directly
 yara-python: in python programs.  It covers all YARA's features, from compiling,
-yara-python: saving and loading rules to scanning files, strings and 
+yara-python: saving and loading rules to scanning files, strings and
 yara-python: processes.
 yara-python:
 yara-python: Homepage: https://github.com/VirusTotal/yara-python
