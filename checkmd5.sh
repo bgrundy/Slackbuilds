@@ -83,6 +83,9 @@ s/pyparsing\//python\/pyparsing\//g
 s/pytsk\//python\/pytsk\//g
 s/sleuthkit\//system\/sleuthkit\//g
 s/tcpflow\//network\/tcpflow\//g
+s/dotty\//python\/dotty\//g
+s/dfwinreg\//python\/dfwinreg\//g
+s/yara-python\//python\/yara-python\//g
 s/volatility\//system\/volatility\//g' -i $MD5FILE
 
 #######################

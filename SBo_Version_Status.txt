@@ -15,26 +15,26 @@ libraries/libolecf	20161113 is available
 libraries/libpff	UP TO DATE - Version 20161119 is on 14.2
 libraries/libqcow       UP TO DATE - Version 20160123 is on 14.2
 libraries/libregf	UP TO DATE - Version 20160424 is on 14.2
-libraries/libscca       NEW Build - Versoin 20170105 ready to submit
+libraries/libscca       20170105 submitted to SBo
 libraries/libsigscan  	UP TO DATE - Version 20160312 is on 14.2
 libraries/libsmdev	UP TO DATE - Version 20160320 is on 14.2
 libraries/libsmraw	UP TO DATE - Version 20160424 is on 14.2 
 libraries/libvhdi 	UP TO DATE - Version 20160424 is on 14.2 
 libraries/libvmdk	UP TO DATE - Version 20160119 is on 14.2
-libraries/libvshadow    20161111 submitted to SBo
+libraries/libvshadow    UP TO DATE - Version 20161111 is on 14.2
 libraries/libvslvm      UP TO DATE - Version 20160110 is on 14.2
 network/tcpflow	        UP TO DATE - Version 1.4.5 is on 14.2 
 python/XlsxWriter       0.9.6 is available
 python/artifacts        UP TO DATE - Version 20161022 is on 14.2
 python/bencode		UP TO DATE - Version 1.0 is on 14.2
 python/binplist		UP TO DATE - Version 0.1.5 is on 14.2.
-python/construct	2.5.5 submitted to SBo(2.5.3 is in GIFT PPA)
-python/dfdatetime       20161101 submitted to SBo
-python/dfvfs  	        20160918 submitted to SBo
-python/dfwinreg         20160428 submitted to SBo
+python/construct	2.5.5 is on SBo, but needs to revert to 2.5.3
+python/dfdatetime       UP TO DATE - Version 20161101 is on 14.2
+python/dfvfs  	        UP TO DATE - Version 20160918 is on 14.2
+python/dfwinreg         UP TO DATE - Version 20160428 is on 14.2
 python/distorm		UP TO DATE - Version 3.3.4 is on 14.2
-python/dotty		NEW Build - Version 1.5 ready to submit
-python/dpkt		1.8.8 submitted ot SBo
+python/dotty		1.5 submitted to SBo
+python/dpkt		UP TO DATE - Version 1.8.8 is on 14.2
 python/hachoir-core	UP TO DATE - Version 1.3.3 is on 14.2
 python/hachoir-metadata UP TO DATE - Version 1.3.3 is on 14.2
 python/hachoir-parser  	UP TO DATE - Version 1.3.4 is on 14.2
@@ -42,11 +42,12 @@ python/pefile	        UP TO DATE - Version 2016.3.28 is on 14.2
 python/plaso		1.5.1 is available
 python/pyparsing	2.1.10 is available
 python/pytsk		20161109 is available
-python/yara-python      3.5.0 submitted to SBo
+python/yara-python      UP TO DATE - Version 3.5.0 is on 14.2
 system/bulk_extractor	UP TO DATE - Version 1.5.5 is on 14.2
 system/foremost		UP TO DATE - Version 1.5.7 is on 14.2
 system/sleuthkit	UP TO DATE - Version 4.4.0 is on 14.2
-system/volatility	2.6 submitted to SBo
+system/volatility	UP TO DATE - Version 2.6 is on 14.2
 
 **note that for dfvfs and plaso to pass it's internal testing, locale must 
-**be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8"
+**  be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8", or editing
+**  /etc/profile.d/lang.sh
