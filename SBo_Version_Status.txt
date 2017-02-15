@@ -15,7 +15,7 @@ libraries/libolecf	20161113 is available
 libraries/libpff	UP TO DATE - Version 20161119 is on 14.2
 libraries/libqcow       UP TO DATE - Version 20160123 is on 14.2
 libraries/libregf	UP TO DATE - Version 20160424 is on 14.2
-libraries/libscca       20170105 submitted to SBo
+libraries/libscca       UP TO DATE - Version 20170105 is on 14.2
 libraries/libsigscan  	UP TO DATE - Version 20160312 is on 14.2
 libraries/libsmdev	UP TO DATE - Version 20160320 is on 14.2
 libraries/libsmraw	UP TO DATE - Version 20160424 is on 14.2 
@@ -28,18 +28,18 @@ python/XlsxWriter       0.9.6 is available
 python/artifacts        UP TO DATE - Version 20161022 is on 14.2
 python/bencode		UP TO DATE - Version 1.0 is on 14.2
 python/binplist		UP TO DATE - Version 0.1.5 is on 14.2.
-python/construct	2.5.5 is on SBo, but needs to revert to 2.5.3
+python/construct	UP TO DATE - Version 2.5.3 is on 14.2 (needs this ver)
 python/dfdatetime       UP TO DATE - Version 20161101 is on 14.2
 python/dfvfs  	        UP TO DATE - Version 20160918 is on 14.2
 python/dfwinreg         UP TO DATE - Version 20160428 is on 14.2
 python/distorm		UP TO DATE - Version 3.3.4 is on 14.2
-python/dotty		1.5 submitted to SBo
+python/dotty		UP TO DATE - Version 1.5 is on 14.2
 python/dpkt		UP TO DATE - Version 1.8.8 is on 14.2
 python/hachoir-core	UP TO DATE - Version 1.3.3 is on 14.2
 python/hachoir-metadata UP TO DATE - Version 1.3.3 is on 14.2
 python/hachoir-parser  	UP TO DATE - Version 1.3.4 is on 14.2
 python/pefile	        UP TO DATE - Version 2016.3.28 is on 14.2
-python/plaso		1.5.1 is available
+python/plaso		1.5.1 is submitted to SBo
 python/pyparsing	2.1.10 is available
 python/pytsk		20161109 is available
 python/yara-python      UP TO DATE - Version 3.5.0 is on 14.2

@@ -6,8 +6,9 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
      |-----handy-ruler------------------------------------------------------|
+dotty: dotty (Python query language)
 dotty:
-dotty: EFILTER (dotty) is a general purpose query language designed to be 
+dotty: EFILTER (dotty) is a general purpose query language designed to be
 dotty: embedded in python applications and libraries.
 dotty:
 dotty: Homepage: https://github.com/google/dotty

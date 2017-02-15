@@ -6,9 +6,9 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
        |-----handy-ruler------------------------------------------------------|
-libscca: libscca 
+libscca: libscca (libYAL Windows Prefetch File parser)
 libscca:
-libscca: libscca is a library to access the Windows Prefetch File (SCCA) 
+libscca: libscca is a library to access the Windows Prefetch File (SCCA)
 libscca: format.
 libscca:
 libscca:
