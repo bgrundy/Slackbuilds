@@ -70,6 +70,7 @@ s/libolecf\//libraries\/libolecf\//g
 s/libpff\//libraries\/libpff\//g
 s/libqcow\//libraries\/libqcow\//g
 s/libregf\//libraries\/libregf\//g
+s/libscca\//libraries\/libscca\//g
 s/libsigscan\//libraries\/libsigscan\//g
 s/libsmdev\//libraries\/libsmdev\//g
 s/libsmraw\//libraries\/libsmraw\//g
