@@ -20,4 +20,4 @@ NOTE:
   "-x find -e lightgrep -F findlist.txt" in addition to regular options.
 
 If you want to use the java based GUI (BEViewer), you will also need to have
-java installed.  
+java installed. This has been tested with JDK. 
