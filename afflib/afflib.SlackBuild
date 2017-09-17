@@ -22,7 +22,7 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Updated: v3.7.15 January of 2017 by Barry J. Grundy <bgrundy(at)linuxleo.com>
+# Updated: v3.7.15 March of 2017 by Barry J. Grundy <bgrundy(at)linuxleo.com>
 
 SRCNAM=AFFLIBv3
 PRGNAM=afflib

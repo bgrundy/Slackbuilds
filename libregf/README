@@ -2,4 +2,5 @@ libregf (libYAL WinNT Registry File library)
 
 Library and tools to access the Windows NT Registry File (REGF) format. 
 
-- This software is in alpha status. 
+- This software is in alpha status and is available for testing,
+  eduction, and cross-verification purposes. 
