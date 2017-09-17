@@ -54,6 +54,7 @@ s/foremost\//system\/foremost\//g
 s/hachoir-core\//python\/hachoir-core\//g
 s/hachoir-metadata\//python\/hachoir-metadata\//g
 s/hachoir-parser\//python\/hachoir-parser\//g
+s/hexedit\//development\/hexedit\//g
 s/libbde\//libraries\/libbde\//g
 s/libesedb\//libraries\/libesedb\//g
 s/libevt\//libraries\/libevt\//g
