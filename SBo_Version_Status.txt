@@ -27,7 +27,7 @@ libraries/libvslvm      *UP TO DATE - Version 20160110 is on 14.2
 network/tcpflow	        -UP TO DATE - Version 1.4.5 is on 14.2 (1.5 is alpha) 
 python/XlsxWriter       -1.0.2 submitted to SBo
 python/artifacts        -20180115 submitted to SBo
-python/backports-lzma   -0.0.10 submitted to SBo 
+python/backports.lzma   -0.0.10 submitted to SBo 
 python/bencode		-UP TO DATE - Version 1.0 is on 14.2
 python/binplist		-UP TO DATE - Version 0.1.5 is on 14.2.
 python/construct	-UP TO DATE - Version 2.5.3 is on 14.2 (needs this ver)
@@ -51,9 +51,9 @@ system/foremost		-UP TO DATE - Version 1.5.7 is on 14.2
 system/sleuthkit 	-4.6.0 submitted to SBo	
 system/volatility	-UP TO DATE - Version 2.6 is on 14.2
 
-** * denotes and update is available but not required at this time, so the
-**   update is postsponed.
+# * denotes and update is available but not required at this time, so the
+#   update is postsponed.
 
-**note that for dfvfs and plaso to pass it's internal testing, locale must 
-**  be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8", or editing
-**  /etc/profile.d/lang.sh
+#  note that for dfvfs and plaso to pass it's internal testing, locale must 
+#  be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8", or editing
+#  /etc/profile.d/lang.sh

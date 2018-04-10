@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
               |-----handy-ruler------------------------------------------------------|
-backports-lzma: backports-lzma (Backport of Python 3.3 lzma library)
-backports-lzma:
-backports-lzma: Provides support for working with LZMA and XZ compressed files via
-backports-lzma: the XZ Utils C library.
-backports-lzma:
-backports-lzma: 
-backports-lzma:
-backports-lzma: Home Page: https://pypi.python.org/pypi/backports.lzma/0.0.10
-backports-lzma:
-backports-lzma:
-backports-lzma:
+backports.lzma: backports.lzma (Backport of Python 3.3 lzma library)
+backports.lzma:
+backports.lzma: Provides support for working with LZMA and XZ compressed files via
+backports.lzma: the XZ Utils C library.
+backports.lzma:
+backports.lzma:
+backports.lzma:
+backports.lzma: Home Page: https://pypi.python.org/pypi/backports.lzma/
+backports.lzma:
+backports.lzma:
+backports.lzma:

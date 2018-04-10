@@ -1,7 +1,7 @@
 PRGNAM="plaso"
 VERSION="20180127"
 HOMEPAGE="https://github.com/log2timeline/plaso/wiki"
-DOWNLOAD="ihttps://github.com/log2timeline/plaso/releases/download/20180127/plaso-20180127.tar.gz"
+DOWNLOAD="https://github.com/log2timeline/plaso/releases/download/20180127/plaso-20180127.tar.gz"
 MD5SUM="28a2536b43f7870747d5d9dde75e1ae3"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""

@@ -28,6 +28,8 @@ GITDIR=`pwd`
 ##########################
 
 rm -f $MD5FILE
+# Remove the comments from $STATUSFILE
+NC_STATUSFILE=$(cat $STATUSFILE | grep -v ^'#')
 for file in `awk -F \/ '{print $2}' $STATUSFILE | awk '{print $1}' \
     | grep -v devel`; 
     do md5sum $file/* >> $MD5FILE; 
@@ -79,8 +81,10 @@ s/libvhdi\//libraries\/libvhdi\//g
 s/libvmdk\//libraries\/libvmdk\//g
 s/libvshadow\//libraries\/libvshadow\//g
 s/libvslvm\//libraries\/libvslvm\//g
+s/backports.lzma\//python\/backports.lzma\//g
 s/pefile\//python\/pefile\//g
 s/plaso\//python\/plaso\//g
+s/pysqlite\//python\/pysqlite\//g
 s/pyparsing\//python\/pyparsing\//g
 s/pytsk\//python\/pytsk\//g
 s/sleuthkit\//system\/sleuthkit\//g
