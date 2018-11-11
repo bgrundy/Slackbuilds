@@ -1,0 +1,14 @@
+25c25
+< # Initial Slackbuild v1.5.0 August, 2016
+---
+> # Initial Slackbuild v1.5.0 August, 2016  
+35c35
+<     i?86) ARCH=i586 ;;
+---
+>     i?86) ARCH=i486 ;;
+46,47c46,47
+< if [ "$ARCH" = "i586" ]; then
+<   SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+---
+> if [ "$ARCH" = "i486" ]; then
+>   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
