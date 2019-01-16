@@ -162,7 +162,7 @@ minimum_version: 5.4.3
 rpm_name: python-psutil
 version_property: __version__
 
-[pybde] 
+[pybde] -- 20181227 Submitted to SBo
 dpkg_name: libbde-python
 l2tbinaries_name: libbde
 minimum_version: 20140531
@@ -170,7 +170,7 @@ pypi_name: libbde-python
 rpm_name: libbde-python
 version_property: get_version()
 
-[pyesedb]
+[pyesedb] -- 20181228 Submitted to SBo
 dpkg_name: libesedb-python
 l2tbinaries_name: libesedb
 minimum_version: 20150409
@@ -178,7 +178,7 @@ pypi_name: libesedb-python
 rpm_name: libesedb-python
 version_property: get_version()
 
-[pyevt]
+[pyevt] -- 20181216 Submitted to SBo
 dpkg_name: libevt-python
 l2tbinaries_name: libevt
 minimum_version: 20120410
