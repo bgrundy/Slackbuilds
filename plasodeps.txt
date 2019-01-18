@@ -186,7 +186,7 @@ pypi_name: libevt-python
 rpm_name: libevt-python
 version_property: get_version()
 
-[pyevtx]
+[pyevtx] -- 20181216 Submitted to SBo
 dpkg_name: libevtx-python
 l2tbinaries_name: libevtx
 minimum_version: 20141112
@@ -194,7 +194,7 @@ pypi_name: libevtx-python
 rpm_name: libevtx-python
 version_property: get_version()
 
-[pyewf]
+[pyewf] -- 20140804 Submitted to SBo
 dpkg_name: libewf-python
 l2tbinaries_name: libewf
 minimum_version: 20131210
@@ -312,7 +312,7 @@ pypi_name: libsmraw-python
 rpm_name: libsmraw-python
 version_property: get_version()
 
-[pytsk3]
+[pytsk3] --upgrade libvmdk/libvhdi and test TSK with libewf upgrade--
 dpkg_name: python-pytsk3
 minimum_version: 20160721
 rpm_name: python-pytsk3
