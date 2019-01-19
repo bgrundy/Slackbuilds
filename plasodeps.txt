@@ -202,7 +202,7 @@ pypi_name: libewf-python
 rpm_name: libewf-python
 version_property: get_version()
 
-[pyfsntfs]
+[pyfsntfs] -- 20190104 Submitted to SBo
 dpkg_name: libfsntfs-python
 l2tbinaries_name: libfsntfs
 minimum_version: 20151130
@@ -210,7 +210,7 @@ pypi_name: libfsntfs-python
 rpm_name: libfsntfs-python
 version_property: get_version()
 
-[pyfvde]
+[pyfvde] -- 20180108 is on SBo
 dpkg_name: libfvde-python
 l2tbinaries_name: libfvde
 minimum_version: 20160719
@@ -218,7 +218,7 @@ pypi_name: libfvde-python
 rpm_name: libfvde-python
 version_property: get_version()
 
-[pyfwnt]
+[pyfwnt] -- 20181215 Submitted to SBo
 dpkg_name: libfwnt-python
 l2tbinaries_name: libfwnt
 minimum_version: 20180117
@@ -226,7 +226,7 @@ pypi_name: libfwnt-python
 rpm_name: libfwnt-python
 version_property: get_version()
 
-[pyfwsi]
+[pyfwsi] -- 20181215 Submitted to SBo
 dpkg_name: libfwsi-python
 l2tbinaries_name: libfwsi
 minimum_version: 20150606
@@ -234,7 +234,7 @@ pypi_name: libfwsi-python
 rpm_name: libfwsi-python
 version_property: get_version()
 
-[pylnk]
+[pylnk] -- 20181120 Submitted to SBo
 dpkg_name: liblnk-python
 l2tbinaries_name: liblnk
 minimum_version: 20150830
@@ -242,7 +242,7 @@ pypi_name: liblnk-python
 rpm_name: liblnk-python
 version_property: get_version()
 
-[pymsiecf]
+[pymsiecf] -- 20181227 Submitted to SBo
 dpkg_name: libmsiecf-python
 l2tbinaries_name: libmsiecf
 minimum_version: 20150314
@@ -250,7 +250,7 @@ pypi_name: libmsiecf-python
 rpm_name: libmsiecf-python
 version_property: get_version()
 
-[pyolecf]
+[pyolecf] -- 20181125 Submitted to SBo
 dpkg_name: libolecf-python
 l2tbinaries_name: libolecf
 minimum_version: 20151223
@@ -258,13 +258,13 @@ pypi_name: libolecf-python
 rpm_name: libolecf-python
 version_property: get_version()
 
-[pyparsing]
+[pyparsing] -- 2.3.1 Submitted to SBo 
 dpkg_name: python-pyparsing
 minimum_version: 2.0.3
 rpm_name: python2-pyparsing
 version_property: __version__
 
-[pyqcow]
+[pyqcow] -- 20181227 Submitted to SBo
 dpkg_name: libqcow-python
 l2tbinaries_name: libqcow
 minimum_version: 20131204
@@ -280,7 +280,7 @@ pypi_name: libregf-python
 rpm_name: libregf-python
 version_property: get_version()
 
-[pyscca]
+[pyscca]  -- 20181128 Submitted to SBo 
 dpkg_name: libscca-python
 l2tbinaries_name: libscca
 minimum_version: 20161031
@@ -288,7 +288,7 @@ pypi_name: libscca-python
 rpm_name: libscca-python
 version_property: get_version()
 
-[pysigscan]
+[pysigscan] -- 20181215 Submitted to SBo 
 dpkg_name: libsigscan-python
 l2tbinaries_name: libsigscan
 minimum_version: 20150627
@@ -296,7 +296,7 @@ pypi_name: libsigscan-python
 rpm_name: libsigscan-python
 version_property: get_version()
 
-[pysmdev]
+[pysmdev] --
 dpkg_name: libsmdev-python
 l2tbinaries_name: libsmdev
 minimum_version: 20140529
@@ -312,13 +312,13 @@ pypi_name: libsmraw-python
 rpm_name: libsmraw-python
 version_property: get_version()
 
-[pytsk3] --upgrade libvmdk/libvhdi and test TSK with libewf upgrade--
+[pytsk3] -- 20180225 is on SBo
 dpkg_name: python-pytsk3
 minimum_version: 20160721
 rpm_name: python-pytsk3
 version_property: get_version()
 
-[pyvhdi]
+[pyvhdi] -- 20181125 Submitted to SBo
 dpkg_name: libvhdi-python
 l2tbinaries_name: libvhdi
 minimum_version: 20131210
@@ -326,7 +326,7 @@ pypi_name: libvhdi-python
 rpm_name: libvhdi-python
 version_property: get_version()
 
-[pyvmdk]
+[pyvmdk] -- 20181216 Submitted to SBo
 dpkg_name: libvmdk-python
 l2tbinaries_name: libvmdk
 minimum_version: 20140421
