@@ -296,7 +296,7 @@ pypi_name: libsigscan-python
 rpm_name: libsigscan-python
 version_property: get_version()
 
-[pysmdev] --
+[pysmdev] -- 20181227 Submitted to SBo
 dpkg_name: libsmdev-python
 l2tbinaries_name: libsmdev
 minimum_version: 20140529
@@ -304,7 +304,7 @@ pypi_name: libsmdev-python
 rpm_name: libsmdev-python
 version_property: get_version()
 
-[pysmraw]
+[pysmraw] -- 20181227 Submitted to SBo
 dpkg_name: libsmraw-python
 l2tbinaries_name: libsmraw
 minimum_version: 20140612
@@ -334,7 +334,7 @@ pypi_name: libvmdk-python
 rpm_name: libvmdk-python
 version_property: get_version()
 
-[pyvshadow]
+[pyvshadow] -- 20190112 Submitted to SBo
 dpkg_name: libvshadow-python
 l2tbinaries_name: libvshadow
 minimum_version: 20160109
@@ -342,7 +342,7 @@ pypi_name: libvshadow-python
 rpm_name: libvshadow-python
 version_property: get_version()
 
-[pyvslvm]
+[pyvslvm] -- 20181227 Submitted to SBo
 dpkg_name: libvslvm-python
 l2tbinaries_name: libvslvm
 minimum_version: 20160109
@@ -352,24 +352,25 @@ version_property: get_version()
 
 # TODO: determine the version of pytz.
 # pytz uses __version__ but has a different version indicator e.g. 2012d
-[pytz]
+[pytz] -- 2018.3 is on SBo
 dpkg_name: python-tz
 rpm_name: python2-pytz
 version_property: __version__
 
-[requests]
+[requests] -- 2.20.1 is on SBo
+dpkg_name: python-tz
 dpkg_name: python-requests
 minimum_version: 2.2.1
 rpm_name: python-requests
 version_property: __version__
 
-[six]
+[six] -- 1.12.0 is on SBo
 dpkg_name: python-six
 minimum_version: 1.1.0
 rpm_name: python-six
 version_property: __version__
 
-[sqlite3]
+[sqlite3] -- 2.8.3 is on SBo
 dpkg_name: python-pysqlite2
 l2tbinaries_name: pysqlite
 pypi_name: pysqlite
@@ -377,13 +378,13 @@ python2_only: true
 rpm_name: python-pysqlite
 version_property: __version__
 
-[urllib3]
+[urllib3] -- 1.23 is on SBo
 dpkg_name: python-urllib3
 minimum_version: 1.7.1
 rpm_name: python2-urllib3
 version_property: __version__
 
-[xlsxwriter]
+[xlsxwriter] -- 1.0.8 Submitted to SBo
 dpkg_name: python-xlsxwriter
 l2tbinaries_name: XlsxWriter
 minimum_version: 0.9.3
@@ -391,7 +392,7 @@ pypi_name: XlsxWriter
 rpm_name: python-XlsxWriter
 version_property: __version__
 
-[yaml]
+[yaml] -- 3.11 is on SBo
 dpkg_name: python-yaml
 l2tbinaries_name: PyYAML
 minimum_version: 3.10
@@ -399,7 +400,7 @@ pypi_name: PyYAML
 rpm_name: PyYAML
 version_property: __version__
 
-[yara]
+[yara] -- 3.5.0 is on SBo (3.8.1 is used in GIFT - awaiting yara)
 dpkg_name: python-yara
 l2tbinaries_name: yara-python
 minimum_version: 3.4.0
@@ -407,7 +408,7 @@ pypi_name: yara-python
 rpm_name: python2-yara
 version_property: YARA_VERSION
 
-[zmq]
+[zmq] -- 17.1.2 is on SBo
 dpkg_name: python-zmq
 l2tbinaries_name: pyzmq
 minimum_version: 2.1.11
