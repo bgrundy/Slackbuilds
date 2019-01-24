@@ -1,3 +1,0 @@
-edit the check_dependencies.py script in utils/ 
- - change all instances of utils.dependancies to just "dependancies"
- - run the script from the root of the source tree.
