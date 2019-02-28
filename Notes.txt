@@ -12,3 +12,7 @@
 ---
 > if [ "$ARCH" = "i486" ]; then
 >   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
+
+# note that for dfvfs and plaso to pass it's internal testing, locale must 
+#  be set to en_US.UTF-8, using "export LC_ALL=en_US.UTF-8", or editing
+#  /etc/profile.d/lang.sh

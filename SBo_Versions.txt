@@ -1,0 +1,61 @@
+
+
+development/hexedit
+libraries/afflib
+libraries/libbde	-20190102
+libraries/libesedb	-20181229
+libraries/libevt	-20181227
+libraries/libevtx	-20181227
+libraries/libewf	-20180806
+libraries/libexe	
+libraries/libfsapfs
+libraries/libfsntfs
+libraries/libfvde	-20190104
+libraries/libfwnt	-20181227
+libraries/libfwsi	-2181227
+libraries/liblightgrep
+libraries/liblnk	-20181227
+libraries/libmsiecf
+libraries/libolecf	-20181231
+libraries/libpff
+libraries/libqcow
+libraries/libregf	-20181231
+libraries/libscca	-20181227
+libraries/libsigscan	-20190103
+libraries/libsmdev
+libraries/libsmraw
+libraries/libvhdi	-20181227
+libraries/libvmdk	-20181227
+libraries/libvshadow	-20190127
+libraries/libvslvm
+libraries/libwrc
+network/tcpflow
+python/XlsxWriter	-1.1.2
+python/artifacts	-20190113
+python/backports.lzma
+python/bencode 		-2.0.0
+python/binplist
+python/biplist		
+python/construct
+python/dfdatetime	-20190116
+python/dfvfs		-20190128
+python/dfwinreg		-20190122
+python/distorm
+python/dotty
+python/dpkt
+python/dtfabric		-20190120
+python/elasticsearch5
+python/hachoir-core
+python/hachoir-metadata
+python/hachoir-parser
+python/pefile
+python/plaso		-20190131
+python/pyparsing	
+python/pysqlite
+python/python-lz4
+python/pytsk		-20190121
+python/yara-python	-3.8.1
+system/bulk_extractor
+system/foremost
+system/sleuthkit
+system/volatility

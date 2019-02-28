@@ -16,7 +16,7 @@
 ###################################
 
 MD5FILE=CurrentMD5list.txt
-STATUSFILE=SBo_Version_Status.txt
+STATUSFILE=SBo_Versions.txt
 SBOREPODIR=/usr/sbo/repo
 #SBOREPODIR=/var/lib/sbopkg/SBo
 GITDIR=`pwd`
