@@ -19,4 +19,3 @@ and lots of primitive constructs to make your work easier:
     -Tunneling: prefix data with a byte count or compress it
 
 Optional dependancies include Enum34, Numpy, and Arrow.
-

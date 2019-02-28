@@ -4,5 +4,3 @@ The goal of dfVFS is to provide a generic interface for accessing file-system
 objects, for which it uses several back-ends that provide the actual
 implementation of the various storage media types, volume systems and file
 systems.
-
-backports.lzma is an optional dependency.  
