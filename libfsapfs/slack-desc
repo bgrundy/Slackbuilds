@@ -6,7 +6,7 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
          |-----handy-ruler------------------------------------------------------|
-libfsapfs: libfsapfs (libYAL NTFS library)
+libfsapfs: libfsapfs (libYAL APFS library)
 libfsapfs:
 libfsapfs: Library to access the Apple File System (APFS)
 libfsapfs:

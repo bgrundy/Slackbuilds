@@ -46,12 +46,15 @@ s/afflib\//libraries\/afflib\//g
 s/artifacts\//python\/artifacts\//g
 s/bencode\//python\/bencode\//g
 s/binplist\//python\/binplist\//g
+s/biplist\//python\/biplist\//g
 s/bulk_extractor\//system\/bulk_extractor\//g
 s/construct\//python\/construct\//g
 s/dfdatetime\//python\/dfdatetime\//g
 s/dfvfs\//python\/dfvfs\//g
 s/distorm\//python\/distorm\//g
 s/dpkt\//python\/dpkt\//g
+s/dtfabric\//python\/dtfabric\//g
+s/elasticsearch5\//python\/elasticsearch5\//g
 s/foremost\//system\/foremost\//g
 s/hachoir-core\//python\/hachoir-core\//g
 s/hachoir-metadata\//python\/hachoir-metadata\//g
@@ -62,9 +65,12 @@ s/libesedb\//libraries\/libesedb\//g
 s/libevt\//libraries\/libevt\//g
 s/libevtx\//libraries\/libevtx\//g
 s/libewf\//libraries\/libewf\//g
+s/libexe\//libraries\/libexe\//g
+s/libfsapfs\//libraries\/libfsapfs\//g
 s/libfsntfs\//libraries\/libfsntfs\//g
 s/libfvde\//libraries\/libfvde\//g
 s/libfwnt\//libraries\/libfwnt\//g
+s/libwrc\//libraries\/libwrc\//g
 s/libfwsi\//libraries\/libfwsi\//g
 s/liblightgrep\//libraries\/liblightgrep\//g
 s/liblnk\//libraries\/liblnk\//g
@@ -86,6 +92,7 @@ s/pefile\//python\/pefile\//g
 s/plaso\//python\/plaso\//g
 s/pysqlite\//python\/pysqlite\//g
 s/pyparsing\//python\/pyparsing\//g
+s/python-lz4\//python\/python-lz4\//g
 s/pytsk\//python\/pytsk\//g
 s/sleuthkit\//system\/sleuthkit\//g
 s/tcpflow\//network\/tcpflow\//g

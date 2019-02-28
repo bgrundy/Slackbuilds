@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for python-lz4 
+# Slackware build script for python-lz4
 
 # Copyright 2019, Barry J. Grundy
 # All rights reserved.
