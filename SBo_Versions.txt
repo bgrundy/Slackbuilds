@@ -2,35 +2,35 @@
 
 development/hexedit
 libraries/afflib
-libraries/libbde	-20190102
-libraries/libesedb	-20181229
-libraries/libevt	-20181227
-libraries/libevtx	-20181227
-libraries/libewf	-20180806
+libraries/libbde	-20190102  done
+libraries/libesedb	-20181229  done
+libraries/libevt	-20181227  done
+libraries/libevtx	-20181227  done
+libraries/libewf	-20180806  done
 libraries/libexe	
 libraries/libfsapfs
 libraries/libfsntfs
-libraries/libfvde	-20190104
-libraries/libfwnt	-20181227
-libraries/libfwsi	-2181227
+libraries/libfvde	-20190104  done
+libraries/libfwnt	-20181227  done
+libraries/libfwsi	-20181227  done
 libraries/liblightgrep
-libraries/liblnk	-20181227
+libraries/liblnk	-20181227  done
 libraries/libmsiecf
-libraries/libolecf	-20181231
+libraries/libolecf	-20181231  done
 libraries/libpff
 libraries/libqcow
-libraries/libregf	-20181231
-libraries/libscca	-20181227
-libraries/libsigscan	-20190103
+libraries/libregf	-20181231  done
+libraries/libscca	-20181227  done
+libraries/libsigscan	-20190103  done
 libraries/libsmdev
 libraries/libsmraw
-libraries/libvhdi	-20181227
-libraries/libvmdk	-20181227
-libraries/libvshadow	-20190127
+libraries/libvhdi	-20181227  done
+libraries/libvmdk	-20181227  done
+libraries/libvshadow	-20190127  done
 libraries/libvslvm
 libraries/libwrc
 network/tcpflow
-python/XlsxWriter	-1.1.2
+python/XlsxWriter	-1.1.2     done
 python/artifacts	-20190113
 python/backports.lzma
 python/bencode 		-2.0.0
