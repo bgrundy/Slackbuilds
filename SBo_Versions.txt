@@ -31,19 +31,19 @@ libraries/libvslvm
 libraries/libwrc
 network/tcpflow
 python/XlsxWriter	-1.1.2     done
-python/artifacts	-20190113
+python/artifacts	-20190113  done
 python/backports.lzma
-python/bencode 		-2.0.0
+python/bencode 		-2.0.0     on hold
 python/binplist
 python/biplist		
 python/construct
-python/dfdatetime	-20190116
-python/dfvfs		-20190128
-python/dfwinreg		-20190122
+python/dfdatetime	-20190116  done
+python/dfvfs		-20190128  on hold
+python/dfwinreg		-20190122  on hold, info file done
 python/distorm
 python/dotty
 python/dpkt
-python/dtfabric		-20190120
+python/dtfabric		-20190120  done
 python/elasticsearch5
 python/hachoir-core
 python/hachoir-metadata
@@ -53,7 +53,7 @@ python/plaso		-20190131
 python/pyparsing	
 python/pysqlite
 python/python-lz4
-python/pytsk		-20190121
+python/pytsk		-20190121  
 python/yara-python	-3.8.1
 system/bulk_extractor
 system/foremost
