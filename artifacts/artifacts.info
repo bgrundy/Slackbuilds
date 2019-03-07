@@ -1,5 +1,5 @@
 PRGNAM="artifacts"
-VERSION="20181213"
+VERSION="20190113"
 HOMEPAGE="https://github.com/ForensicArtifacts/artifacts"
 DOWNLOAD="https://github.com/ForensicArtifacts/artifacts/releases/download/20190113/artifacts-20190113.tar.gz"
 MD5SUM="eaad01405b7f4272adda2ea6ea9a0d04"

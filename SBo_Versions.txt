@@ -6,7 +6,7 @@ libraries/libbde	-20190102  done
 libraries/libesedb	-20181229  done
 libraries/libevt	-20181227  done
 libraries/libevtx	-20181227  done
-libraries/libewf	-20180806  done
+libraries/libewf	-20140806  done
 libraries/libexe	
 libraries/libfsapfs
 libraries/libfsntfs
