@@ -38,8 +38,8 @@ python/binplist
 python/biplist		
 python/construct
 python/dfdatetime	-20190116  done
-python/dfvfs		-20190128  on hold
-python/dfwinreg		-20190122  on hold, info file done
+python/dfvfs		-20190128  done
+python/dfwinreg		-20190122  done
 python/distorm
 python/dotty
 python/dpkt
@@ -49,12 +49,12 @@ python/hachoir-core
 python/hachoir-metadata
 python/hachoir-parser
 python/pefile
-python/plaso		-20190131
+python/plaso		-20190131 done
 python/pyparsing	
 python/pysqlite
 python/python-lz4
-python/pytsk		-20190121  
-python/yara-python	-3.8.1
+python/pytsk		-20190121  done 
+python/yara-python	-3.8.1    (requires update to yara on SBo)
 system/bulk_extractor
 system/foremost
 system/sleuthkit
