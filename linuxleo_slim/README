@@ -1,0 +1,8 @@
+This is a simple package to install a slim login manager theme based on
+LinuxLEO.com.  
+
+Once installed, just change the line in /etc/slim.conf to point to the 
+theme:
+
+current_theme      linuxleo_slim
+
