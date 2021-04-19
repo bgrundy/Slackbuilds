@@ -18,3 +18,8 @@ including:
     Integration with Pandas.
     Textboxes.
     Memory optimization mode for writing large files.
+
+This will build the Python 3 modules.  If you want to also build modules for
+Python 2, use:
+
+  # PYTHON2=yes ./XlsxWriter.SlackBuild
