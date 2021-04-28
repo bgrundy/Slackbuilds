@@ -19,3 +19,9 @@ and lots of primitive constructs to make your work easier:
     -Tunneling: prefix data with a byte count or compress it
 
 Optional dependancies include Enum34, Numpy, and Arrow.
+
+
+This will build the Python 3 modules.  If you want to also build modules for
+Python 2, use:
+
+  # PYTHON2=yes ./construct.SlackBuild
