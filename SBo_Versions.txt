@@ -1,61 +1,59 @@
-
-
 development/hexedit
-libraries/afflib
-libraries/libbde	-20190102  done
-libraries/libesedb	-20181229  done
-libraries/libevt	-20181227  done
-libraries/libevtx	-20181227  done
-libraries/libewf	-20140806  done
-libraries/libexe	
-libraries/libfsapfs
+libraries/afflib        -good
+libraries/libbde
+libraries/libesedb
+libraries/libevt
+libraries/libevtx
+libraries/libewf        -done
+libraries/libexe
+libraries/libfsapfs     -done
 libraries/libfsntfs
-libraries/libfvde	-20190104  done
-libraries/libfwnt	-20181227  done
-libraries/libfwsi	-20181227  done
+libraries/libfvde
+libraries/libfwnt
+libraries/libfwsi
 libraries/liblightgrep
-libraries/liblnk	-20181227  done
+libraries/liblnk
 libraries/libmsiecf
-libraries/libolecf	-20181231  done
+libraries/libolecf
 libraries/libpff
 libraries/libqcow
-libraries/libregf	-20181231  done
-libraries/libscca	-20181227  done
-libraries/libsigscan	-20190103  done
+libraries/libregf
+libraries/libscca
+libraries/libsigscan
 libraries/libsmdev
 libraries/libsmraw
-libraries/libvhdi	-20181227  done
-libraries/libvmdk	-20181227  done
-libraries/libvshadow	-20190127  done
+libraries/libvhdi       -done
+libraries/libvmdk       -done
+libraries/libvshadow
 libraries/libvslvm
 libraries/libwrc
-network/tcpflow
-python/XlsxWriter	-1.1.2     done
-python/artifacts	-20190113  done
+network/tcpflow         -done
+python/XlsxWriter
+python/artifacts
 python/backports.lzma
-python/bencode 		-2.0.0     on hold
+python/bencode
 python/binplist
-python/biplist		
+python/biplist
 python/construct
-python/dfdatetime	-20190116  done
-python/dfvfs		-20190128  done
-python/dfwinreg		-20190122  done
+python/dfdatetime
+python/dfvfs
+python/dfwinreg
 python/distorm
 python/dotty
 python/dpkt
-python/dtfabric		-20190120  done
+python/dtfabric
 python/elasticsearch5
 python/hachoir-core
 python/hachoir-metadata
 python/hachoir-parser
 python/pefile
-python/plaso		-20190131 done
-python/pyparsing	
+python/plaso
+python/pyparsing
 python/pysqlite
 python/python-lz4
-python/pytsk		-20190121  done 
-python/yara-python	-3.8.1    (requires update to yara on SBo)
-system/bulk_extractor
-system/foremost
-system/sleuthkit
-system/volatility
+python/pytsk            -done
+python/yara-python
+system/bulk_extractor   -good
+system/foremost         -good
+system/sleuthkit        -done
+system/volatility       -good
