@@ -28,7 +28,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=libevt
 VERSION=${VERSION:-20210424}
-STATUS=alpha
+STATUS=${STATUS:-alpha}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
