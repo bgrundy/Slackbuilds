@@ -1,5 +1,5 @@
 PRGNAM="libevtx"
-VERSION="210525"
+VERSION="20210525"
 HOMEPAGE="https://github.com/libyal/libevtx"
 DOWNLOAD="https://linuxleo.com/Source/libevtx-alpha-20210525.tar.gz"
 MD5SUM="3cd341b75936cf49d97e767d160c1d38"
