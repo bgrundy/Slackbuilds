@@ -6,4 +6,4 @@ other tools.
 
 For more information see: https://github.com/ForensicArtifacts/artifacts
 
-This version requires Python 3.  python3-PyYAML is a run time dependancy.
+python3-PyYAML is a run time dependancy.

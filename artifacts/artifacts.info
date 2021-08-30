@@ -1,7 +1,7 @@
 PRGNAM="artifacts"
 VERSION="20210404"
 HOMEPAGE="https://github.com/ForensicArtifacts/artifacts"
-DOWNLOAD="https://www.linuxleo.com/Source/artifacts-20210404.tar.gz"
+DOWNLOAD="https://github.com/ForensicArtifacts/artifacts/releases/download/20210404/artifacts-20210404.tar.gz"
 MD5SUM="e95a81a64137dc5dbb70a503dd87e38b"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
