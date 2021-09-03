@@ -1,6 +1,6 @@
 PRGNAM="libfshfs"
 VERSION="20210602"
-HOMEPAGE="https://github.com/libyal/libfsext"
+HOMEPAGE="https://github.com/libyal/libfshfs"
 DOWNLOAD="https://linuxleo.com/Source/libfshfs-experimental-20210602.tar.gz"
 MD5SUM="aee7bbdeb371cc59f2c356b311719534"
 DOWNLOAD_x86_64=""
