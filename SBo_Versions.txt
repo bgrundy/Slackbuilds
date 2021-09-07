@@ -1,59 +1,67 @@
-development/hexedit
+development/hexedit     -good
 libraries/afflib        -good
-libraries/libbde
-libraries/libesedb
-libraries/libevt
-libraries/libevtx
-libraries/libewf        -done
-libraries/libexe
-libraries/libfsapfs     -done
-libraries/libfsntfs
-libraries/libfvde
-libraries/libfwnt
-libraries/libfwsi
-libraries/liblightgrep
-libraries/liblnk
-libraries/libmsiecf
-libraries/libolecf
-libraries/libpff
-libraries/libqcow
-libraries/libregf
-libraries/libscca
-libraries/libsigscan
-libraries/libsmdev
-libraries/libsmraw
-libraries/libvhdi       -done
-libraries/libvmdk       -done
-libraries/libvshadow
-libraries/libvslvm
-libraries/libwrc
-network/tcpflow         -done
-python/XlsxWriter
-python/artifacts
-python/backports.lzma
-python/bencode
-python/binplist
-python/biplist
-python/construct
-python/dfdatetime
+libraries/libbde        -updated
+libraries/libcreg       -added
+lbraries/libesedb       -updated
+libraries/libevt        -updated 
+libraries/libevtx       -updated
+libraries/libewf        -updated (needs py3)
+libraries/libexe        -updated
+libraries/libfsapfs     -updated 
+libraries/libfsext      -added
+libraries/libfshfs      -added
+libraries/libfsntfs     -updated
+libraries/libfsxfs      -added
+libraries/libfvde       -updated
+libraries/libfwnt       -updated
+libraries/libfwsi       -updated
+libraries/liblightgrep  -orphan
+libraries/liblnk        -updated
+libraries/libluksde     -added
+libraries/libfmodi      -added
+libraries/libmsiecf     -updated
+libraries/libolecf      -updated
+libraries/libpff        -updated 
+libraries/libqcow       -updated
+libraries/libregf       -updated
+libraries/libscca       -updated
+libraries/libsigscan    -updated
+libraries/libsmdev      -updated
+libraries/libsmraw      -updated
+libraries/libvhdi       -updated (needs py3 and status)
+libraries/libvmdk       -updated (needs py3 and status) 
+libraries/libvshadow    -updated
+libraries/libfvsgpt     -added
+libraries/libvslvm      -updated
+libraries/libwrc        -updated
+network/tcpflow         -updated
+python/XlsxWriter       
+python/artifacts        -updated
+python/backports.lzma   -orphan
+python/bencode          -updated
+python/binplist         -orphan
+python/biplist          -orphan
+python/construct        -orphan
+python/dfdatetime       -updated (python3 only)
 python/dfvfs
-python/dfwinreg
-python/distorm
-python/dotty
+python/dfwinreg         -updated 
+python/distorm          -updated
+python/dotty            -orphan
 python/dpkt
-python/dtfabric
+python/dtfabric         -updated
 python/elasticsearch5
-python/hachoir-core
-python/hachoir-metadata
-python/hachoir-parser
+python/hachoir-core     -orphan
+python/hachoir-metadata -orphan
+python/hachoir-parser   -orphan
 python/pefile
 python/plaso
 python/pyparsing
 python/pysqlite
-python/python-lz4
-python/pytsk            -done
-python/yara-python
+python/python2-lz4
+python/pytsk            -updated
+python/yara-python      -updated 
 system/bulk_extractor   -good
 system/foremost         -good
-system/sleuthkit        -done
+system/sleuthkit        -updated
 system/volatility       -good
+misc/yara               -updated (new maintainer)
