@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+     |-----handy-ruler------------------------------------------------------|
+pyxattr: pyxattr (Python module for )
+pyxattr:
+pyxattr: pyxattr is a a Python extension module which gives access to the
+pyxattr: extended attributes for filesystem objects available in some
+pyxattr: operating systems.
+pyxattr: 
+pyxattr:
+pyxattr:
+pyxattr: Homepage: https://github.com/iustin/pyxattr
+pyxattr:
+pyxattr:
