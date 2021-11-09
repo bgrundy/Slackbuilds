@@ -60,7 +60,7 @@ python/pysqlite
 python/python2-lz4
 python/pytsk            -updated
 python/yara-python      -updated 
-system/bulk_extractor   -good
+system/bulk_extractor   -failed - testing the master repo from GH
 system/foremost         -good
 system/sleuthkit        -updated
 system/volatility       -good
