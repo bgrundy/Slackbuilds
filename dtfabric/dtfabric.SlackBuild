@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Slackware build script for dfdatetime
-# Copyright 2019-2021  Barry Grundy <bgrundy[at]linuxleo.com>
+# Copyright 2019-2022  Barry Grundy <bgrundy[at]linuxleo.com>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -21,12 +21,12 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Updated for version 20200621 September 2021
+# Updated for version 20210731 January 2022
 
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=dtfabric
-VERSION=${VERSION:-20200621}
+VERSION=${VERSION:-20210731}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}

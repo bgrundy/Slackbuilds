@@ -2,7 +2,7 @@
 
 # Slackware build script for python-lz4
 
-# Copyright 2019, Barry J. Grundy
+# Copyright 2019-2022, Barry J. Grundy
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -22,11 +22,11 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# New Submission, version 2.1.6 Jan 2019
+# Updated to v3.1.10 January 2022
 
 PRGNAM=python-lz4
-TARNAM=lz4
-VERSION=${VERSION:-2.1.6}
+SRCNAM=lz4
+VERSION=${VERSION:-3.1.10}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -63,8 +63,8 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/$TARNAM-$VERSION.tar.gz
-cd $TARNAM-$VERSION
+tar xvf $CWD/$SRCNAM-$VERSION.tar.gz
+cd $SRCNAM-$VERSION
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
@@ -72,7 +72,7 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-python setup.py install --root=$PKG
+python3 setup.py install --root=$PKG
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true

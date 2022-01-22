@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-pysqlite: pysqlite (Python interface to SQLite 3)
-pysqlite:
-pysqlite: pysqlite is an interface to the SQLite 3.x embedded
-pysqlite: relational database engine.
-pysqlite:
-pysqlite:
-pysqlite: Homepage: https://pypi.python.org/pypi/pysqlite/2.8.3
-pysqlite:
-pysqlite:
-pysqlite:
-pysqlite:
+redis-py: redis-py (Redis Python Client)
+redis-py:
+redis-py: The Python interface to the Redis key-value store.
+redis-py:
+redis-py: Homepage: https://github.com/andymccurdy/redis-py
+redis-py:
+redis-py:
+redis-py:
+redis-py:
+redis-py:
+redis-py:

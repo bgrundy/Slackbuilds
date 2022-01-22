@@ -1,67 +1,69 @@
-development/hexedit     -good
-libraries/afflib        -good
-libraries/libbde        -updated
-libraries/libcreg       -added
-lbraries/libesedb       -updated
-libraries/libevt        -updated 
-libraries/libevtx       -updated
-libraries/libewf        -updated (needs py3)
-libraries/libexe        -updated
-libraries/libfsapfs     -updated 
-libraries/libfsext      -added
-libraries/libfshfs      -added
-libraries/libfsntfs     -updated
-libraries/libfsxfs      -added
-libraries/libfvde       -updated
-libraries/libfwnt       -updated
-libraries/libfwsi       -updated
-libraries/liblightgrep  -orphan
-libraries/liblnk        -updated
-libraries/libluksde     -added
-libraries/libfmodi      -added
-libraries/libmsiecf     -updated
-libraries/libolecf      -updated
-libraries/libpff        -updated 
-libraries/libqcow       -updated
-libraries/libregf       -updated
-libraries/libscca       -updated
-libraries/libsigscan    -updated
-libraries/libsmdev      -updated
-libraries/libsmraw      -updated
-libraries/libvhdi       -updated (needs py3 and status)
-libraries/libvmdk       -updated (needs py3 and status) 
-libraries/libvshadow    -updated
-libraries/libfvsgpt     -added
-libraries/libvslvm      -updated
-libraries/libwrc        -updated
-network/tcpflow         -updated
-python/XlsxWriter       
-python/artifacts        -updated
-python/backports.lzma   -orphan
-python/bencode          -updated
-python/binplist         -orphan
-python/biplist          -orphan
-python/construct        -orphan
-python/dfdatetime       -updated (python3 only)
-python/dfvfs
-python/dfwinreg         -updated 
-python/distorm          -updated
-python/dotty            -orphan
-python/dpkt
-python/dtfabric         -updated
-python/elasticsearch5
-python/hachoir-core     -orphan
-python/hachoir-metadata -orphan
-python/hachoir-parser   -orphan
-python/pefile
+Match with PPA "focal"
+
+development/hexedit              -good           22
+libraries/afflib                 -good           22
+libraries/libbde                 -updated        22          
+libraries/libcreg                -added          22
+lbraries/libesedb                -updated        22
+libraries/libevt                 -updated        22 
+libraries/libevtx                -updated        22
+libraries/libewf                 -good           22 
+libraries/libexe                 -updated        22
+libraries/libfsapfs              -updated        22
+libraries/libfsext               -added          22
+libraries/libfshfs               -added          22
+libraries/libfsntfs              -updated        22
+libraries/libfsxfs               -added          22
+libraries/libfvde                -updated        22
+libraries/libfwnt                -updated        22
+libraries/libfwsi                -updated        22
+libraries/liblightgrep           -orphan         O
+libraries/liblnk                 -updated        22
+libraries/libluksde              -added          22
+libraries/libmodi                -added          22
+libraries/libmsiecf              -updated        22
+libraries/libolecf               -updated        22
+libraries/libpff                 -updated        22
+libraries/libqcow                -updated        22
+libraries/libregf                -updated        22
+libraries/libscca                -updated        22
+libraries/libsigscan             -updated        22
+libraries/libsmdev               -updated        22
+libraries/libsmraw               -updated        22
+libraries/libvhdi                -updated        22  
+libraries/libvmdk                -updated        22
+libraries/libvshadow             -updated        22
+libraries/libvsgpt               -added          22
+libraries/libvslvm               -updated        22
+libraries/libwrc                 -updated        22
+network/tcpflow                  -updated        22
+python/XlsxWriter                -updated        22 
+python/artifacts                 -updated        22
+python/backports.lzma            -orphan         O
+python/bencode                   -updated        22
+python/binplist                  -orphan         O
+python/biplist                   -orphan         O
+python/construct                 -orphan         O
+python/dfdatetime                -updated        missing mock for py3
+python/dfvfs                     -updated        22
+python/dfwinreg                  -updated        22
+python/distorm                   -updated        22
+python/dotty                     -orphan         O
+python/dpkt                      -updated        22
+python/dtfabric                  -updated        22
+python/python3-elasticsearch-py  -updated        22 (rename)
+python/hachoir-core              -orphan         O
+python/hachoir-metadata          -orphan         O
+python/hachoir-parser            -orphan         O
+python/pefile                    -updated        22
 python/plaso
-python/pyparsing
-python/pysqlite
-python/python2-lz4
-python/pytsk            -updated
-python/yara-python      -updated 
-system/bulk_extractor   -failed - testing the master repo from GH
-system/foremost         -good
-system/sleuthkit        -updated
-system/volatility       -good
-misc/yara               -updated (new maintainer)
+python/pysqlite                  -orphan         (unmaintained upstream)
+python/python-lz4
+python/pytsk                     -updated        22
+python/python3-redis-py          -New            22
+python/yara-python               -updated        22
+system/bulk_extractor            -failed - testing the master repo from GH
+system/foremost                  -good           22
+system/sleuthkit                 -updated        22
+system/volatility                -good           22
+misc/yara                        -updated        22
