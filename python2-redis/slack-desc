@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
              |-----handy-ruler------------------------------------------------------|
-python3-redis: python3-redis (Redis Python Client)
-python3-redis:
-python3-redis: The python3 interface to the Redis key-value store.
-python3-redis:
-python3-redis: Homepage: https://github.com/andymccurdy/redis-py
-python3-redis:
-python3-redis:
-python3-redis:
-python3-redis:
-python3-redis:
-python3-redis:
+python2-redis: python2-redis (Redis Python Client)
+python2-redis:
+python2-redis: The python2 interface to the Redis key-value store.
+python2-redis:
+python2-redis: Homepage: https://github.com/andymccurdy/redis-py
+python2-redis:
+python2-redis:
+python2-redis:
+python2-redis:
+python2-redis:
+python2-redis:
