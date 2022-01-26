@@ -1,4 +1,7 @@
 Match with PPA "focal"
+-  Note that for "python3 run_test.py" to work you need mock and fakeredis
+-  The mock SB says it's for py2, but will build for 3 as well (pbr is already
+   in Slackware).
 
 development/hexedit              -good           22
 libraries/afflib                 -good           22
@@ -40,7 +43,7 @@ network/tcpflow                  -updated        22
 python/XlsxWriter                -updated        22 
 python/artifacts                 -updated        22
 python/backports.lzma            -orphan         O
-python/bencode                   -updated        22
+python/python3-bencode           -updated        22 (rename)
 python/binplist                  -orphan         O
 python/biplist                   -orphan         O
 python/construct                 -orphan         O
@@ -50,18 +53,20 @@ python/dfwinreg                  -updated        22
 python/distorm                   -updated        22
 python/dotty                     -orphan         O
 python/dpkt                      -updated        22
-python/dtfabric                  -updated        22
-python/python3-elasticsearch-py  -updated        22 (rename)
+python/dtfabric                  -updated        22  **be sure to remove the req
+python/python3-elasticsearch     -updated        22 (rename)
 python/hachoir-core              -orphan         O
 python/hachoir-metadata          -orphan         O
 python/hachoir-parser            -orphan         O
 python/pefile                    -updated        22
 python/plaso
 python/pysqlite                  -orphan         (unmaintained upstream)
-python/python-lz4
+python/python-lz4                -updated        22 (rename)
 python/pytsk                     -updated        22
-python/python3-redis-py          -New            22
-python/yara-python               -updated        22
+python/python3-redis             -New            22 (changed name and dir and maintainer)
+python/python2-redis             -New            22 (changed name and dir and maintainer)
+python/python3-yara              -updated        22 (renamed - split)
+python/python2-yara              -updated        22 (renamed - split)
 system/bulk_extractor            -failed - testing the master repo from GH
 system/foremost                  -good           22
 system/sleuthkit                 -updated        22
