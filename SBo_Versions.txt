@@ -63,6 +63,7 @@ python/plaso
 python/pysqlite                  -orphan         (unmaintained upstream)
 python/python-lz4                -updated        22 (rename)
 python/pytsk                     -updated        22
+python/pyxattr                   -not submitted     (optional for plaso)
 python/python3-redis             -New            22 (changed name and dir and maintainer)
 python/python2-redis             -New            22 (changed name and dir and maintainer)
 python/python3-yara              -updated        22 (renamed - split)
