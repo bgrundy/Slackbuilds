@@ -1,6 +1,6 @@
 Match with PPA "focal"
--  Note that for "python3 run_test.py" to work you need mock and fakeredis
--  The mock SB says it's for py2, but will build for 3 as well (pbr is already
+-  Note that for "python3 run_test.py" to work you need mock 
+-  The mock SB says it's for py2, but will build for 3 as well (py3-pbr is already
    in Slackware).
 
 development/hexedit              -good           22
@@ -47,7 +47,7 @@ python/python3-bencode           -updated        22 (rename)
 python/binplist                  -orphan         O
 python/biplist                   -orphan         O
 python/construct                 -orphan         O
-python/dfdatetime                -updated        missing mock for py3
+python/dfdatetime                -updated        22
 python/dfvfs                     -updated        22
 python/dfwinreg                  -updated        22
 python/distorm                   -updated        22
