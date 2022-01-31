@@ -1,4 +1,4 @@
-PRGNAM="distorm"
+PRGNAM="python2-distorm"
 VERSION="3.5.2b"
 HOMEPAGE="https://github.com/gdabah/distorm"
 DOWNLOAD="https://linuxleo.com/Source/distorm-3.5.2b.tar.gz"
