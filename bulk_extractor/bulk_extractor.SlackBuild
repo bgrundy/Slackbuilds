@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Slackware build script for bulk_extractor
 
@@ -22,14 +22,26 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# edited for 20210928_692ee97, October of 2021)
+# 20220428 BJG: Updated to version 2.0.0
+# - remove LICENCE.md (removed from source)
+# - added licenses/ to doc dir.
+
+# 20220404 bkw: Modified by SlackBuilds.org, BUILD=3:
+# - add missing README.md to doc dir.
+# - replace broken COPYING symlink with LICENSE.md in doc dir.
+
+# 20220323 bkw: Modified by SlackBuilds.org, BUILD=2:
+# - fix 32-bit build.
+# - remove 0-byte README from doc dir.
+# - remove useless INSTALL from doc dir.
+
+cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=bulk_extractor
-VERSION=${VERSION:-20210928_692ee97}
+VERSION=${VERSION:-2.0.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
-
-LIGHTGREP_ENABLE=${LIGHTGREP_ENABLE:-no}
+PKGTYPE=${PKGTYPE:-tgz}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -39,7 +51,11 @@ if [ -z "$ARCH" ]; then
   esac
 fi
 
-CWD=$(pwd)
+if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
+  echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+  exit 0
+fi
+
 TMP=${TMP:-/tmp/SBo}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
@@ -69,14 +85,13 @@ cd $PRGNAM-$VERSION
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
-  -o -perm 511 \) -exec chmod 755 {} \; -o \
+  -o -perm 511 \) -exec chmod 755 {} \+ -o \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
-  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \+
 
-# Optional liblightgrep support (LIGHTGREP_ENABLE=yes)
-if [ "$LIGHTGREP_ENABLE" = "yes" ]; then
-  with_lightgrep="--enable-lightgrep"
-fi
+# 20220323 bkw: fix 32-bit build. Ugh.
+[ -z "$LIBDIRSUFFIX" ] && \
+  sed -i 's,8UL,(size_t)8,g' src/be13_api/sbuf.cpp
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
@@ -99,13 +114,13 @@ find $PKG/usr/man -type f -exec gzip -9 {} \;
 for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -ar AUTHORS COPYING ChangeLog INSTALL NEWS README doc/ $PKG/usr/doc/$PRGNAM-$VERSION
+cp -ar AUTHORS README.md ChangeLog NEWS doc/ licenses/ $PKG/usr/doc/$PRGNAM-$VERSION
 
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
-find $PKG/usr/doc -type f -exec chmod 644 {} \;
+find $PKG/usr/doc -type f -exec chmod 644 {} \+
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
