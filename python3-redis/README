@@ -1,4 +1,0 @@
-python3-redis
-
-The Python interface to the Redis key-value store.  This package builds the
-python3 module.  For python2, see python2-redis.

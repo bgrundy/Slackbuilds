@@ -1,4 +1,0 @@
-python2-redis
-
-The Python interface to the Redis key-value store.  This package builds the
-python2 module.  For python3, see python3-redis.
