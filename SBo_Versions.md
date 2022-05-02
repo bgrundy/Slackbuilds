@@ -9,78 +9,81 @@
    calls and run it with python3 from the root of the source directory.
 
 # Standalone Builds:
-development/hexedit              -good        22
-libraries/libewf                 -good        22 
-libraries/afflib                 -good        22
-network/tcpflow                  -updated     22
-system/foremost                  -good        22
-system/sleuthkit                 -updated     0522
+development/hexedit              -good      0522
+libraries/libewf                 -good      0522
+libraries/afflib                 -good      0522
+network/tcpflow                  -good      0522
+system/foremost                
+system/sleuthkit                 -good      0522
 
 # bulk_extractor
-libraries/liblightgrep           -orphan      O
-system/bulk_extractor            -good        0522
+libraries/liblightgrep           -orphan      
+system/bulk_extractor            -good      0522
 
 # volatility
-misc/yara                        -good        2
-python/python3-yara              -updated     22 (renamed - split)
-python/python2-yara              -updated     22 (renamed - split)
-python/python2-distorm           -updated     22 (rename - needed for volatility)
-system/volatility                -good        22
+misc/yara                        
+python/python3-yara              (renamed - split)
+python/python2-yara              (renamed - split)
+python/python2-distorm           (rename - needed for volatility)
+system/volatility                
+
+# dfvfs
+python/dfdatetime                
 
 
-libraries/libbde                 -updated     22          
+
+libraries/libbde                 
 libraries/libcreg                -added       22
-lbraries/libesedb                -updated     22
-libraries/libevt                 -updated     22 
-libraries/libevtx                -updated     22
-libraries/libexe                 -updated     22
-libraries/libfsapfs              -updated     22
+lbraries/libesedb                
+libraries/libevt                  
+libraries/libevtx                
+libraries/libexe                 
+libraries/libfsapfs              
 libraries/libfsext               -added       22
 libraries/libfshfs               -added       22
-libraries/libfsntfs              -updated     22
+libraries/libfsntfs              
 libraries/libfsxfs               -added       22
-libraries/libfvde                -updated     22
-libraries/libfwnt                -updated     22
-libraries/libfwsi                -updated     22
-libraries/liblnk                 -updated     22
+libraries/libfvde                
+libraries/libfwnt                
+libraries/libfwsi                
+libraries/liblnk                 
 libraries/libluksde              -added       22
 libraries/libmodi                -added       22
-libraries/libmsiecf              -updated     22
-libraries/libolecf               -updated     22
-libraries/libpff                 -updated     22
-libraries/libqcow                -updated     22
-libraries/libregf                -updated     22
-libraries/libscca                -updated     22
-libraries/libsigscan             -updated     22
-libraries/libsmdev               -updated     22
-libraries/libsmraw               -updated     22
-libraries/libvhdi                -updated     22  
-libraries/libvmdk                -updated     22
-libraries/libvshadow             -updated     22
+libraries/libmsiecf              
+libraries/libolecf               
+libraries/libpff                 
+libraries/libqcow                
+libraries/libregf                
+libraries/libscca                
+libraries/libsigscan             
+libraries/libsmdev               
+libraries/libsmraw               
+libraries/libvhdi                  
+libraries/libvmdk                
+libraries/libvshadow             
 libraries/libvsgpt               -added       22
-libraries/libvslvm               -updated     22
-libraries/libwrc                 -updated     22
-python/XlsxWriter                -updated     22 
-python/artifacts                 -updated     22
+libraries/libvslvm               
+libraries/libwrc                 
+python/XlsxWriter                 
+python/artifacts                 
 python/backports.lzma            -orphan      O
-python/python3-bencode           -updated     22 (rename)
+python/python3-bencode           (rename)
 python/binplist                  -orphan      O
 python/biplist                   -orphan      O
 python/construct                 -orphan      O
-python/dfdatetime                -updated     22
-python/dfvfs                     -updated     22
-python/dfwinreg                  -updated     22
+python/dfvfs                     
+python/dfwinreg                  
 python/dotty                     -orphan      O
-python/dpkt                      -updated     22
-python/dtfabric                  -updated     22  
-python/python3-elasticsearch     -updated     22 (rename)
+python/dpkt                      
+python/dtfabric                    
+python/python3-elasticsearch     (rename)
 python/hachoir-core              -orphan      O
 python/hachoir-metadata          -orphan      O
 python/hachoir-parser            -orphan      O
-python/pefile                    -updated     22
-python/plaso                     -updated     22
-python/pysqlite                  -orphan      (unmaintained upstream)
-python/python-lz4                -updated     22 (rename) no '3' b/c won't build on 2
-python/pytsk                     -updated     22
+python/pefile                    
+python/plaso                     
+python/pysqlite                  (unmaintained upstream)
+python/python-lz4                (rename) no '3' b/c won't build on 2
+python/pytsk                     
 python/pyxattr                   (optional for plaso)
 
