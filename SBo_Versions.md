@@ -1,17 +1,38 @@
-Match with PPA "focal"
--  Note that for plaso - "python3 run_test.py" to work you need mock 
+
+# Notes
+-  Match with PPA "focal"
+-  Note that for `plaso` - `python3 run_test.py` to work you need mock 
 -  The mock SB says it's for py2, but will build for 3 as well (py3-pbr is already
    in Slackware).
 -  also might need "fakeredis" from pip3
+-  for `check_dependancies.py`: Remove "utils." from in front of the module
+   calls and run it with python3 from the root of the source directory.
 
+# Standalone Builds:
 development/hexedit              -good        22
+libraries/libewf                 -good        22 
 libraries/afflib                 -good        22
+network/tcpflow                  -updated     22
+system/foremost                  -good        22
+system/sleuthkit                 -updated     0522
+
+# bulk_extractor
+libraries/liblightgrep           -orphan      O
+system/bulk_extractor            -good        0522
+
+# volatility
+misc/yara                        -good        2
+python/python3-yara              -updated     22 (renamed - split)
+python/python2-yara              -updated     22 (renamed - split)
+python/python2-distorm           -updated     22 (rename - needed for volatility)
+system/volatility                -good        22
+
+
 libraries/libbde                 -updated     22          
 libraries/libcreg                -added       22
 lbraries/libesedb                -updated     22
 libraries/libevt                 -updated     22 
 libraries/libevtx                -updated     22
-libraries/libewf                 -good        22 
 libraries/libexe                 -updated     22
 libraries/libfsapfs              -updated     22
 libraries/libfsext               -added       22
@@ -21,7 +42,6 @@ libraries/libfsxfs               -added       22
 libraries/libfvde                -updated     22
 libraries/libfwnt                -updated     22
 libraries/libfwsi                -updated     22
-libraries/liblightgrep           -orphan      O
 libraries/liblnk                 -updated     22
 libraries/libluksde              -added       22
 libraries/libmodi                -added       22
@@ -40,7 +60,6 @@ libraries/libvshadow             -updated     22
 libraries/libvsgpt               -added       22
 libraries/libvslvm               -updated     22
 libraries/libwrc                 -updated     22
-network/tcpflow                  -updated     22
 python/XlsxWriter                -updated     22 
 python/artifacts                 -updated     22
 python/backports.lzma            -orphan      O
@@ -51,7 +70,6 @@ python/construct                 -orphan      O
 python/dfdatetime                -updated     22
 python/dfvfs                     -updated     22
 python/dfwinreg                  -updated     22
-python/python2-distorm           -updated     22 (rename - needed for volatility)
 python/dotty                     -orphan      O
 python/dpkt                      -updated     22
 python/dtfabric                  -updated     22  
@@ -65,13 +83,4 @@ python/pysqlite                  -orphan      (unmaintained upstream)
 python/python-lz4                -updated     22 (rename) no '3' b/c won't build on 2
 python/pytsk                     -updated     22
 python/pyxattr                   (optional for plaso)
-python/python3-redis             -New         22 (changed name and dir and maintainer)
-python/python2-redis             -New         22 (changed name and dir and maintainer)
-python/python3-yara              -updated     22 (renamed - split)
-python/python2-yara              -updated     22 (renamed - split)
-system/bulk_extractor            -failed - testing the master repo from GH
-system/foremost                  -good        22
-system/sleuthkit                 -updated     22
-system/volatility                -good        22
-misc/yara                        -good        2
 
