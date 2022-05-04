@@ -11,7 +11,7 @@ python2-distorm:
 python2-distorm: The goal of diStorm is to decode x86/AMD64 binary streams and return
 python2-distorm: a structure that describes each instruction.
 python2-distorm:
-python2-distorm: 
+python2-distorm:
 python2-distorm:
 python2-distorm:
 python2-distorm:
