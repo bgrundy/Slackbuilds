@@ -13,24 +13,23 @@ development/hexedit              -good      0522
 libraries/libewf                 -good      0522
 libraries/afflib                 -good      0522
 network/tcpflow                  -good      0522
-system/foremost                
+system/foremost                  -good      0522
 system/sleuthkit                 -good      0522
-
-# bulk_extractor
-libraries/liblightgrep           -orphan      
 system/bulk_extractor            -good      0522
 
-# volatility
-misc/yara                        
+# volatility3
+python/pefile                    -good      0522
+misc/yara                        -good      0522
 python/python3-yara              (renamed - split)
+system/volatility3                
+
+# volatility
 python/python2-yara              (renamed - split)
 python/python2-distorm           (rename - needed for volatility)
 system/volatility                
 
 # dfvfs
 python/dfdatetime                
-
-
 
 libraries/libbde                 
 libraries/libcreg                -added       22
@@ -66,24 +65,26 @@ libraries/libvslvm
 libraries/libwrc                 
 python/XlsxWriter                 
 python/artifacts                 
-python/backports.lzma            -orphan      O
 python/python3-bencode           (rename)
-python/binplist                  -orphan      O
-python/biplist                   -orphan      O
-python/construct                 -orphan      O
 python/dfvfs                     
 python/dfwinreg                  
-python/dotty                     -orphan      O
 python/dpkt                      
 python/dtfabric                    
 python/python3-elasticsearch     (rename)
-python/hachoir-core              -orphan      O
-python/hachoir-metadata          -orphan      O
-python/hachoir-parser            -orphan      O
-python/pefile                    
 python/plaso                     
 python/pysqlite                  (unmaintained upstream)
 python/python-lz4                (rename) no '3' b/c won't build on 2
 python/pytsk                     
 python/pyxattr                   (optional for plaso)
 
+# Orphans
+
+python/hachoir-core              -orphan      O
+python/hachoir-metadata          -orphan      O
+python/hachoir-parser            -orphan      O
+python/binplist                  -orphan      O
+python/biplist                   -orphan      O
+python/construct                 -orphan      O
+python/backports.lzma            -orphan      O
+python/dotty                     -orphan      O
+libraries/liblightgrep           -orphan      
