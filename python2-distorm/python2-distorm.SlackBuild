@@ -21,7 +21,7 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Updated v3.5.2b January 2022 (and renamed to python2-distorm)
+# Updated v3.5.2b May 2022 (and renamed to python2-distorm)
 
 cd $(dirname $0) ; CWD=$(pwd)
 

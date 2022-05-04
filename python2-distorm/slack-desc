@@ -5,15 +5,15 @@
 # You must make exactly 11 lines for the formatting to be correct.  It's also
 # customary to leave one space after the ':' except on otherwise blank lines.
 
-       |-----handy-ruler------------------------------------------------------|
-distorm: distorm (Disassembler Library for x86/AMD64 binary streams)
-distorm:
-distorm: The goal of diStorm is to decode x86/AMD64 binary streams and return
-distorm: a structure that describes each instruction.
-distorm:
-distorm: The package includes Python Bindings
-distorm:
-distorm:
-distorm:
-distorm:
-distorm:
+               |-----handy-ruler------------------------------------------------------|
+python2-distorm: python2-distorm (Disassembler Library for x86/AMD64 binary streams)
+python2-distorm:
+python2-distorm: The goal of diStorm is to decode x86/AMD64 binary streams and return
+python2-distorm: a structure that describes each instruction.
+python2-distorm:
+python2-distorm: 
+python2-distorm:
+python2-distorm:
+python2-distorm:
+python2-distorm:
+python2-distorm:
