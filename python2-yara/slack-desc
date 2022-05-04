@@ -8,7 +8,7 @@
             |-----handy-ruler------------------------------------------------------|
 python2-yara: python2-yara (Python2 for yara)
 python2-yara:
-python2-yara: python2-yara is a Python library to allow the use of YARA directly
+python2-yara: yara-python is a Python library to allow the use of YARA directly
 python2-yara: in python programs.  It covers all YARA's features, from compiling,
 python2-yara: saving and loading rules to scanning files, strings and
 python2-yara: processes.
