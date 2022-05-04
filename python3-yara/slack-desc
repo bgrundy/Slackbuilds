@@ -8,7 +8,7 @@
             |-----handy-ruler------------------------------------------------------|
 python3-yara: python3-yara (Python3 for yara)
 python3-yara:
-python3-yara: python3-yara is a Python library to allow the use of YARA directly
+python3-yara: yara-python is a Python library to allow the use of YARA directly
 python3-yara: in python programs.  It covers all YARA's features, from compiling,
 python3-yara: saving and loading rules to scanning files, strings and
 python3-yara: processes.
