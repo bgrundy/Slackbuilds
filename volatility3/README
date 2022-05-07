@@ -10,4 +10,9 @@ memory samples and provide a platform for further work into this
 exciting area of research.
 
 In 2019, the Volatility Foundation released a complete rewrite of the
-framework, Volatility 3. 
+framework, Volatility3. 
+
+The following are optional dependancies:
+  - capstone
+  - jsonschema
+

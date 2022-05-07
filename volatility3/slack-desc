@@ -6,9 +6,9 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
            |-----handy-ruler------------------------------------------------------|
-volatility3: volatility3: Volatile memory extraction utility framework.
+volatility3: volatility3 memory extraction utility framework.
 volatility3:
-volatility3: Volatility is the world's most widely used framework for extracting 
+volatility3: volatility3 is the world's most widely used framework for extracting 
 volatility3: digit artifacts from volatile memory (RAM) samples. The extraction 
 volatility3: techniques are performed completely independent of the system being 
 volatility3: investigated but offer visibility into the runtime state of the 
