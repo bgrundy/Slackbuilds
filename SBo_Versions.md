@@ -22,15 +22,15 @@ system/sleuthkit                 -good      0522
 system/bulk_extractor            -good      0522
 
 # volatility3
-python/pefile                    -submitted 0522
+python/pefile                    -good      0522
 misc/yara                        -good      0522
-python/python3-yara              -submitted 0522 (renamed - split)
-system/volatility3               -submitted 0522
+python/python3-yara              -          0522 (renamed - split)
+system/volatility3               -          0522
 
 # volatility
-python/python2-yara              -submitted 0522 (renamed - split)
-python/python2-distorm           -submitted 0522 (renamed - split)
-system/volatility                -submitted 0522 (renamed - split)
+python/python2-yara              -          0522 (renamed - split)
+python/python2-distorm           -good      0522 
+system/volatility                -          0522 
 
 
 # dfvfs
