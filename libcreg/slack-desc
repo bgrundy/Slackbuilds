@@ -8,8 +8,8 @@
        |-----handy-ruler------------------------------------------------------|
 libcreg: libcreg (libYAL CREG library)
 libcreg:
-libcreg: Library to access the Windows 9x/Me Registry File CREG format
-libcreg: system format.
+libcreg: Library to access the Windows 9x/Me Registry File CREG format.
+libcreg:
 libcreg:
 libcreg: Homepage: https://github.com/libyal/libcreg
 libcreg:
