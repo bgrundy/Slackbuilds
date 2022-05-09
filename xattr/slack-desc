@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
      |-----handy-ruler------------------------------------------------------|
-pyxattr: pyxattr (Python module for )
-pyxattr:
-pyxattr: pyxattr is a a Python extension module which gives access to the
-pyxattr: extended attributes for filesystem objects available in some
-pyxattr: operating systems.
-pyxattr: 
-pyxattr:
-pyxattr:
-pyxattr: Homepage: https://github.com/iustin/pyxattr
-pyxattr:
-pyxattr:
+xattr: xattr (Python wrapper for extended file system attributes)
+xattr:
+xattr: xattr is a a Python extension module which gives access to the
+xattr: extended attributes for filesystem objects available in some
+xattr: operating systems.
+xattr:
+xattr:
+xattr:
+xattr: Homepage: https://github.com/xattr/xattr
+xattr:
+xattr:
