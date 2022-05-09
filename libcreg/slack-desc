@@ -6,7 +6,7 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-libcreg: libcreg (libYAL CREG library)
+libcreg: libcreg: (libYAL CREG library)
 libcreg:
 libcreg: Library to access the Windows 9x/Me Registry File CREG format
 libcreg: system format.
