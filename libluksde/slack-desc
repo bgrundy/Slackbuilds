@@ -7,13 +7,12 @@
 
          |-----handy-ruler------------------------------------------------------|
 libluksde: libluksde (libYAL LUKS Encryption library)
-libluksde: 
+libluksde:
 libluksde:
 libluksde: Library to access to access LUKS Disk Encryption encrypted volumes.
 libluksde:
 libluksde:
 libluksde: Homepage: https://github.com/libyal/libluksde
-libluksde:
 libluksde:
 libluksde:
 libluksde:
