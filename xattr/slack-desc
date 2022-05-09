@@ -8,7 +8,7 @@
      |-----handy-ruler------------------------------------------------------|
 xattr: xattr (Python wrapper for extended file system attributes)
 xattr:
-xattr: xattr is a a Python extension module which gives access to the
+xattr: xattr is a a Python wrapper which gives access to the
 xattr: extended attributes for filesystem objects available in some
 xattr: operating systems.
 xattr:

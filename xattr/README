@@ -1,7 +1,15 @@
-The xattr is a Python extension module which gives access to
-the extended attributes for filesystem objects available in some 
-operating systems.
+xattr is a Python wrapper for extended filesystem attributes.
 
-The library has been written and tested on Linux, kernel v2.4 or later,
-with XFS and ext2/ext3/ext3 file systems. If any other platform 
-implements the same behaviour, pyxattr could be used.
+xattr also ships with an xattr command line tool for viewing and 
+editing extended filesystem attributes. On platforms that support or 
+ship with the attr package, you may prefer to use the getfattr and 
+setfattr command line tools from the attr package.
+
+Extended attributes extend the basic attributes of files and 
+directories in the file system. They are stored as name:data pairs 
+associated with file system objects (files, directories, symlinks,
+etc).
+
+Extended attributes are currently only available on Darwin 8.0+ (Mac 
+OS X 10.4) and Linux 2.6+. Experimental support is included for Solaris
+and FreeBSD).
