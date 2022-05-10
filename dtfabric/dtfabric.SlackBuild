@@ -21,12 +21,12 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Updated for version 20210731 January 2022
+# Updated for version 20220219 May 2022
 
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=dtfabric
-VERSION=${VERSION:-20210731}
+VERSION=${VERSION:-20220219}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -86,7 +86,7 @@ find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a README LICENSE AUTHORS PKG-INFO ACKNOWLEDGEMENTS  $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a README LICENSE AUTHORS PKG-INFO ACKNOWLEDGEMENTS  docs/ $PKG/usr/doc/$PRGNAM-$VERSION
 # Remove duplicated docs in /usr/share/doc
 rm -rf $PKG/usr/share
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
