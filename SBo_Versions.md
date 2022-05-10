@@ -37,22 +37,22 @@ system/volatility                -submitted 0522
 python/dfdatetime
 
 libraries/libbde
-libraries/libcreg                -ready       22
+libraries/libcreg                -submitted 0522 (new)
 lbraries/libesedb
 libraries/libevt
 libraries/libevtx
 libraries/libexe
 libraries/libfsapfs
-libraries/libfsext               -ready       22
-libraries/libfshfs               -ready       22
+libraries/libfsext               -submitted 0522 (new)
+libraries/libfshfs               -submitted 0522 (new)
 libraries/libfsntfs
-libraries/libfsxfs               -ready       22
+libraries/libfsxfs               -submitted 0522 (new)
 libraries/libfvde
 libraries/libfwnt
 libraries/libfwsi
 libraries/liblnk
-libraries/libluksde              -ready       22
-libraries/libmodi                -ready       22
+libraries/libluksde              -submitted 0522 (new)
+libraries/libmodi                -submitted 0522 (new)
 libraries/libmsiecf
 libraries/libolecf
 libraries/libpff
@@ -65,7 +65,7 @@ libraries/libsmraw
 libraries/libvhdi
 libraries/libvmdk
 libraries/libvshadow
-libraries/libvsgpt               -ready       22
+libraries/libvsgpt               -submitted 0522 (new)
 libraries/libvslvm
 libraries/libwrc
 python/XlsxWriter
@@ -80,7 +80,7 @@ python/plaso
 python/pysqlite                  (unmaintained upstream)
 python/python-lz4                (rename) no '3' b/c won't build on 2
 python/pytsk
-python/xattr                      -ready     0522
+python/xattr                     -submitted 0522 (new)
 
 # Orphans
 
