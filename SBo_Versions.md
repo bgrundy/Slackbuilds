@@ -6,7 +6,8 @@
   in Slackware).
 - also might need "fakeredis" from pip3
 - for `check_dependancies.py`: Remove "utils." from in front of the module
-  calls and run it with python3 from the root of the source directory.
+  calls and run it with python3.
+    - run with `python3 utils/check_dependencies.py` from root of source.
 - Content disposition on GitHub:
     - https://github.com/DEVELOPER/PRGNAM/archive/refs/tags/vVERSION/PRGNAM-VERSION.tar.gz
     - if that does not work, remove the "v" from the version number and
@@ -32,55 +33,57 @@ python/python2-yara              -submitted 0522 (renamed - split)
 python/python2-distorm           -good      0522
 system/volatility                -submitted 0522
 
-
 # dfvfs
-python/dfdatetime
+python/dfdatetime                -ready
+python/dtfabric                  -ready
+libraries/libbde                 -ready
+libraries/libfsapfs              -ready
+libraries/libfsext               -submitted 0522 (new)
+libraries/libfshfs               -submitted 0522 (new)
+libraries/libfsntfs              -ready
+libraries/libfsxfs               -submitted 0522 (new)
+libraries/libfvde                -ready
+libraries/libfwnt                -ready
+libraries/libluksde              -submitted 0522 (new)
+libraries/libmodi                -submitted 0522 (new)
+libraries/libphdi                -submitted 0522 (new)
+libraries/libsigscan             -ready
+libraries/libsmdev               -ready
+libraries/libsmraw               -ready
+libraries/libvhdi                -ready (build 3 for py3/plaso)
+libraries/libvmdk                -ready (build 2 for py3/plaso)
+libraries/libvsgpt               -submitted 0522 (new)
+libraries/libvshadow             -ready
+libraries/libvslvm               -ready
+python/xattr                     -submitted 0522 (new)
+python/pytsk                     -ready
+python/dfvfs                     -ready
 
-libraries/libbde
+# Plaso
 libraries/libcreg                -submitted 0522 (new)
-lbraries/libesedb
+libraries/libesedb
 libraries/libevt
 libraries/libevtx
 libraries/libexe
-libraries/libfsapfs
-libraries/libfsext               -submitted 0522 (new)
-libraries/libfshfs               -submitted 0522 (new)
-libraries/libfsntfs
-libraries/libfsxfs               -submitted 0522 (new)
-libraries/libfvde
-libraries/libfwnt
 libraries/libfwsi
 libraries/liblnk
-libraries/libluksde              -submitted 0522 (new)
-libraries/libmodi                -submitted 0522 (new)
 libraries/libmsiecf
 libraries/libolecf
 libraries/libpff
 libraries/libqcow
 libraries/libregf
 libraries/libscca
-libraries/libsigscan
-libraries/libsmdev
-libraries/libsmraw
-libraries/libvhdi
 libraries/libvmdk
-libraries/libvshadow
-libraries/libvsgpt               -submitted 0522 (new)
-libraries/libvslvm
 libraries/libwrc
 python/XlsxWriter
 python/artifacts
 python/python3-bencode           (rename)
-python/dfvfs
 python/dfwinreg
 python/dpkt
-python/dtfabric
 python/python3-elasticsearch     (rename)
 python/plaso
 python/pysqlite                  (unmaintained upstream)
 python/python-lz4                (rename) no '3' b/c won't build on 2
-python/pytsk
-python/xattr                     -submitted 0522 (new)
 
 # Orphans
 
