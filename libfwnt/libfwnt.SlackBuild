@@ -21,8 +21,8 @@
 # WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-# Updated to v20210906 January 2022
+#
+# Updated to v20210906 May 2022
 
 cd $(dirname $0) ; CWD=$(pwd)
 
@@ -79,7 +79,7 @@ chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
   -o -perm 511 \) -exec chmod 755 {} \; -o \
- \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+\( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 CFLAGS="$SLKCFLAGS -std=gnu89" \
@@ -91,7 +91,6 @@ CXXFLAGS="$SLKCFLAGS -std=gnu89" \
   --localstatedir=/var \
   --mandir=/usr/man \
   --disable-static \
-  --enable-python2 \
   --enable-python3 \
   --build=$ARCH-slackware-linux
 
@@ -104,6 +103,8 @@ for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; r
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -ar ABOUT-NLS AUTHORS ChangeLog COPYING INSTALL README $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+
+rm -f $PKG/usr/lib*/*.la
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
