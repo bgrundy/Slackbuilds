@@ -1,4 +1,5 @@
 # Notes
+- use `sudo unshare -n sh X.SlackBuild` to test.
 - Match with PPA "focal"
 - Note that for `plaso` - `python3 run_test.py` to work you need mock
 - The mock SB says it's for py2, but will build for 3 as well (py3-pbr is already
@@ -65,7 +66,8 @@ python/python3-bencode           -ready (rename)
 libraries/libcreg                -submitted 0522 (new)
 libraries/libregf                -ready
 python/dfwinreg                  -ready
-python/python3-lz4               
+python/python3-lz4               (working on it.  It requires an update
+                                  to python3-pkgconfig )
 libraries/libesedb
 libraries/libevt
 libraries/libevtx
