@@ -1,4 +1,3 @@
-
 # Notes
 - Match with PPA "focal"
 - Note that for `plaso` - `python3 run_test.py` to work you need mock
@@ -21,6 +20,7 @@ network/tcpflow                  -good      0522
 system/foremost                  -good      0522
 system/sleuthkit                 -good      0522
 system/bulk_extractor            -good      0522
+python/python2-lz4               -good      0522 (newer ver requires py3)
 
 # volatility3
 python/pefile                    -good      0522
@@ -60,7 +60,12 @@ python/pytsk                     -ready
 python/dfvfs                     -ready
 
 # Plaso
+python/artifacts                 -ready
+python/python3-bencode           -ready (rename)
 libraries/libcreg                -submitted 0522 (new)
+libraries/libregf                -ready
+python/dfwinreg                  -ready
+python/python3-lz4               
 libraries/libesedb
 libraries/libevt
 libraries/libevtx
@@ -71,19 +76,14 @@ libraries/libmsiecf
 libraries/libolecf
 libraries/libpff
 libraries/libqcow
-libraries/libregf
 libraries/libscca
 libraries/libvmdk
 libraries/libwrc
 python/XlsxWriter
-python/artifacts
-python/python3-bencode           (rename)
-python/dfwinreg
 python/dpkt
 python/python3-elasticsearch     (rename)
 python/plaso
 python/pysqlite                  (unmaintained upstream)
-python/python-lz4                (rename) no '3' b/c won't build on 2
 
 # Orphans
 
