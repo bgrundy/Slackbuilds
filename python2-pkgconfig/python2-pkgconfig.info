@@ -1,4 +1,4 @@
-PRGNAM="python3-pkgconfig"
+PRGNAM="python2-pkgconfig"
 VERSION="1.5.5"
 HOMEPAGE="https://github.com/matze/pkgconfig"
 DOWNLOAD="https://files.pythonhosted.org/packages/c4/e0/e05fee8b5425db6f83237128742e7e5ef26219b687ab8f0d41ed0422125e/pkgconfig-1.5.5.tar.gz"
