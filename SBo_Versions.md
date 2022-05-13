@@ -21,7 +21,8 @@ network/tcpflow                  -good      0522
 system/foremost                  -good      0522
 system/sleuthkit                 -good      0522
 system/bulk_extractor            -good      0522
-python/python2-lz4               -good      0522 (newer ver requires py3)
+python/python2-pkgconfig         -submitted 0522 
+python/python2-lz4               -submitted 0522 
 
 # volatility3
 python/pefile                    -good      0522
@@ -65,9 +66,9 @@ python/artifacts                 -ready
 python/python3-bencode           -ready (rename)
 libraries/libcreg                -submitted 0522 (new)
 libraries/libregf                -ready
-python/dfwinreg                  -ready
-python/python3-lz4               (working on it.  It requires an update
-                                  to python3-pkgconfig )
+python/dfwinreg                  -ready 
+python/python3-pkgconfig         -submitted 0522
+python/python3-lz4               -submitted 0522
 libraries/libesedb
 libraries/libevt
 libraries/libevtx
