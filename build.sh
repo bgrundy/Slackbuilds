@@ -3,7 +3,7 @@
 # exit when any command fails
 set -e
 
-# set the name of the program
+# set the name of the program we are building
 PRGNAM=$1
 cd $PRGNAM
 
@@ -34,8 +34,3 @@ sudo unshare -n sh $PRGNAM.SlackBuild
 echo "Build script complete.  Removing source tarball..."
 rm -f $PKGNAM
 echo "Done"
-
-
-
-
-
