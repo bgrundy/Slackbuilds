@@ -21,7 +21,7 @@ network/tcpflow                  -good      0522
 system/foremost                  -good      0522
 system/sleuthkit                 -good      0522
 system/bulk_extractor            -good      0522
-python/python2-pkgconfig         -submitted 0522 
+python/python2-pkgconfig         -needs downgrade to 1.5.3
 python/python2-lz4               -submitted 0522 
 
 # volatility3
@@ -64,9 +64,9 @@ python/dfvfs                     -ready
 # Plaso
 python/artifacts                 -ready
 python/python3-bencode           -ready (rename)
-libraries/libcreg                -submitted 0522 (new)
+libraries/libcreg                -good 0522 (new)
 libraries/libregf                -ready
-python/dfwinreg                  -ready 
+python/dfwinreg                  -ready
 python/python3-pkgconfig         -submitted 0522
 python/python3-lz4               -submitted 0522
 libraries/libesedb
