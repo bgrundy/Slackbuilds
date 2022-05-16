@@ -12,6 +12,17 @@ DLURL=$(grep "DOWNLOAD=" $PRGNAM.info | awk -F \" '{print $2}')
 PKGNAM=$(basename $DLURL)
 INFOMD5=$(grep "MD5SUM=" $PRGNAM.info | awk -F \" '{print $2}')
 
+# display requires line and continue
+#REQ=$(grep "REQUIRES=" $PRGNAM.info | awk -F \" '{print $2}')
+#if ! [[ -n $REQ ]]
+#    echo -n "This package requires $REQ"
+#    echo ""
+#
+#
+#else
+#    echo "No additional requirements, continuing..."
+#
+
 # download the package and check the hash
 wget $DLURL
 PKGMD5=$(md5sum $PKGNAM | awk '{print $1}')
