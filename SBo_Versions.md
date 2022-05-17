@@ -21,43 +21,43 @@ network/tcpflow                  -good      0522
 system/foremost                  -good      0522
 system/sleuthkit                 -good      0522
 system/bulk_extractor            -good      0522
-python/python2-pkgconfig         -needs downgrade to 1.5.3
-python/python2-lz4               -submitted 0522 
+python/python2-pkgconfig         -submitted downgrade to 1.5.3
+python/python2-lz4               -good 0522
 
 # volatility3
 python/pefile                    -good      0522
 misc/yara                        -good      0522
-python/python3-yara              -submitted 0522 (renamed - split)
-system/volatility3               -submitted 0522
+python/python3-yara              -good      0522
+system/volatility3               -good      0522
 
 # volatility
-python/python2-yara              -submitted 0522 (renamed - split)
+python/python2-yara              -good      0522
 python/python2-distorm           -good      0522
-system/volatility                -submitted 0522
+system/volatility                -good      0522
 
 # dfvfs
 python/dfdatetime                -ready
 python/dtfabric                  -ready
 libraries/libbde                 -ready
 libraries/libfsapfs              -ready
-libraries/libfsext               -submitted 0522 (new)
-libraries/libfshfs               -submitted 0522 (new)
+libraries/libfsext               -good      0522
+libraries/libfshfs               -good      0522
 libraries/libfsntfs              -ready
-libraries/libfsxfs               -submitted 0522 (new)
+libraries/libfsxfs               -good      0522
 libraries/libfvde                -ready
 libraries/libfwnt                -ready
-libraries/libluksde              -submitted 0522 (new)
-libraries/libmodi                -submitted 0522 (new)
-libraries/libphdi                -submitted 0522 (new)
+libraries/libluksde              -good      0522
+libraries/libmodi                -good      0522
+libraries/libphdi                -good      0522
 libraries/libsigscan             -ready
 libraries/libsmdev               -ready
 libraries/libsmraw               -ready
 libraries/libvhdi                -ready (build 3 for py3/plaso)
 libraries/libvmdk                -ready (build 2 for py3/plaso)
-libraries/libvsgpt               -submitted 0522 (new)
+libraries/libvsgpt               -good      0522
 libraries/libvshadow             -ready
 libraries/libvslvm               -ready
-python/xattr                     -submitted 0522 (new)
+python/xattr                     -good      0522
 python/pytsk                     -ready
 python/dfvfs                     -ready
 
@@ -67,8 +67,8 @@ python/python3-bencode           -ready (rename)
 libraries/libcreg                -good 0522 (new)
 libraries/libregf                -ready
 python/dfwinreg                  -ready
-python/python3-pkgconfig         -submitted 0522
-python/python3-lz4               -submitted 0522
+python/python3-pkgconfig         -good      0522
+python/python3-lz4               -good      0522
 libraries/libesedb
 libraries/libevt
 libraries/libevtx
