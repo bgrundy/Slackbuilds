@@ -23,6 +23,7 @@ system/sleuthkit                 -good      0522
 system/bulk_extractor            -good      0522
 python/python2-pkgconfig         -submitted downgrade to 1.5.3
 python/python2-lz4               -good 0522
+office/catdoc                    -almost ready awaiting word from Cezary
 
 # volatility3
 python/pefile                    -good      0522
