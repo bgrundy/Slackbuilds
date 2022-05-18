@@ -24,6 +24,7 @@ system/bulk_extractor            -good      0522
 python/python2-pkgconfig         -submitted downgrade to 1.5.3
 python/python2-lz4               -good 0522
 office/catdoc                    -almost ready awaiting word from Cezary
+libraries/libguestfs?
 
 # volatility3
 python/pefile                    -good      0522
@@ -70,21 +71,20 @@ libraries/libregf                -ready
 python/dfwinreg                  -ready
 python/python3-pkgconfig         -good      0522
 python/python3-lz4               -good      0522
-libraries/libesedb
-libraries/libevt
-libraries/libevtx
-libraries/libexe
-libraries/libfwsi
-libraries/liblnk
-libraries/libmsiecf
-libraries/libolecf
-libraries/libpff
-libraries/libqcow
-libraries/libscca
-libraries/libvmdk
-libraries/libwrc
-python/XlsxWriter
-python/dpkt
+libraries/libesedb               -ready
+libraries/libevt                 -ready
+libraries/libevtx                -ready
+libraries/libexe                 -ready
+libraries/libfwsi                -ready
+libraries/liblnk                 -ready
+libraries/libmsiecf              -ready
+libraries/libolecf               -ready
+libraries/libpff                 -ready
+libraries/libqcow                -ready
+libraries/libscca                -ready
+libraries/libwrc                 -ready
+python/XlsxWriter                -ready
+python/dpkt                      -ready
 python/python3-elasticsearch     (rename)
 python/plaso
 python/pysqlite                  (unmaintained upstream)
