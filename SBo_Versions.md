@@ -86,17 +86,17 @@ libraries/libwrc                 -ready
 python/XlsxWriter                -ready
 python/dpkt                      -ready
 python/python3-elasticsearch     (rename)
-python/plaso
+python/plaso                     -ready
 python/pysqlite                  (unmaintained upstream)
 
 # Orphans
 
-python/hachoir-core              -orphan      O
-python/hachoir-metadata          -orphan      O
-python/hachoir-parser            -orphan      O
-python/binplist                  -orphan      O
-python/biplist                   -orphan      O
-python/construct                 -orphan      O
-python/backports.lzma            -orphan      O
-python/dotty                     -orphan      O
+python/hachoir-core              -orphan
+python/hachoir-metadata          -orphan
+python/hachoir-parser            -orphan
+python/binplist                  -orphan
+python/biplist                   -orphan
+python/construct                 -orphan
+python/backports.lzma            -orphan
+python/dotty                     -orphan
 libraries/liblightgrep           -orphan
