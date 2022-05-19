@@ -64,29 +64,29 @@ python/pytsk                     -submitted
 python/dfvfs                     -submitted
 
 # Plaso
-python/artifacts                 -ready
-python/python3-bencode           -ready (rename)
+python/artifacts                 -submitted
+python/python3-bencode           -submitted (New)
 libraries/libcreg                -good 0522 (new)
-libraries/libregf                -ready
-python/dfwinreg                  -ready
+libraries/libregf                -submitted
+python/dfwinreg                  -submitted
 python/python3-pkgconfig         -good      0522
 python/python3-lz4               -good      0522
-libraries/libesedb               -ready
-libraries/libevt                 -ready
-libraries/libevtx                -ready
-libraries/libexe                 -ready
-libraries/libfwsi                -ready
-libraries/liblnk                 -ready
-libraries/libmsiecf              -ready
-libraries/libolecf               -ready
-libraries/libpff                 -ready
-libraries/libqcow                -ready
-libraries/libscca                -ready
-libraries/libwrc                 -ready
-python/XlsxWriter                -ready
-python/dpkt                      -ready
+libraries/libesedb               -submitted
+libraries/libevt                 -submitted
+libraries/libevtx                -submitted
+libraries/libexe                 -submitted
+libraries/libfwsi                -submitted
+libraries/liblnk                 -submitted
+libraries/libmsiecf              -submitted
+libraries/libolecf               -submitted
+libraries/libpff                 -submitted
+libraries/libqcow                -submitted
+libraries/libscca                -submitted
+libraries/libwrc                 -submitted
+python/XlsxWriter                -submitted
+python/dpkt                      -submitted
 python/python3-elasticsearch     (rename)
-python/plaso                     -ready
+python/plaso                     -submitted
 python/pysqlite                  (unmaintained upstream)
 
 # Orphans
