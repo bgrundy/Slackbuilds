@@ -5,6 +5,6 @@ DOWNLOAD="https://github.com/ForensicArtifacts/artifacts/archive/refs/tags/20220
 MD5SUM="507e21f30eeacf8b469a841f6ed83a80"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES="python-PyYAML"
+REQUIRES=""
 MAINTAINER="Barry J. Grundy"
 EMAIL="bgrundy<at>linuxleo.com"
