@@ -38,30 +38,30 @@ python/python2-distorm           -good      0522
 system/volatility                -good      0522
 
 # dfvfs
-python/dfdatetime                -ready
-python/dtfabric                  -ready
-libraries/libbde                 -ready
-libraries/libfsapfs              -ready
+python/dfdatetime                -submitted
+python/dtfabric                  -submitted
+libraries/libbde                 -submitted
+libraries/libfsapfs              -submitted
 libraries/libfsext               -good      0522
 libraries/libfshfs               -good      0522
-libraries/libfsntfs              -ready
+libraries/libfsntfs              -submitted
 libraries/libfsxfs               -good      0522
-libraries/libfvde                -ready
-libraries/libfwnt                -ready
+libraries/libfvde                -submitted
+libraries/libfwnt                -submitted
 libraries/libluksde              -good      0522
 libraries/libmodi                -good      0522
 libraries/libphdi                -good      0522
-libraries/libsigscan             -ready
-libraries/libsmdev               -ready
-libraries/libsmraw               -ready
-libraries/libvhdi                -ready (build 3 for py3/plaso)
-libraries/libvmdk                -ready (build 2 for py3/plaso)
+libraries/libsigscan             -submitted
+libraries/libsmdev               -submitted
+libraries/libsmraw               -submitted
+libraries/libvhdi                -submitted (build 3 for py3/plaso)
+libraries/libvmdk                -submitted (build 2 for py3/plaso)
 libraries/libvsgpt               -good      0522
-libraries/libvshadow             -ready
-libraries/libvslvm               -ready
+libraries/libvshadow             -submitted
+libraries/libvslvm               -submitted
 python/xattr                     -good      0522
-python/pytsk                     -ready
-python/dfvfs                     -ready
+python/pytsk                     -submitted
+python/dfvfs                     -submitted
 
 # Plaso
 python/artifacts                 -ready
