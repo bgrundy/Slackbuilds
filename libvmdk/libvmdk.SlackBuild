@@ -24,6 +24,10 @@
 #
 # Updated v20210807 (build 2) May 2022
 
+# 20220215 bkw: Modified by SlackBuilds.org:
+# - update for v20210807 since the old version's source vanished.
+# - don't install useless ABOUT-NLS and INSTALL in doc dir.
+
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=libvmdk
