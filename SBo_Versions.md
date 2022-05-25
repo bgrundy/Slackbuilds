@@ -84,7 +84,8 @@ python/XlsxWriter                -good
 python/dpkt                      -good
 python/python3-elasticsearch     (rename)
 python/plaso                     -submitted
-python/pysqlite                  (unmaintained upstream)
+python/pysqlite                  (unmaintained upstream - msg to user
+                                  list to have removed)
 
 # Orphans
 
