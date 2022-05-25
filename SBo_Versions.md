@@ -12,62 +12,62 @@
       try again.
 
 # Standalone Builds:
-development/hexedit              -good      0522
-libraries/libewf                 -good      0522
-libraries/afflib                 -good      0522
-network/tcpflow                  -good      0522
-system/foremost                  -good      0522
-system/sleuthkit                 -good      0522
-system/bulk_extractor            -good      0522
+development/hexedit              -good
+libraries/libewf                 -good
+libraries/afflib                 -good
+network/tcpflow                  -good
+system/foremost                  -good
+system/sleuthkit                 -good
+system/bulk_extractor            -good
 python/python2-pkgconfig         -good
-python/python2-lz4               -good 0522
+python/python2-lz4               -good
 libraries/libguestfs?
 
 # volatility3
-python/pefile                    -good      0522
-misc/yara                        -good      0522
-python/python3-yara              -good      0522
-system/volatility3               -good      0522
+python/pefile                    -good
+misc/yara                        -good
+python/python3-yara              -good
+system/volatility3               -good
 
 # volatility
-python/python2-yara              -good      0522
-python/python2-distorm           -good      0522
-system/volatility                -good      0522
+python/python2-yara              -good
+python/python2-distorm           -good
+system/volatility                -good
 
 # dfvfs
 python/dfdatetime                -good
 python/dtfabric                  -good
 libraries/libbde                 -good
 libraries/libfsapfs              -good
-libraries/libfsext               -good      0522
-libraries/libfshfs               -good      0522
+libraries/libfsext               -good
+libraries/libfshfs               -good
 libraries/libfsntfs              -good
-libraries/libfsxfs               -good      0522
+libraries/libfsxfs               -good
 libraries/libfvde                -good
 libraries/libfwnt                -good
-libraries/libluksde              -good      0522
-libraries/libmodi                -good      0522
-libraries/libphdi                -good      0522
+libraries/libluksde              -good
+libraries/libmodi                -good
+libraries/libphdi                -good
 libraries/libsigscan             -good
 libraries/libsmdev               -good
 libraries/libsmraw               -good
 libraries/libvhdi                -good
 libraries/libvmdk                -submitted (build 2 for py3/plaso)
-libraries/libvsgpt               -good      0522
+libraries/libvsgpt               -good
 libraries/libvshadow             -good
 libraries/libvslvm               -good
-python/xattr                     -good      0522
+python/xattr                     -good
 python/pytsk                     -good
 python/dfvfs                     -good
 
 # Plaso
 python/artifacts                 -good
 python/python3-bencode           -good (New)
-libraries/libcreg                -good 0522 (new)
+libraries/libcreg                -good
 libraries/libregf                -good
 python/dfwinreg                  -good
-python/python3-pkgconfig         -good      0522
-python/python3-lz4               -good      0522
+python/python3-pkgconfig         -good
+python/python3-lz4               -good
 libraries/libesedb               -good
 libraries/libevt                 -good
 libraries/libevtx                -good
