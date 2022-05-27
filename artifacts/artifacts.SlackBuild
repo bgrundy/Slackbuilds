@@ -23,6 +23,9 @@
 #
 # Updated to version 20220429, May 2022
 
+# 20220408 bkw: Modified by SlackBuilds.org, BUILD=2:
+# - get rid of /usr/share/doc.
+
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=artifacts
