@@ -52,7 +52,7 @@ libraries/libsigscan             -good
 libraries/libsmdev               -good
 libraries/libsmraw               -good
 libraries/libvhdi                -good
-libraries/libvmdk                -submitted (build 2 for py3/plaso)
+libraries/libvmdk                -good
 libraries/libvsgpt               -good
 libraries/libvshadow             -good
 libraries/libvslvm               -good
@@ -83,9 +83,7 @@ libraries/libwrc                 -good
 python/XlsxWriter                -good
 python/dpkt                      -good
 python/python3-elasticsearch     (rename)
-python/plaso                     -submitted
-python/pysqlite                  (unmaintained upstream - msg to user
-                                  list to have removed)
+python/plaso                     -good
 
 # Orphans
 
