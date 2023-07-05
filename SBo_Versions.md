@@ -13,77 +13,78 @@
 
 # Standalone Builds:
 development/hexedit              -good
-libraries/libewf                 -good
-libraries/afflib                 -good
+libraries/afflib                 -submitted (20230703) (3.7.20)
 network/tcpflow                  -good
 system/foremost                  -good
-system/sleuthkit                 -good
-system/bulk_extractor            -good
-python/python2-pkgconfig         -good
-python/python2-lz4               -good
-libraries/libguestfs?
+system/sleuthkit                 -submitted (20230703) (4.12.0)
+libraries/libewf                 -submitted (20230703) (20140814)
+libraries/libvhdi                -submitted (20230703) (20221124)
+libraries/libvmdk                -submitted (20230703) (20221124)
+libraries/libvslvm               -submitted (20230703) (20221025)
+system/bulk_extractor            -submitted (20230703) (2.0.3)
+python/python2-pkgconfig         -request removal
+python/python2-lz4               -request removal
+libraries/libguestfs
 
 # volatility3
-python/pefile                    -good
-misc/yara                        -good
-python/python3-yara              -good
-system/volatility3               -good
+python/pefile                    -submitted (20230705) (2023.2.7)
+python/leechcorepyc              -optional: new submission required
+misc/yara                        -submitted (20230705) (4.3.2)
+python/python3-yara              -submitted (20230705) (4.2.1)
+system/volatility3               -submitted (20230705) (3.2.4.1)
 
 # volatility
-python/python2-yara              -good
-python/python2-distorm           -good
-system/volatility                -good
+python/python2-yara              -unchecked
+python/python2-distorm           -unchecked
+system/volatility                -unchecked
 
 # dfvfs
-python/dfdatetime                -good
-python/dtfabric                  -good
-libraries/libbde                 -good
-libraries/libfsapfs              -good
-libraries/libfsext               -good
-libraries/libfshfs               -good
-libraries/libfsntfs              -good
-libraries/libfsxfs               -good
-libraries/libfvde                -good
-libraries/libfwnt                -good
-libraries/libluksde              -good
-libraries/libmodi                -good
-libraries/libphdi                -good
-libraries/libsigscan             -good
-libraries/libsmdev               -good
-libraries/libsmraw               -good
-libraries/libvhdi                -good
-libraries/libvmdk                -good
-libraries/libvsgpt               -good
-libraries/libvshadow             -good
-libraries/libvslvm               -good
-python/xattr                     -good
-python/pytsk                     -good
-python/dfvfs                     -good
+python/dfdatetime                -unchecked
+python/dtfabric                  -unchecked
+libraries/libbde                 -unchecked
+libraries/libfsapfs              -unchecked
+libraries/libfsext               -unchecked
+libraries/libfshfs               -unchecked
+libraries/libfsntfs              -unchecked
+libraries/libfsxfs               -unchecked
+libraries/libfvde                -unchecked
+libraries/libfwnt                -unchecked
+libraries/libluksde              -unchecked
+libraries/libmodi                -unchecked
+libraries/libphdi                -unchecked
+libraries/libsigscan             -unchecked
+libraries/libsmdev               -unchecked
+libraries/libsmraw               -unchecked
+libraries/libvsgpt               -unchecked
+libraries/libvshadow             -unchecked
+python/xattr                     -unchecked
+python/pytsk                     -unchecked
+python/dfvfs                     -unchecked
 
 # Plaso
-python/artifacts                 -good
-python/python3-bencode           -good (New)
-libraries/libcreg                -good
-libraries/libregf                -good
-python/dfwinreg                  -good
-python/python3-pkgconfig         -good
-python/python3-lz4               -good
-libraries/libesedb               -good
-libraries/libevt                 -good
-libraries/libevtx                -good
-libraries/libexe                 -good
-libraries/libfwsi                -good
-libraries/liblnk                 -good
-libraries/libmsiecf              -good
-libraries/libolecf               -good
-libraries/libpff                 -good
-libraries/libqcow                -good
-libraries/libscca                -good
-libraries/libwrc                 -good
-python/XlsxWriter                -good
-python/dpkt                      -good
+python/artifacts                 -unchecked
+python/python3-bencode           -unchecked (New)
+libraries/libcreg                -unchecked
+libraries/libregf                -unchecked
+python/dfwinreg                  -unchecked
+python/python3-pkgconfig         -unchecked
+python/python3-lz4               -unchecked
+libraries/libesedb               -unchecked
+libraries/libevt                 -unchecked
+libraries/libevtx                -unchecked
+libraries/libexe                 -unchecked
+libraries/libfwsi                -unchecked
+libraries/liblnk                 -unchecked
+libraries/libmsiecf              -unchecked
+libraries/libolecf               -unchecked
+libraries/libpff                 -unchecked
+libraries/libqcow                -unchecked
+libraries/libscca                -unchecked
+libraries/libwrc                 -unchecked
+python/XlsxWriter                -unchecked
+python/dpkt                      -unchecked
 python/python3-elasticsearch     (rename)
-python/plaso                     -good
+python/plaso                     -unchecked
 
 # Orphans
 
