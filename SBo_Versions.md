@@ -34,16 +34,17 @@ python/python3-yara              -submitted (20230705) (4.2.1)
 system/volatility3               -submitted (20230705) (3.2.4.1)
 
 # volatility
-python/python2-yara              -unchecked
-python/python2-distorm           -unchecked
-system/volatility                -unchecked
+python/python2-yara              -submitted (20230705) (4.2.1)
+python/python2-distorm           -good
+system/volatility                -good
 
 # dfvfs
-python/dfdatetime                -unchecked
-python/dtfabric                  -unchecked
-libraries/libbde                 -unchecked
-libraries/libfsapfs              -unchecked
-libraries/libfsext               -unchecked
+python/dfdatetime                -ready for submission (20230506)
+python/dtfabric                  -ready for submission (20221218)
+libraries/libbde                 -ready for submission (20221031)
+libraries/libfsapfs              -ready for submission (20221102)
+libraries/libfsext               -ready for submission (20220829)
+libraries/libfsfat               -new submission required
 libraries/libfshfs               -unchecked
 libraries/libfsntfs              -unchecked
 libraries/libfsxfs               -unchecked
