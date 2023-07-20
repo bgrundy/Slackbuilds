@@ -44,20 +44,19 @@ python/dtfabric                  -ready for submission (20221218)
 libraries/libbde                 -ready for submission (20221031)
 libraries/libfsapfs              -ready for submission (20221102)
 libraries/libfsext               -ready for submission (20220829)
-libraries/libfsfat               -new submission required
-libraries/libfshfs               -unchecked
-libraries/libfsntfs              -unchecked
-libraries/libfsxfs               -unchecked
-libraries/libfvde                -unchecked
-libraries/libfwnt                -unchecked
+libraries/libfsfat               -new submission ready (20220925)
+libraries/libfshfs               -ready for submission (20220831)
+libraries/libfsntfs              -ready for submission (20230427)
+libraries/libfsxfs               -ready for submission (20220829)
+libraries/libfvde                -ready for submission (20220915)
+libraries/libfwnt                -ready for submission (20220922)
 libraries/libluksde              -unchecked
 libraries/libmodi                -unchecked
 libraries/libphdi                -unchecked
 libraries/libsigscan             -unchecked
 libraries/libsmdev               -unchecked
 libraries/libsmraw               -unchecked
-libraries/libvsgpt               -unchecked
-libraries/libvshadow             -unchecked
+libraries/libvsgpt               -libraries/libvshadow             -unchecked
 python/xattr                     -unchecked
 python/pytsk                     -unchecked
 python/dfvfs                     -unchecked
