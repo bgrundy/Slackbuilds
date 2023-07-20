@@ -12,13 +12,13 @@
       try again.
 
 # Standalone Builds:
-development/hexedit              -good
-libraries/afflib                 -submitted (20230703) (3.7.20)
-network/tcpflow                  -good
-system/foremost                  -good
-system/sleuthkit                 -submitted (20230703) (4.12.0)
-libraries/libewf                 -submitted (20230703) (20140814)
-libraries/libvhdi                -submitted (20230703) (20221124)
+development/hexedit              -good (1.2.12)
+libraries/afflib                 -good (3.7.20)
+network/tcpflow                  -good (1.6.1)
+system/foremost                  -good (1.5.7) 
+system/sleuthkit                 -good (4.12.0)
+libraries/libewf                 -good (20140814)
+libraries/libvhdi                - (20221124)
 libraries/libvmdk                -submitted (20230703) (20221124)
 libraries/libvslvm               -submitted (20230703) (20221025)
 system/bulk_extractor            -submitted (20230703) (2.0.3)
