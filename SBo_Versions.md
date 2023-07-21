@@ -1,16 +1,3 @@
-# Notes
-- use `sudo unshare -n sh X.SlackBuild` to test.
-- Match with PPA "jammy"
-- Note that for `plaso` - `python3 run_test.py` to work you need mock
-- The mock SB says it's for py2, but will build for 3 as well (py3-pbr is already
-  in Slackware).
-- also might need "fakeredis" from pip3
-- run `check_dependencies.py` with `python3 utils/check_dependencies.py` from root of source.
-- Content disposition on GitHub:
-    - https://github.com/DEVELOPER/PRGNAM/archive/refs/tags/vVERSION/PRGNAM-VERSION.tar.gz
-    - if that does not work, remove the "v" from the version number and
-      try again.
-
 # Standalone Builds:
 development/hexedit              -good (1.2.12)
 libraries/afflib                 -good (3.7.20)
@@ -50,9 +37,9 @@ libraries/libfsntfs              -ready for submission (20230427)
 libraries/libfsxfs               -ready for submission (20220829)
 libraries/libfvde                -ready for submission (20220915)
 libraries/libfwnt                -ready for submission (20220922)
-libraries/libluksde              -unchecked
-libraries/libmodi                -unchecked
-libraries/libphdi                -unchecked
+libraries/libluksde              -ready for submission (20221103)
+libraries/libmodi                -ready for submission (20221023)
+libraries/libphdi                -
 libraries/libsigscan             -unchecked
 libraries/libsmdev               -unchecked
 libraries/libsmraw               -unchecked
