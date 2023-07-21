@@ -39,7 +39,7 @@ libraries/libfvde                -ready for submission (20220915)
 libraries/libfwnt                -ready for submission (20220922)
 libraries/libluksde              -ready for submission (20221103)
 libraries/libmodi                -ready for submission (20221023)
-libraries/libphdi                -
+libraries/libphdi                -ready for submission (20221025)
 libraries/libsigscan             -unchecked
 libraries/libsmdev               -unchecked
 libraries/libsmraw               -unchecked
