@@ -2,15 +2,19 @@
 #
 #Transfer source tarball to ionos:linuxleo
 #and hash the source file
+#
+#USE SSH-AGENT to prevent needing interactive sessions
 
-SOURCENAME=$(basename $1) 
-PRGNAME=$(echo $SOURCNAME | awk -F'-' '{print $1}')
-LOCAL_MD5=$(md5sum $1)
+SRC_NAME=$(basename $1)
+LOCAL_MD5=$(md5sum $1 | awk '{print $1}')
+echo $LOCAL_MD5
 
 echo "Copying to remote (scp)..."
 scp $1 ionos:linuxleocom/Source/.
 echo "Hashing remote source..."
-REMOTE_MD5=$(ssh -t ionos "cd linuxleocom/Source && md5sum $1")
+R_MD5=$(ssh -t ionos "cd linuxleocom/Source && md5sum $SRC_NAME")
+echo $R_MD5
+REMOTE_MD5=$(echo $R_MD5 | awk '{print $1}')
 echo "Remote hash: $REMOTE_MD5"
 echo "Local hash: $LOCAL_MD5"
 
