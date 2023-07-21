@@ -15,3 +15,5 @@
   and download the source tar.gz.
 - in the `LibyalSource.sh`, use `ssh-agent` and `ssh-add` to make the
   scp/ssh calls non-interactive.
+- alias `ionosls` calls `ssh -t ionos "cd linuxleocom/Source && ls"` to
+  see if current source is uploaded.
