@@ -18,25 +18,25 @@ network/tcpflow                  -good (1.6.1)
 system/foremost                  -good (1.5.7) 
 system/sleuthkit                 -good (4.12.0)
 libraries/libewf                 -good (20140814)
-libraries/libvhdi                - (20221124)
-libraries/libvmdk                -submitted (20230703) (20221124)
-libraries/libvslvm               -submitted (20230703) (20221025)
-system/bulk_extractor            -submitted (20230703) (2.0.3)
+libraries/libvhdi                -good (20221124)
+libraries/libvmdk                -good (20221124)
+libraries/libvslvm               -good (20221025)
+system/bulk_extractor            -good (2.0.3)
 python/python2-pkgconfig         -request removal
 python/python2-lz4               -request removal
 libraries/libguestfs
 
 # volatility3
-python/pefile                    -submitted (20230705) (2023.2.7)
+python/pefile                    -good (2023.2.7)
 python/leechcorepyc              -optional: new submission required
-misc/yara                        -submitted (20230705) (4.3.2)
-python/python3-yara              -submitted (20230705) (4.2.1)
-system/volatility3               -submitted (20230705) (3.2.4.1)
+misc/yara                        -good (4.3.2)
+python/python3-yara              -good (4.3.1)
+system/volatility3               -good (3.2.4.1)
 
 # volatility
-python/python2-yara              -submitted (20230705) (4.2.1)
-python/python2-distorm           -good
-system/volatility                -good
+python/python2-yara              -good (4.3.1)
+python/python2-distorm           -good (3.5.2b)
+system/volatility                -good (2.6.1)
 
 # dfvfs
 python/dfdatetime                -ready for submission (20230506)
@@ -56,7 +56,8 @@ libraries/libphdi                -unchecked
 libraries/libsigscan             -unchecked
 libraries/libsmdev               -unchecked
 libraries/libsmraw               -unchecked
-libraries/libvsgpt               -libraries/libvshadow             -unchecked
+libraries/libvsgpt               -unchecked
+-libraries/libvshadow            -unchecked
 python/xattr                     -unchecked
 python/pytsk                     -unchecked
 python/dfvfs                     -unchecked
