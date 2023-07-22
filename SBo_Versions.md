@@ -40,11 +40,12 @@ libraries/libfwnt                -ready for submission (20220922)
 libraries/libluksde              -ready for submission (20221103)
 libraries/libmodi                -ready for submission (20221023)
 libraries/libphdi                -ready for submission (20221025)
-libraries/libsigscan             -unchecked
-libraries/libsmdev               -unchecked
-libraries/libsmraw               -unchecked
-libraries/libvsgpt               -unchecked
--libraries/libvshadow            -unchecked
+libraries/libqcow                -ready for submission (20221124)
+libraries/libsigscan             -ready for submission (20230109)
+libraries/libsmdev               -ready for submission (20221028)
+libraries/libsmraw               -ready for submission (20221028)
+libraries/libvsgpt               -ready for submission (20221029)
+libraries/libvshadow             -ready for submission (20221030)
 python/xattr                     -unchecked
 python/pytsk                     -unchecked
 python/dfvfs                     -unchecked
@@ -66,7 +67,6 @@ libraries/liblnk                 -unchecked
 libraries/libmsiecf              -unchecked
 libraries/libolecf               -unchecked
 libraries/libpff                 -unchecked
-libraries/libqcow                -unchecked
 libraries/libscca                -unchecked
 libraries/libwrc                 -unchecked
 python/XlsxWriter                -unchecked
