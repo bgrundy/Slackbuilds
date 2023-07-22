@@ -13,11 +13,10 @@ echo "Copying to remote (scp)..."
 scp $1 ionos:linuxleocom/Source/.
 echo "Hashing remote source..."
 R_MD5=$(ssh -t ionos "cd linuxleocom/Source && md5sum $SRC_NAME")
-echo $R_MD5
 REMOTE_MD5=$(echo $R_MD5 | awk '{print $1}')
 echo "Remote hash: $REMOTE_MD5"
 echo "Local hash: $LOCAL_MD5"
-
+echo
 if [[ $LOCAL_MD5 != $REMOTE_MD5 ]]
 then
     echo "MD5 MISMATCH! EXITING"
