@@ -45,3 +45,19 @@ sudo unshare -n sh $PRGNAM.SlackBuild
 echo "Build script complete.  Removing source tarball..."
 rm -f $PKGNAM
 echo "Done"
+
+# Run sbolint/sbopkgling on the upgraded SB.
+# Change to parent dir:
+
+cd ..
+echo "sbolint: "
+sbolint $PRGNAM
+echo
+echo "sbopkglint: "
+sbopkglint /tmp/$PRGNAM*
+echo
+echo "Packaging: "
+tar czvf "$PRGNAM.tar.gz" "$PRGNAM/"
+echo
+echo "Linting the SBo tarball:"
+sbolint $PRGNAM.tar.gz
