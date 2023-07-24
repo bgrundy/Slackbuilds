@@ -46,9 +46,9 @@ libraries/libsmdev               -ready for submission (20221028)
 libraries/libsmraw               -ready for submission (20221028)
 libraries/libvsgpt               -ready for submission (20221029)
 libraries/libvshadow             -ready for submission (20221030)
-python/xattr                     -unchecked
-python/pytsk                     -unchecked
-python/dfvfs                     -unchecked
+python/xattr                     -ready for submission (0.10.1)
+python/pytsk                     -ready for submission (20230125)
+python/dfvfs                     -ready for submission (20230531)
 
 # Plaso
 python/artifacts                 -unchecked
