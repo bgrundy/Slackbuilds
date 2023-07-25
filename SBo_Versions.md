@@ -27,7 +27,7 @@ system/volatility                -good (2.6.1)
 
 # dfvfs
 python/dfdatetime                -submitted (20230506)
-python/dtfabric                  -submitted (20221218)
+python/dtfabric                  -submitted (20230520)
 libraries/libbde                 -submitted (20221031)
 libraries/libfsapfs              -submitted (20221102)
 libraries/libfsext               -submitted (20220829)
@@ -51,8 +51,8 @@ python/pytsk                     -submitted (20230125)
 python/dfvfs                     -submitted (20230531)
 
 # Plaso
-python/artifacts                 -unchecked
-python/python3-bencode           -unchecked (New)
+python/artifacts                 -ready for submission (20230413)
+python/python3-bencode           -good (4.0.0)
 libraries/libcreg                -unchecked
 libraries/libregf                -unchecked
 python/dfwinreg                  -unchecked
