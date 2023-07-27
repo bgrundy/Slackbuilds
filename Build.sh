@@ -5,6 +5,11 @@ set -e
 
 # set the name of the program we are building
 PRGNAM=$1
+
+
+echo "sbolint: "
+sbolint $PRGNAM
+
 cd $PRGNAM
 
 # set the download url, tarball name, and correct MD5
@@ -46,7 +51,7 @@ echo "Build script complete.  Removing source tarball..."
 rm -f $PKGNAM
 echo "Done"
 
-# Run sbolint/sbopkgling on the upgraded SB.
+# Run sbolint/sbopkglint on the upgraded SB.
 # Change to parent dir:
 
 cd ..
