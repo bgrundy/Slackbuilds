@@ -52,12 +52,14 @@ python/dfvfs                     -submitted (20230531)
 
 # Plaso
 python/artifacts                 -ready for submission (20230413)
+python/acstore                   -new submission ready (20230519)
 python/python3-bencode           -good (4.0.0)
-libraries/libcreg                -unchecked
-libraries/libregf                -unchecked
-python/dfwinreg                  -unchecked
-python/python3-pkgconfig         -unchecked
-python/python3-lz4               -unchecked
+libraries/libcreg                -ready for submission (20221022)
+libraries/libregf                -ready for submission (20230319)
+python/dfwinreg                  -ready for submission (20221218)
+python/python3-pkgconfig         -good (1.5.5)
+python/python3-lz4               -ready for submission (4.3.2)
+libraries/libcaes                -new submission ready (20230406)
 libraries/libesedb               -unchecked
 libraries/libevt                 -unchecked
 libraries/libevtx                -unchecked
