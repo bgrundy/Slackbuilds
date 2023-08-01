@@ -9,8 +9,8 @@ libraries/libvhdi                -good (20221124)
 libraries/libvmdk                -good (20221124)
 libraries/libvslvm               -good (20221025)
 system/bulk_extractor            -good (2.0.3)
-python/python2-pkgconfig         -request removal
-python/python2-lz4               -request removal
+libraries/libpff                 -good
+libraries/libwrc                 -ready for submission (20230318)
 libraries/libguestfs
 
 # volatility3
@@ -54,23 +54,21 @@ python/dfvfs                     -submitted (20230531)
 python/artifacts                 -ready for submission (20230413)
 python/acstore                   -new submission ready (20230519)
 python/python3-bencode           -good (4.0.0)
-libraries/libcreg                -unchecked
-libraries/libregf                -unchecked
-python/dfwinreg                  -unchecked
-python/python3-pkgconfig         -unchecked
-python/python3-lz4               -unchecked
+libraries/libcreg                -ready for submission (20221022)
+libraries/libregf                -ready for submission (20230319)
+python/dfwinreg                  -ready for submission (20221218)
+python/python3-pkgconfig         -good
+python/python3-lz4               -ready for submission (4.3.2)
 libraries/libcaes                -new submission ready (20230406)
-libraries/libesedb               -unchecked
-libraries/libevt                 -unchecked
-libraries/libevtx                -unchecked
-libraries/libexe                 -unchecked
-libraries/libfwsi                -unchecked
-libraries/liblnk                 -unchecked
-libraries/libmsiecf              -unchecked
-libraries/libolecf               -unchecked
-libraries/libpff                 -unchecked
+libraries/libesedb               -ready for submission (20230318)
+libraries/libevt                 -ready for submission (20221022)
+libraries/libevtx                -ready for submission (20221101)
+libraries/libexe                 -ready for submission (20230318)
+libraries/libfwsi                -ready for submission (20230114)
+libraries/liblnk                 -ready for submission (20230205)
+libraries/libmsiecf              -ready for submission (20221024)
+libraries/libolecf               -ready for submission (20221024)
 libraries/libscca                -unchecked
-libraries/libwrc                 -unchecked
 python/XlsxWriter                -unchecked
 python/dpkt                      -unchecked
 python/python3-elasticsearch     (rename)
@@ -86,4 +84,6 @@ python/biplist                   -orphan
 python/construct                 -orphan
 python/backports.lzma            -orphan
 python/dotty                     -orphan
+python/python2-pkgconfig         -request removal
+python/python2-lz4               -request removal
 libraries/liblightgrep           -orphan
