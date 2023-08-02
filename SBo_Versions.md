@@ -11,6 +11,8 @@ libraries/libvslvm               -good (20221025)
 system/bulk_extractor            -good (2.0.3)
 libraries/libpff                 -good
 libraries/libwrc                 -ready for submission (20230318)
+python/dpkt                      -ready for submission (1.9.8)
+python/python3-elasticsearch     (rename)
 libraries/libguestfs
 
 # volatility3
@@ -68,10 +70,8 @@ libraries/libfwsi                -ready for submission (20230114)
 libraries/liblnk                 -ready for submission (20230205)
 libraries/libmsiecf              -ready for submission (20221024)
 libraries/libolecf               -ready for submission (20221024)
-libraries/libscca                -unchecked
-python/XlsxWriter                -unchecked
-python/dpkt                      -unchecked
-python/python3-elasticsearch     (rename)
+libraries/libscca                -ready for submission (20230716)
+python/XlsxWriter                -ready for submission (3.1.2)
 python/plaso                     -unchecked
 
 # Orphans
