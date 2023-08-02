@@ -46,22 +46,22 @@ libraries/libqcow                -submitted (20221124)
 libraries/libsigscan             -submitted (20230109)
 libraries/libsmdev               -submitted (20221028)
 libraries/libsmraw               -submitted (20221028)
+libraries/libvsapm               -new submission ready (20230506)
 libraries/libvsgpt               -submitted (20221029)
 libraries/libvshadow             -submitted (20221030)
 python/xattr                     -submitted (0.10.1)
 python/pytsk                     -submitted (20230125)
-python/dfvfs                     -submitted (20230531)
+python/dfvfs                     -ready for submission (20230531)
 
 # Plaso
 python/artifacts                 -ready for submission (20230413)
 python/acstore                   -new submission ready (20230519)
 python/python3-bencode           -good (4.0.0)
-libraries/libcreg                -ready for submission (20221022)
-libraries/libregf                -ready for submission (20230319)
 python/dfwinreg                  -ready for submission (20221218)
 python/python3-pkgconfig         -good
 python/python3-lz4               -ready for submission (4.3.2)
 libraries/libcaes                -new submission ready (20230406)
+libraries/libcreg                -ready for submission (20221022)
 libraries/libesedb               -ready for submission (20230318)
 libraries/libevt                 -ready for submission (20221022)
 libraries/libevtx                -ready for submission (20221101)
@@ -70,9 +70,10 @@ libraries/libfwsi                -ready for submission (20230114)
 libraries/liblnk                 -ready for submission (20230205)
 libraries/libmsiecf              -ready for submission (20221024)
 libraries/libolecf               -ready for submission (20221024)
+libraries/libregf                -ready for submission (20230319)
 libraries/libscca                -ready for submission (20230716)
 python/XlsxWriter                -ready for submission (3.1.2)
-python/plaso                     -unchecked
+python/plaso                     -ready for submission (20230717)
 
 # Orphans
 
