@@ -8,6 +8,8 @@ PRGNAM=$1
 
 
 echo "sbolint: "
+# for a git repo, sbolint requires the SlackBuild to be 0644:
+chmod 0644 $PRGNAM/$PRGNAM.SlackBuild
 sbolint $PRGNAM
 
 cd $PRGNAM
@@ -42,6 +44,9 @@ else
     echo
 fi
 
+# for sbolint, the SlackBuild must be 0755:
+chmod 0755 $PRGNAM.SlackBuild
+
 # build the package without networking
 echo "Building with unshared namespace (unshare -n)..."
 sudo unshare -n sh $PRGNAM.SlackBuild
@@ -51,13 +56,11 @@ echo "Build script complete.  Removing source tarball..."
 rm -f $PKGNAM
 echo "Done"
 
+
 # Run sbolint/sbopkglint on the upgraded SB.
 # Change to parent dir:
 
 cd ..
-echo "sbolint: "
-sbolint $PRGNAM
-echo
 echo "sbopkglint: "
 sbopkglint /tmp/$PRGNAM*
 echo
@@ -66,3 +69,9 @@ tar czvf "$PRGNAM.tar.gz" "$PRGNAM/"
 echo
 echo "Linting the SBo tarball:"
 sbolint $PRGNAM.tar.gz
+echo
+echo "sbolint: "
+# for a git repo, sbolint requires the SlackBuild to be 0644:
+chmod 0644 $PRGNAM/$PRGNAM.SlackBuild
+sbolint $PRGNAM
+echo
