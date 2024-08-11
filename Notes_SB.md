@@ -16,4 +16,13 @@
 - in the `LibyalSource.sh`, use `ssh-agent` and `ssh-add` to make the
   scp/ssh calls non-interactive.
 - alias `ionosls` calls `ssh -t ionos "cd linuxleocom/Source && ls"` to
-  see if current source is uploaded.
+  see if current source is uploaded. 
+- Use `sshfs` to mount the project dir on the build box and download
+    source directly to it...can't seem to get browsers working of x
+    forwarding without crashing qemu.
+    ```
+    mkdir sshfsdir
+    sshfs qemu:Projects/slackbuilds-bgrundy sshfsdir/
+    ```
+
+
