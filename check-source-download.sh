@@ -1,23 +1,4 @@
-From: <Saved by Blink>
-Snapshot-Content-Location: https://raw.githubusercontent.com/bassmadrigal/scripts/master/check-source-download.sh
-Subject: 
-Date: Wed, 31 Jul 2024 19:56:27 -0000
-MIME-Version: 1.0
-Content-Type: multipart/related;
-	type="text/html";
-	boundary="----MultipartBoundary--PqasMcCHvIhxVpR7T3sP31MZbW5SoIqUhOJrmKQwjO----"
-
-
-------MultipartBoundary--PqasMcCHvIhxVpR7T3sP31MZbW5SoIqUhOJrmKQwjO----
-Content-Type: text/html
-Content-ID: <frame-CD69712708B88D0FC9DC9F1C96F98C01@mhtml.blink>
-Content-Transfer-Encoding: quoted-printable
-Content-Location: https://raw.githubusercontent.com/bassmadrigal/scripts/master/check-source-download.sh
-
-<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
-=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-006185=
-92-25f9-4bb5-b964-b085e1c236ed@mhtml.blink" /></head><body><pre style=3D"wo=
-rd-wrap: break-word; white-space: pre-wrap;">#!/bin/bash
+#!/bin/bash
 #
 # Copyright 2023-2024 Jeremy Hansen &lt;jebrhansen -at- gmail.com&gt;
 # All rights reserved.
@@ -28,35 +9,26 @@ rd-wrap: break-word; white-space: pre-wrap;">#!/bin/bash
 # 1. Redistributions of this script must retain the above copyright
 #    notice, this list of conditions and the following disclaimer.
 #
-# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ''AS IS'' AND ANY EXPRESS OR IMPL=
-IED
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ''AS IS'' AND ANY EXPRESS OR IMPLIED
 # WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-# MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN N=
-O
+# MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
 # EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED =
-TO,
-# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFIT=
-S;
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
 # OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 # WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# This was extracted and tweaked from my sbgen.sh script, which was added i=
-n
+# This was extracted and tweaked from my sbgen.sh script, which was added in
 # v0.6 in MAR 2023.
 
-# This will take copy/pasted URLs from github and provide direct URLs that =
-can
-# download the correct filename with or without using content-disposition. =
-It
-# will also take hashed URLs from pythonhosted and pypi so all that is need=
-ed
+# This will take copy/pasted URLs from github and provide direct URLs that can
+# download the correct filename with or without using content-disposition. It
+# will also take hashed URLs from pythonhosted and pypi so all that is needed
 # to update versions is to change the version number.
 
-# You can either add this function into your script, add it to your environ=
-ment
+# You can either add this function into your script, add it to your environment
 # or pass the url to the script.
 
 function check_download()
@@ -120,12 +92,3 @@ t -d"." -f3- )"
 }
 
 check_download "$1"
-</pre></body></html>
-------MultipartBoundary--PqasMcCHvIhxVpR7T3sP31MZbW5SoIqUhOJrmKQwjO----
-Content-Type: text/css
-Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-00618592-25f9-4bb5-b964-b085e1c236ed@mhtml.blink
-
-@charset "utf-8";
-=0A
-------MultipartBoundary--PqasMcCHvIhxVpR7T3sP31MZbW5SoIqUhOJrmKQwjO------
