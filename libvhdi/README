@@ -16,4 +16,3 @@ Supported image types:
 * Dynamic-size (or sparse) hard disk image
 * Differential (or differencing) hard disk image
   * Note that an undo disk image (.vud) is also a differential image
-
