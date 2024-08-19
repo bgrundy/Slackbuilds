@@ -26,5 +26,9 @@ else
     echo $REMOTE_MD5
 fi
 
+echo "Removing Source..."
+rm -f $1
+echo "Done..."
+
 
 
