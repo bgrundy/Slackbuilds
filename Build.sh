@@ -4,7 +4,8 @@
 set -e
 
 # set the name of the program we are building
-PRGNAM=$1
+# and remove the trailing slash
+PRGNAM=${1%/}
 
 
 echo "sbolint: "
