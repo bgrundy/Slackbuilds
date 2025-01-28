@@ -1,31 +1,31 @@
-# Standalone Builds:
-development/hexedit              -good (1.6)
-libraries/afflib                 -good (3.7.20)
-network/tcpflow                  -good (1.6.1)
-system/foremost                  -good (1.5.7) 
-system/sleuthkit                 -good (4.12.1)
-libraries/libewf                 -submitted on 20240821 (20140816)
-libraries/libvhdi                -submitted on 20240821 (20240303)
-libraries/libvmdk                -submitted on 20240821 (20240303)
+ Standalone Builds:
+development/hexedit              -check (1.6)
+libraries/afflib                 -check (3.7.20)
+network/tcpflow                  -check (1.6.1)
+system/foremost                  -check (1.5.7) 
+system/sleuthkit                 -check (4.12.1)
+libraries/libewf                 -check (20140816)
+libraries/libvhdi                -check (20240303)
+libraries/libvmdk                -check (20240303)
 libraries/libvslvm               -awaiting submission (20240301) - wait for new TSK
-system/bulk_extractor            -submitted on 20240821 (2.1.0)
-libraries/libpff                 -submitted on 20240821 (20231205)
-libraries/libwrc                 -submitted on 20240821 (20240421)
+system/bulk_extractor            -check (2.1.0)
+libraries/libpff                 -check (20231205)
+libraries/libwrc                 -check (20240421)
 libraries/libbfio                -new submission (20240414) - wait for new TSK
-python/dpkt                      -good (1.9.8)
+python/dpkt                      -check (1.9.8)
 python/python3-elasticsearch     (rename)
 
 # volatility3
-python/pefile                    -good (2023.2.7)
+python/pefile                    -check (2023.2.7)
 python/leechcorepyc              -optional: new submission required
-misc/yara                        -submitted on 20240821 (4.5.1)
-python/python3-yara              -submitted on 20240821 (4.5.0)
-system/volatility3               -submitted on 20240821 (2.7.0)
+misc/yara                        -check (4.5.1)
+python/python3-yara              -check (4.5.0)
+system/volatility3               -check (2.7.0)
 
 # volatility
-python/python2-yara              -submitted on 20240821 (4.5.0)
-python/python2-distorm           -good (3.5.2b)
-system/volatility                -good (2.6.1)
+python/python2-yara              -check (4.5.0)
+python/python2-distorm           -check (3.5.2b)
+system/volatility                -check (2.6.1)
 
 # dfvfs
 python/dfdatetime                -check (20230506)
@@ -59,7 +59,7 @@ python/acstore                   -check (20230519)
 python/python3-bencode           -check (4.0.0)
 python/dfwinreg                  -check (20221218)
 python/python3-pkgconfig         -check (1.5.5)
-python/python3-lz4               -submitted on 20240821 (4.3.3)
+python/python3-lz4               -check (4.3.3)
 libraries/libcaes                -check (20230406)
 libraries/libcreg                -check (20221022)
 libraries/libesedb               -check (20230318)
